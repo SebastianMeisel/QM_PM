@@ -1,0 +1,21 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE:              de
+#+OPTIONS:     		 d:nil todo:nil pri:nil tags:nil
+#+OPTIONS:	         H:4
+#+LaTeX_CLASS: 	         orgstandard
+#+LaTeX_CMD:             xelatex
+:END:
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: UML-Diagrammtype
+#+SUBTITLE: Untertitel
+#+AUTHOR: Sebastian Meisel
+
+
