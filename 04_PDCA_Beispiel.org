@@ -1,0 +1,36 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE:              de
+#+OPTIONS:     		 d:nil todo:nil pri:nil tags:nil
+#+OPTIONS:	         H:4
+#+LaTeX_CLASS: 	         orgstandard
+#+LaTeX_CMD:             xelatex
+:END:
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Praxisbeispiel
+#+SUBTITLE: PDCA-Zyklus
+#+AUTHOR: Sebastian Meisel
+
+Der PDCA-Zyklus (Plan-Do-Check-Act) ist ein bewährtes Konzept im Bereich des Qualitätsmanagements und wird auch in der Systemadministration eingesetzt, um die Effektivität und Effizienz von IT-Systemen zu verbessern. Hier ist ein Beispiel, wie der PDA-Zyklus in der Systemadministration angewendet werden kann:
+
+- *Planen (Plan)*: Ein IT-Administrator muss regelmäßig Backups von kritischen Daten auf einem Server erstellen. In diesem Beispiel ist das Ziel des Plans, eine Backup-Strategie zu entwickeln, die sicherstellt, dass die Backups pünktlich und regelmäßig durchgeführt werden, um das Risiko von Datenverlusten zu minimieren. Der Plan beinhaltet die folgenden Schritte:
+
+  Identifikation der kritischen Daten und Systeme, die regelmäßig gesichert werden müssen.
+  Festlegung des Backup-Zeitplans und der Backup-Frequenz.
+  Auswahl geeigneter Backup-Methoden und -Tools.
+  Festlegung der Verantwortlichkeiten und Zuständigkeiten für die Durchführung der Backups.
+
+- *Umsetzen (Do)*: Nachdem der Backup-Plan erstellt wurde, muss der IT-Administrator die Backups wie geplant durchführen. Dazu gehört die Überprüfung der Backup-Umgebung und die Durchführung der Backup-Jobs. Während der Implementierungsphase sollten auch mögliche Probleme und Risiken identifiziert und dokumentiert werden.
+
+- *Überprüfen (Check)*: In der Überprüfungsphase werden die Backups auf ihre Wirksamkeit und Effektivität hin überprüft. Der IT-Administrator kann die Integrität und Vollständigkeit der Backups testen, indem er eine Wiederherstellung der Daten von den Backups durchführt. Darüber hinaus können auch Leistungsdaten wie die Zeit, die für die Durchführung der Backups benötigt wird, und die Größe der Backup-Dateien analysiert werden.
+
+- *Handeln (Act)*: Nach der Überprüfung sollten eventuelle Probleme und Verbesserungsmöglichkeiten dokumentiert und bewertet werden. Wenn es beispielsweise bei der Wiederherstellung der Backups Probleme gab, kann der IT-Administrator den Backup-Prozess überarbeiten, um sicherzustellen, dass die Daten wiederhergestellt werden können. Wenn es bei der Durchführung der Backups Verzögerungen gab, kann der IT-Administrator Maßnahmen ergreifen, um die Backup-Jobs schneller durchzuführen.
+
+  Zusammenfassend lässt sich sagen, dass der PDA-Zyklus ein nützliches Werkzeug in der Systemadministration ist, um Prozesse kontinuierlich zu verbessern und die Effektivität und Effizienz von IT-Systemen zu maximieren. Durch die Anwendung des PDA-Zyklus kann der IT-Administrator sicherstellen, dass kritische Daten immer verfügbar und vor Verlust geschützt sind.
