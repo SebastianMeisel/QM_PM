@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="07_ISO9126.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="1.5099032"
+     inkscape:cx="446.05508"
+     inkscape:cy="311.27823"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g980">
+    <sodipodi:guide
+       position="93.808101,227.20379"
+       orientation="0,-1"
+       id="guide895"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g980"
+       transform="matrix(0.79872256,0,0,0.79872226,17.949627,-45.289035)"
+       style="stroke-width:1.252">
+      <path
+         id="path909"
+         style="fill:#87cefa;stroke:#4169e1;stroke-width:0.331257"
+         d="m 42.577382,223.55588 c -3.922389,-4.22281 -7.747579,-8.85456 -11.106852,-13.82694 -3.359273,-4.97237 -6.252628,-10.28539 -8.617425,-15.8764 -2.364797,-5.591 -4.201036,-11.46001 -5.446075,-17.54436 -1.24504,-6.08436 -1.89888,-12.38407 -1.892879,-18.67251 l 45.287547,-0.0801 c -0.0437,12.5632 4.989997,24.97555 13.663103,33.96291 z"
+         sodipodi:nodetypes="cssscccc" />
+      <path
+         id="path906"
+         style="fill:#87cefa;stroke:#4169e1;stroke-width:0.331257"
+         d="m 56.704067,234.87448 c 4.984356,3.45922 10.29737,6.35258 15.888378,8.71738 5.591008,2.36479 11.460011,4.20103 17.544367,5.44607 6.084356,1.24504 12.384068,1.89888 18.836488,1.89888 6.45242,0 12.75213,-0.65384 18.66214,-2.11944 l -8.98896,-44.59826 c -12.51188,2.61444 -26.002393,0.407 -36.558605,-6.761 z"
+         sodipodi:nodetypes="cssscccc" />
+      <path
+         id="path903"
+         style="fill:#87cefa;stroke:#4169e1;stroke-width:0.331257"
+         d="m 145.39895,243.5722 c 5.54621,-2.34514 10.85923,-5.2385 15.8316,-8.59777 4.97238,-3.35927 9.60413,-7.18446 13.83259,-11.41293 4.22847,-4.22846 8.05366,-8.86021 11.41293,-13.83259 3.35927,-4.97237 6.25263,-10.28539 8.89425,-16.17361 l -42.32023,-17.13573 c -4.73636,11.23421 -13.89407,20.61678 -25.09619,25.33178 z"
+         sodipodi:nodetypes="cssscccc" />
+      <path
+         id="path900"
+         style="fill:#87cefa;stroke:#4169e1;stroke-width:0.331257"
+         d="m 200.30469,175.9945 c 4.36664,-18.5134 1.89038,-38.31957 -5.55747,-55.71155 -2.34972,-5.40054 -5.223,-10.57458 -8.5841,-15.41149 -12.47612,8.55979 -24.95223,17.11957 -37.42835,25.67936 7.53829,10.40794 9.95864,24.13137 7.15416,36.60225 14.80525,2.94714 29.61051,5.89429 44.41576,8.84143 z"
+         sodipodi:nodetypes="cssscccc" />
+      <path
+         id="path897"
+         style="fill:#87cefa;stroke:#4169e1;stroke-width:0.331257"
+         d="M 174.95608,91.260831 C 157.67185,74.008473 133.36573,63.60877 108.84754,64.211223 c 0.0807,15.020532 0.16147,30.041065 0.24221,45.061597 12.55434,-0.0151 25.0389,5.18827 33.82851,14.1596 10.67927,-10.72386 21.35855,-21.44773 32.03782,-32.171589 z"
+         sodipodi:nodetypes="cssscccc" />
+      <path
+         id="path892"
+         style="fill:#87cefa;stroke:#4169e1;stroke-width:0.331257"
+         d="m 22.853104,121.09081 c 2.364797,-5.59101 5.258152,-10.90402 8.617425,-15.8764 3.359273,-4.97238 7.184463,-9.604122 11.412929,-13.832588 4.228467,-4.228467 8.86021,-8.053656 13.832588,-11.412929 4.972378,-3.359272 10.285392,-6.252627 15.8764,-8.617424 5.591008,-2.364796 11.460011,-4.201035 17.614771,-5.550474 l 8.930108,44.577445 c -18.41871,3.55308 -33.705675,18.84447 -37.324191,37.20269 l -44.50664,-9.06295 c 1.345574,-5.96736 3.181812,-11.83637 5.54661,-17.42737 z"
+         sodipodi:nodetypes="sssssccccs" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-dasharray:none"
+         d="m 108.9733,109.32215 c 12.64682,-0.0655 25.14282,5.1251 34.04684,14.10267"
+         id="path623" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-dasharray:none"
+         d="m 61.802015,147.76785 c 3.629635,-18.54494 18.9166,-33.83633 37.467478,-37.46747"
+         id="path621" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-dasharray:none"
+         d="M 74.464801,191.51851 C 65.488596,182.61635 60.757997,170.1188 60.823788,157.47166"
+         id="path619"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-dasharray:none"
+         d="m 118.64648,204.21911 c -12.54251,2.60461 -26.002393,0.40723 -36.59403,-6.82112"
+         id="path617"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-dasharray:none"
+         d="m 153.33898,176.21362 c -4.80074,11.44016 -14.18296,20.82273 -25.62371,25.62373"
+         id="path615" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-dasharray:none"
+         d="m 148.73477,130.55082 c 7.22416,10.56499 9.76191,24.1237 7.15416,36.62465"
+         id="circle504"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.41677576px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.331258;stroke:#4169e1"
+         id="text627"
+         transform="translate(1.0583333,-1.0583333)"><textPath
+           xlink:href="#path623"
+           startOffset="50%"
+           id="textPath629"
+           style="font-size:4.41677576px;stroke-width:0.331258;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1">Funktionalität</textPath></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.41677576px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;text-anchor:middle;stroke-width:0.331258;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1"
+         id="text1914"
+         transform="translate(1.5875)"><textPath
+           xlink:href="#circle504"
+           startOffset="50%"
+           id="textPath1916"
+           style="font-size:4.41677576px;stroke-width:0.331258;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1">Zuverlässigkeit</textPath></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.6943233px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;text-anchor:middle;stroke-width:0.352073;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1"
+         id="text1921"
+         transform="matrix(0.94087592,0,0,0.94087592,9.8313743,12.700901)"><textPath
+           xlink:href="#path615"
+           startOffset="50%"
+           id="textPath1923"
+           style="font-size:4.6943233px;stroke-width:0.352073;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1">Benutzbarkeit</textPath></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.41677576px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;text-anchor:middle;stroke-width:0.331258;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1"
+         id="text1928"
+         transform="translate(-0.52916667,1.5875)"><textPath
+           xlink:href="#path617"
+           startOffset="50%"
+           id="textPath1930"
+           style="stroke-width:0.331258;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.41677576px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1">Effizienz</textPath></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.41677576px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;text-anchor:middle;stroke-width:0.331258;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1"
+         id="text1935"
+         transform="translate(-1.0583333,0.52916667)"><textPath
+           xlink:href="#path619"
+           startOffset="50%"
+           id="textPath1937"
+           style="font-size:4.41677576px;stroke-width:0.331258;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1">Wartbarkeit</textPath></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.41677576px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;text-anchor:middle;stroke-width:0.331258;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1"
+         id="text1942"
+         transform="translate(-1.0583333,-1.0583333)"><textPath
+           xlink:href="#path621"
+           startOffset="50%"
+           id="textPath1944"
+           style="font-size:4.41677576px;stroke-width:0.331258;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#4169e1">Portierbarkeit</textPath></text>
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="m 109.29247,109.15019 -0.91602,36.90431"
+         id="path2001"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="m 148.73477,130.55082 -29.34495,22.12914"
+         id="path2003"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="M 153.05009,176.41957 118.84578,162.56791"
+         id="path2005"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="m 118.64648,204.21911 -5.91444,-35.86027"
+         id="path2007"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="M 74.464801,191.51851 100.82874,166.33546"
+         id="path2009"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#4169e1;stroke-width:1.093152;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="m 61.625678,147.48957 36.1284,8.56171"
+         id="path2011"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+         x="146.84195"
+         y="17.034445"
+         id="text2015"
+         transform="rotate(22.912269)"
+         inkscape:transform-center-x="19.10066"
+         inkscape:transform-center-y="-17.016767"><tspan
+           sodipodi:role="line"
+           id="tspan2013"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="146.84195"
+           y="17.034445">Eignung</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="146.84195"
+           y="23.208057"
+           id="tspan2017">Korrektheit</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="146.84195"
+           y="29.38167"
+           id="tspan2019">Interoperabilität</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="146.84195"
+           y="35.555283"
+           id="tspan2021">Compliance</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="146.84195"
+           y="41.728893"
+           id="tspan2023">Sicherheit</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+         x="153.86583"
+         y="-150.35445"
+         id="text2027"
+         transform="rotate(77.31444)"><tspan
+           sodipodi:role="line"
+           id="tspan2025"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="153.86583"
+           y="-150.35445">Ausfallsicherheit</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="153.86583"
+           y="-144.18083"
+           id="tspan2029">Wiederherstellbarkeit</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="153.86583"
+           y="-138.00722"
+           id="tspan2031">Fehlertolleranz</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+         x="18.183292"
+         y="-261.66162"
+         id="text2035"
+         transform="rotate(134.6455)"><tspan
+           sodipodi:role="line"
+           id="tspan2033"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="18.183292"
+           y="-261.66162">Erlernbarkeit</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="18.183292"
+           y="-255.48799"
+           id="tspan2037">Verständlichkeit</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="18.183292"
+           y="-249.31438"
+           id="tspan2039">Nutzbarkeit</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+         x="-159.88002"
+         y="-205.89706"
+         id="text2043"
+         transform="rotate(-168.73854)"><tspan
+           sodipodi:role="line"
+           id="tspan2041"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-159.88002"
+           y="-205.89706">Zeitlich</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-159.88002"
+           y="-199.72343"
+           id="tspan2045">Ressourcenbedarf</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+         x="-198.74461"
+         y="-62.702572"
+         id="text2049"
+         transform="rotate(-119.24728)"><tspan
+           sodipodi:role="line"
+           id="tspan2047"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-198.74461"
+           y="-62.702572">Stabilität</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-198.74461"
+           y="-56.528946"
+           id="tspan2051">Analysierbarkeit</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-198.74461"
+           y="-50.355324"
+           id="tspan2053">Änderbarkeit</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-198.74461"
+           y="-44.181698"
+           id="tspan2055">Testbarkeit</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+         x="-66.928444"
+         y="106.62313"
+         id="text2059"
+         transform="rotate(-48.613788)"><tspan
+           sodipodi:role="line"
+           id="tspan2057"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-66.928444"
+           y="106.62313">Installierbarkeit</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-66.928444"
+           y="112.79675"
+           id="tspan2061">Konformität</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-66.928444"
+           y="118.97038"
+           id="tspan2063">Austauschbarkeit</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start;stroke-width:0.331258;stroke:#4169e1"
+           x="-66.928444"
+           y="125.144"
+           id="tspan2065">Anpassbarkeit</tspan></text>
+      <g
+         id="g917"
+         style="stroke-width:1.252;stroke:#4169e1">
+        <path
+           id="path234"
+           style="fill:#ffa500;stroke:#4169e1;stroke-width:0.331258"
+           d="m 138.31071,157.47166 c 0,2.02531 -0.20526,4.0027 -0.59602,5.9125 -0.39083,1.9098 -0.96719,3.75199 -1.70946,5.50693 -0.74227,1.75494 -1.65045,3.42261 -2.70488,4.98338 -1.05443,1.56077 -2.25511,3.0146 -3.58236,4.34187 -1.32727,1.32724 -2.7811,2.52792 -4.34187,3.58235 -1.56076,1.05443 -3.22843,1.96261 -4.98337,2.70489 -1.75495,0.74227 -3.59714,1.31863 -5.50694,1.70945 -1.9098,0.3908 -3.88719,0.59602 -5.9125,0.59602 -2.02532,0 -4.0027,-0.20525 -5.9125,-0.59602 -1.90981,-0.39082 -3.751994,-0.96718 -5.506937,-1.70945 -1.754942,-0.74228 -3.422613,-1.65046 -4.983378,-2.70489 -1.560765,-1.05443 -3.0146,-2.25511 -4.34187,-3.58235 -1.327244,-1.32727 -2.527923,-2.7811 -3.582351,-4.34187 -1.054427,-1.56077 -1.962613,-3.22844 -2.704887,-4.98338 -0.742277,-1.75494 -1.318648,-3.59713 -1.709448,-5.50693 -0.390801,-1.9098 -0.596031,-3.88719 -0.596031,-5.9125 0,-2.02532 0.205228,-4.00271 0.596033,-5.91251 0.3908,-1.9098 0.967171,-3.75199 1.709448,-5.50693 0.742277,-1.75494 1.65046,-3.42261 2.704891,-4.98338 1.054422,-1.56074 2.255101,-3.0146 3.582372,-4.34184 1.327243,-1.32725 2.781078,-2.52793 4.341843,-3.58236 1.560765,-1.05443 3.228436,-1.96261 4.983378,-2.70488 1.754943,-0.74227 3.597127,-1.31866 5.506937,-1.70945 1.9098,-0.3908 3.88718,-0.59603 5.9125,-0.59603 2.02531,0 4.0027,0.20526 5.9125,0.59603 1.9098,0.39082 3.75199,0.96718 5.50694,1.70945 1.75494,0.74227 3.42261,1.65045 4.98337,2.70488 1.56077,1.05443 3.0146,2.25511 4.34185,3.58236 1.32727,1.32727 2.52795,2.7811 3.58238,4.34184 1.05443,1.56077 1.96261,3.22844 2.70488,4.98338 0.74227,1.75494 1.31863,3.59713 1.70946,5.50693 0.39079,1.9098 0.59602,3.88719 0.59602,5.91251 z"
+           sodipodi:nodetypes="sssssssssssssssssssssssssssssssss" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.21445px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.331257;stroke:#4169e1"
+           x="108.81133"
+           y="160.82585"
+           id="text342"><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.331257;stroke:#4169e1"
+             x="108.81133"
+             y="160.82585"
+             id="tspan344">ISO 9126</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
