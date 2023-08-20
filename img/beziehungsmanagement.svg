@@ -1,0 +1,9 @@
+<!-- Beziehungsmanagement -->
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background: Heptagon -->
+    <polygon points="50,5 95,25 95,75 50,95 5,75 5,25 50,5" fill="#4DB6AC"/>
+    <!-- Symbol: Linked Rings -->
+    <circle cx="40" cy="50" r="15" fill="none" stroke="white" stroke-width="5"/>
+    <circle cx="60" cy="50" r="15" fill="none" stroke="white" stroke-width="5"/>
+</svg>
+

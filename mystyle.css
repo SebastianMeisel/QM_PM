@@ -1,0 +1,74 @@
+section {font-size: 85% }
+
+/* img { */
+/*     width: 50%; */
+/* } */
+
+.reveal .title {font-size: 300% }
+
+section p {
+    text-align: left;
+}
+
+section p.subtitle {
+    text-align: center;
+}
+
+div.figure p {
+    align: center;
+    text-align: center;
+    font-size: 40%;
+    text-color: darkgray;
+}
+
+ul {
+    text-align: left;
+    align: left;	     
+}
+
+
+ul li {
+    text-align: left;
+}
+
+.fragment .appear .visible {
+    text-align: left;
+}
+
+
+table {
+    position: absolute;
+    left: -15%;
+    width: 130%;
+    font-size: 65%;
+}
+
+.logo {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.tolearn {
+    border: 2px solid red;
+    background-color: lightcoral; /* Light red background */
+    text-color: black;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 140%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.goals {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 25%;
+  margin-top: 20px;
+  position: relative;
+  background: darkgreen;
+  clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 0% 0%);
+}
+
+

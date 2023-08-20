@@ -1,0 +1,219 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE:  de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil num:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Einführung Qualitätsmanagement
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+
+* Qualitätsmanagement
+  :PROPERTIES:
+  :AUTHOR: Sebastian Meisel
+  :END:
+
+** Begriffsklärung: Qualitätsmanagement
+#+ATTR_REVEAL: :frag (appear)
+   - Teilbereich des Managements bezüglich der Qualität.
+   - Management umfasst viele Bereiche: Politik, Ziele, Prozesse
+   - Anforderungen an inhärente Merkmale
+
+** Begriffsklärung: Qualität
+#+BEGIN_tolearn
+   - *Qualität*: "Grad, in dem ein Satz inhärenter Merkmale eines Objekts Anforderungen erfüllt."
+#+END_tolearn
+#+ATTR_REVEAL: :frag (appear)
+   - *Grad*: Qualität ist nicht absolut → in einem bestimmten Maß
+   - *Satz*: Es geht immer um mehrere Merkmale.
+   - *inhärente Merkmale*: fest zugehörige Merkmal → nicht zugeschrieben
+   - *Objekt*: materiell (Ding / Person) oder immateriell (Idee)
+   - *Anforderungen*: Es geht um /subjektive/ Anforderungen die je nach Kunde variieren.
+
+
+#+BEGIN_NOTES
+  Qualität ist ein Begriff, der oft missverstanden wird, da er subjektiv und kontextabhängig ist. Was für eine Person als qualitativ hochwertig angesehen wird, mag für eine andere nicht der Fall sein. Daher ist es von entscheidender Bedeutung, die Anforderungen klar zu definieren und zu ermitteln, um die Qualität objektiv bewerten zu können. Es ist auch wichtig zu betonen, dass zugeschriebene Merkmale wie Preis oder Marke *keine* Indikatoren für Qualität sind. Sie können den /wahrgenommenen/ Wert eines Produkts oder einer Dienstleistung beeinflussen, sind aber keine direkten Maßstäbe für Qualität. Ein gutes Beispiel aus der IT-Systemadministration wäre ein Server: Ein teurer Server einer bekannten Marke mag auf den ersten Blick als qualitativ hochwertig erscheinen. Aber wenn er nicht die spezifischen Anforderungen des Unternehmens erfüllt, wie z.B. die benötigte Speicherkapazität oder die Fähigkeit, bestimmte Anwendungen auszuführen, dann wäre seine Qualität in diesem speziellen Kontext nicht hoch, unabhängig von Preis oder Marke.
+#+END_NOTES
+
+** 7 Konzepte des Qualitätsmanagements (ISO 9001)
+#+ATTR_REVEAL: :frag (appear)
+   1. Qualität
+   2. Qualitätsmanagement
+   3. Interessierte Parteien
+   4. Kontext (Umfeld) eines Unternehmens
+   5. Unterstützung durch (oberste) Leitung
+   6. Bewusstsein
+   7. Kommunikation
+
+** 7 Grundsätze des Qualitätsmanagements
+#+BEGIN_tolearn
+#+ATTR_REVEAL: :frag (appear)
+   1. Kundenorientierung
+   2. Führung
+   3. Einbeziehung von Personen
+   4. Prozessorientierter Ansatz
+   5. Verbesserung
+   6. Faktengestützte Entscheidungsfindung
+   7. Beziehungsmanagement
+#+END_tolearn
+
+*** 1) Kundenorientierung
+
+#+HTML: <div class="logo">
+#+HTML:   <img src="./img/kundenorientierung.svg" alt="Kundenorientierung" width="100" height="100">
+#+HTML: </div>
+
+- Ermittlung der aktuellen und zukünftigen Erwartung der Kunden, sowie anderer interessierter Parteien.
+- Ermittlung der Kundenzufriedenheit.
+#+BEGIN_NOTES
+Die Kundenorientierung ist das Herzstück eines jeden Qualitätsmanagementsystems. Unternehmen, die sich auf ihre Kunden konzentrieren, sind in der Regel erfolgreicher und nachhaltiger. Es ist wichtig, nicht nur die aktuellen Bedürfnisse der Kunden zu erfüllen, sondern auch zukünftige Anforderungen und Trends zu antizipieren.
+Beispiel Softwareentwicklung: Ein Softwareunternehmen führt regelmäßige Feedback-Gespräche mit seinen Kunden durch, um herauszufinden, welche Funktionen sie sich für die nächste Version der Software wünschen.
+#+END_NOTES
+
+#+BEGIN_goals
+Ziele:
+- Steigerung der Kundenzufriedenheit durch kontinuierliche Erfüllung und Übertreffen der Kundenanforderungen.
+- Aufbau langfristiger Beziehungen zu Kunden durch regelmäßige Kommunikation und Feedback-Schleifen.
+- Anpassung von Produkten und Dienstleistungen basierend auf Kundenfeedback und Marktveränderungen.
+#+END_goals
+
+*** 2) Führung
+
+#+HTML: <div class="logo">
+#+HTML:   <img src="./img/fuehrung.svg" alt="Führung" width="100" height="100">
+#+HTML: </div>
+
+- Aufrechterhaltung und strategische Weiterentwicklung eines QM-Systems.
+- Ausrichtung auf den Unternehmenszweck (z. B. Leitbild).
+#+BEGIN_NOTES
+Führungskräfte spielen eine entscheidende Rolle bei der Festlegung der Qualitätspolitik und -ziele. Durch ihre Vorbildfunktion und Engagement können sie eine Kultur der kontinuierlichen Verbesserung fördern und sicherstellen, dass die Qualitätsziele in der gesamten Organisation verstanden und umgesetzt werden.
+Beispiel Softwareentwicklung: Ein Teamleiter stellt sicher, dass alle Entwickler im Team regelmäßige Schulungen zur Code-Qualität erhalten und fördert den Einsatz von Code-Reviews.
+#+END_NOTES
+
+#+BEGIN_goals
+Ziele:
+  - Schaffung einer klaren Vision und Mission für das Unternehmen, die von allen Mitarbeitern geteilt wird.
+  - Förderung einer Unternehmenskultur, die Qualität in allen Aspekten der Arbeit betont.
+  - Sicherstellung, dass alle Teammitglieder die Unternehmensziele verstehen und sich darauf ausrichten.
+#+END_goals
+
+*** 3) Einbeziehung von Personen
+
+#+HTML: <div class="logo">
+#+HTML:   <img src="./img/einbeziehung.svg" alt="Einbeziehung von Personen" width="100" height="100">
+#+HTML: </div>
+
+- Die vorhandenen Fähigkeiten von Mitarbeitenden sollen ausgeschöpft werden.
+- Alle Personen sollen an Entscheidungsfindungsprozessen beteiligt werden.
+#+BEGIN_NOTES
+Mitarbeiter sind oft die besten Experten für ihre jeweiligen Aufgabenbereiche. Ihre Einbindung in Entscheidungsprozesse und Qualitätsinitiativen kann zu besseren Lösungen und einer höheren Akzeptanz von Veränderungen führen. Es ist wichtig zu betonen, dass "Einbeziehung" nicht gleichbedeutend mit "Mitbestimmung" ist.
+Beispiel Softwareentwicklung: Ein Softwareentwickler schlägt vor, eine bestimmte Open-Source-Bibliothek zu verwenden, um die Entwicklungszeit zu verkürzen und die Qualität des Endprodukts zu verbessern.
+#+END_NOTES
+
+#+BEGIN_goals
+Ziele:
+  - Entwicklung von Schulungs- und Weiterbildungsprogrammen, um die Fähigkeiten und Kenntnisse der Mitarbeiter zu verbessern.
+  - Schaffung einer offenen Kommunikationskultur, in der Ideen und Feedback geschätzt werden.
+  - Anerkennung und Belohnung von Mitarbeitern für herausragende Leistungen und Beiträge zur Qualitätsverbesserung.
+#+END_goals
+
+*** 4) Prozessorientierter Ansatz
+
+#+HTML: <div  class="logo">
+#+HTML:   <img src="./img/prozessorientierung.svg" alt="Prozessorientierung" width="100" height="100">
+#+HTML: </div>
+
+- Abbildung der tatsächlichen betrieblichen Abläufe.
+- Zuordnung von Ressourcen zu Abläufen.
+#+BEGIN_NOTES
+Ein prozessorientierter Ansatz ermöglicht es Unternehmen, ihre Abläufe systematisch zu analysieren und zu optimieren. Dies führt zu effizienteren Abläufen, reduzierten Kosten und einer höheren Kundenzufriedenheit.
+Beispiel Softwareentwicklung: Ein Unternehmen implementiert Agile-Methoden wie Scrum, um den Softwareentwicklungsprozess zu strukturieren und zu optimieren, wodurch die Produktivität gesteigert und die Time-to-Market reduziert wird.
+#+END_NOTES
+
+#+BEGIN_goals
+Ziele:
+  - Identifizierung, Dokumentation und Optimierung von Kernprozessen im Unternehmen.
+  - Implementierung von Prozessüberwachung und -messung, um kontinuierliche Verbesserungen zu ermöglichen.
+  - Reduzierung von Abfall und Ineffizienzen durch Lean-Management-Techniken.
+#+END_goals
+    
+*** 5) Verbesserung
+
+#+HTML: <div  class="logo">
+#+HTML:   <img src="./img/verbesserung.svg" alt="Verbesserung" width="100" height="100">
+#+HTML: </div>
+
+- Fortlaufende, nachhaltige Weiterentwicklung.
+- Kontinuierliches Verfolgen des PDCA-Zyklus.
+#+BEGIN_NOTES
+Kontinuierliche Verbesserung ist das Rückgrat eines jeden QM-Systems. Es geht darum, ständig nach Wegen zu suchen, um Prozesse, Produkte und Dienstleistungen zu optimieren.
+Beispiel Softwareentwicklung: Nach jedem Release analysiert das Entwicklungsteam die Feedbacks und Fehlerberichte, um die Software in der nächsten Version zu verbessern und den Entwicklungsprozess anzupassen.
+#+END_NOTES
+
+#+BEGIN_goals
+Ziele:
+  - Etablierung eines kontinuierlichen Verbesserungsprozesses (KVP) im gesamten Unternehmen.
+  - Anwendung des PDCA-Zyklus (Plan-Do-Check-Act) zur systematischen Problemlösung.
+  - Förderung einer Kultur, die Fehler als Lernmöglichkeiten betrachtet.
+#+END_goals
+
+*** 6) Faktengestützte Entscheidungsfindung
+
+#+HTML: <div class="logo">
+#+HTML:   <img src="./img/faktengestuetzt.svg" alt="faktengestützte Entscheidungsfindung" width="100" height="100">
+#+HTML: </div>
+
+- Analysen aufgrund von Zahlen, Daten, Fakten (ZDF).
+#+BEGIN_NOTES
+Entscheidungen, die auf soliden Daten und Analysen basieren, sind in der Regel robuster und führen zu besseren Ergebnissen.
+Beispiel Softwareentwicklung: Ein Team verwendet Metriken wie Code-Coverage und Performance-Tests, um fundierte Entscheidungen über Optimierungen und Refactorings zu treffen.
+#+END_NOTES
+
+#+BEGIN_goals
+Ziele:
+  - Sammlung und Analyse von Daten, um fundierte Geschäftsentscheidungen zu treffen.
+  - Implementierung von Tools und Techniken zur Datenanalyse, wie z.B. statistische Prozesskontrolle.
+  - Förderung einer datengetriebenen Kultur, in der Entscheidungen auf Fakten und nicht auf Meinungen basieren.
+#+END_goals
+
+*** 7) Beziehungsmanagement
+
+#+HTML: <div class="logo">
+#+HTML:   <img src="./img/beziehungsmanagement.svg" alt="Beziehungsmanagement" width="100" height="100">
+#+HTML: </div>
+
+
+- Beziehungen zu externen Anbietern (Zulieferern), Unternehmen und Kunden pflegen.
+#+BEGIN_NOTES
+Starke Beziehungen zu Lieferanten, Partnern und anderen Stakeholdern können einem Unternehmen einen Wettbewerbsvorteil verschaffen.
+Beispiel Softwareentwicklung: Ein Softwareunternehmen pflegt enge Beziehungen zu seinen wichtigsten Technologiepartnern, um sicherzustellen, dass es frühzeitig über Änderungen und Updates informiert wird und diese in seine Entwicklungspläne integrieren kann.
+#+END_NOTES
+
+#+BEGIN_goals
+Ziele:
+  - Aufbau und Pflege starker Beziehungen zu Lieferanten und anderen Geschäftspartnern.
+  - Regelmäßige Überprüfung und Bewertung von Lieferantenleistungen, um Qualität und Effizienz sicherzustellen.
+  - Entwicklung von Partnerschaften und Kollaborationen, die zu innovativen Lösungen und verbesserten Produkten führen.
+#+END_goals
+
+** Links und Weiterführende Informationen
+   - [[https://kirsch-managementsysteme.de/blog/2014/10/31/grundsaetze-des-qualitaetsmanagements-iso-9001-2015/][Grundsaetze des Qualitaetsmanagements ISO 9001-2015]]
+   - Vertiefen Sie Ihr Verständnis der 7 Grundsätze des Qualitätssicherung.
+   - Informieren Sie sich über die 8 Grundsätze, die in einer früheren Fassung der ISO 9000er Normfamilie gefordert wurden.
+   - Woran könnte sich Qualität im IT Bereich fest machen?
+     
+# Local Variables:
+# jinx-languages: "de_DE"
+# End:
