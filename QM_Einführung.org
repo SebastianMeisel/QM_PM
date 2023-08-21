@@ -208,6 +208,17 @@ Ziele:
   - Entwicklung von Partnerschaften und Kollaborationen, die zu innovativen Lösungen und verbesserten Produkten führen.
 #+END_goals
 
+** Wen interessiert's?
+  Für einfache Arbeitnehmer in der IT-Branche mag es auf den ersten Blick so erscheinen, als ob Qualitätsmanagement (QM) ein Thema ist, das hauptsächlich für das Management oder für spezialisierte QM-Teams von Bedeutung ist. Doch in Wirklichkeit hat ein fundiertes Verständnis von QM-Prinzipien und -Praktiken Vorteile für alle, einschließlich derer an der Basis.
+
+  Erstens gibt es einen direkten Zusammenhang zwischen Qualität und Mitarbeiterzufriedenheit. Wenn IT-Profis in einem Umfeld arbeiten, in dem Qualität geschätzt und gefördert wird, führt dies oft zu einer höheren Zufriedenheit und Motivation. Dies liegt daran, dass qualitativ hochwertige Arbeit oft weniger Fehler, weniger Nacharbeit und letztlich zufriedenere Kunden bedeutet. Dies wiederum führt zu einem positiveren Arbeitsumfeld und einer höheren Wertschätzung durch Vorgesetzte und Kollegen.
+
+  Zweitens kann das Verständnis von QM-Prinzipien IT-Mitarbeitern helfen, ihre eigene Arbeit und die Prozesse, an denen sie beteiligt sind, kontinuierlich zu verbessern. Dies kann zu persönlichem und beruflichem Wachstum, besseren Karrierechancen und einer höheren Arbeitszufriedenheit führen.
+
+  Es ist jedoch wichtig zu betonen, dass QM mehr ist als nur das Erreichen von Zertifizierungen. Ein falsch verstandenes QM, das sich nur auf Zertifizierungen konzentriert, kann kontraproduktiv sein und zu Bürokratie, unnötiger Komplexität und Frustration führen. Echtes QM geht über Zertifikate hinaus und konzentriert sich auf echte, messbare Verbesserungen in Prozessen und Ergebnissen.
+
+  Abschließend kann gesagt werden, dass ein Verständnis von Qualitätsmanagement und dessen korrekter Anwendung für jeden IT-Profi, unabhängig von seiner Position, von unschätzbarem Wert ist.
+
 ** Links und Weiterführende Informationen
    - [[https://kirsch-managementsysteme.de/blog/2014/10/31/grundsaetze-des-qualitaetsmanagements-iso-9001-2015/][Grundsaetze des Qualitaetsmanagements ISO 9001-2015]]
    - Vertiefen Sie Ihr Verständnis der 7 Grundsätze des Qualitätssicherung.
