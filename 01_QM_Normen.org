@@ -11,7 +11,7 @@
 #+REVEAL_REVEAL_JS_VERSION: 4
 #+REVEAL_THEME: league
 #+REVEAL_EXTRA_CSS: ./mystyle.css
-#+REVEAL_HLEVEL: 2
+#+REVEAL_HLEVEL: 1
 #+OPTIONS: timestamp:nil toc:nil num:nil
 :END:
 
@@ -75,7 +75,7 @@
 *** Softwareentwicklung
 - ISO/IEC 25010 - System- und Softwarequalität - Modelle und Metriken
 #+BEGIN_tolearn
-- **SO/IEC 25010** ersetzt ISO/IEC 9126.
+- **ISO/IEC 25010** ersetzt ISO/IEC 9126.
 - Bietet ein Modell für Softwarequalität, das sowohl interne als auch externe Qualitätsmerkmale umfasst.
 - Hauptmerkmale: Funktionalität, Zuverlässigkeit, Benutzbarkeit, Effizienz, Wartbarkeit und Portabilität.
 - [[https://www.iso.org/standard/35733.html][Weiterführender Link]]
