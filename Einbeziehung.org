@@ -1,0 +1,77 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 1
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Einbeziehung von Personen
+#+SUBTITLE: Gesprächsführung
+#+AUTHOR: Sebastian Meisel
+
+* Einleitung
+  - Der Grundsatz "Einbeziehung von Personen" in ISO 9001 betont die Bedeutung der Beteiligung von Mitarbeitern und Interessenvertretern.
+  - Effektive Gesprächsführung ist ein Schlüsselinstrument, um diesen Grundsatz in der Praxis umzusetzen.
+
+* Bedeutung der Gesprächsführung
+  - Gute Kommunikation fördert eine positive Unternehmenskultur und optimiert Arbeitsabläufe.
+  - Sie verhindert Missverständnisse und fördert das Vertrauen zwischen Führungskräften und Mitarbeitern.
+  #+BEGIN_NOTES
+  - Falsch interpretierte Anweisungen können zu finanziellen Verlusten führen.
+  - Alle Mitarbeiter sollten ihre Kommunikationsfähigkeiten ständig verbessern.
+  #+END_NOTES
+
+* Techniken der Gesprächsführung
+  - **Vorbereitung**: Planung des Gesprächsaufbaus und Notizen zu Gedanken und Emotionen.
+  - **Aktives Zuhören**: Zeigt Interesse und Wertschätzung gegenüber dem Gesprächspartner.
+  - **Klarheit**: Direkte und klare Kommunikation ohne vage Formulierungen.
+  - **Offenheit**: Bereitschaft, andere Meinungen und Sichtweisen zu akzeptieren.
+  - **Körpersprache**: Beachtung nonverbaler Kommunikationssignale.
+  - **Ruhe bewahren**: In Konfliktsituationen ruhig und überlegt reagieren.
+
+* Systemische Fragen in der Gesprächsführung
+  - Systemische Fragen regen zur Selbstreflexion an und provozieren neue Sichtweisen.
+  - Sie können in der Konfliktlösung eingesetzt werden, um Denkblockaden zu lösen und eigene Lösungen zu entwickeln.
+  #+BEGIN_NOTES
+  - Systemische Fragen sind kein rhetorisches Spielmittel und sollten mit Bedacht eingesetzt werden.
+  - Es ist wichtig, dass sich niemand durch die Fragen persönlich angegriffen fühlt.
+  #+END_NOTES
+
+** Fragetechniken und Beispiele
+#+ATTR_REVEAL: :frag (appear)
+  - **Zirkuläre Fragen**: Betrachten die aktuelle Situation aus einer anderen Perspektive und entwickeln neue Ideen.
+     - Allgemeines Beispiel: "Wie würde Ihr Chef das sehen und beurteilen?"
+     - Software/IT-Beispiel: "Wie würden Sie denken, dass ein Endbenutzer diese neue Funktion wahrnehmen würde?"
+  - **Lösungsorientierte Fragen**: Lenken die Aufmerksamkeit auf mögliche Lösungen und vorhandene Ressourcen.
+     - Allgemeines Beispiel: "Woran erkennen Sie, dass Sie auf dem richtigen Weg sind?"
+     - Software/IT-Beispiel: "Welche Ressourcen oder Tools könnten uns helfen, dieses Problem effizienter zu lösen?"
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+  - **Hypothetische Fragen**: Einladung zum Gedankenexperiment.
+     - Allgemeines Beispiel: "Welches Ziel würden Sie am liebsten erreichen?"
+     - Software/IT-Beispiel: "Wenn Sie eine ideale Lösung für dieses Problem hätten, wie würde sie aussehen?"
+  - **Wunderfragen**: Anregung, über den bekannten Horizont hinaus zu denken.
+     - Allgemeines Beispiel: "Was wäre, wenn das Problem plötzlich gelöst wäre?"
+     - Software/IT-Beispiel: "Was wäre, wenn Speicherplatz und Rechenleistung keine Einschränkungen wären? Wie würden Sie das System dann gestalten?"
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+  - **Begründungsfragen**: Reflektion und Begründung des eigenen Handelns.
+     - Allgemeines Beispiel: "Warum wollen Sie das Problem so lösen?"
+     - Software/IT-Beispiel: "Warum haben Sie sich für diese spezielle Architektur oder dieses Framework entschieden?"
+  - **Skalierungsfragen**: Bewertung von Fortschritten oder Schwierigkeitsgraden.
+     - Allgemeines Beispiel: "Auf einer Skala von 1 bis 10, wie zufrieden sind Sie mit dem aktuellen Stand?"
+     - Software/IT-Beispiel: "Auf einer Skala von 1 bis 10, wie komplex schätzen Sie diese Codeänderung ein?"
+
+* Einbeziehung von Mitarbeitern und Interessenvertretern im Qualitätsmanagement
+  - Mitarbeiter und Interessenvertreter sollten aktiv in Projekte und Entscheidungsprozesse eingebunden werden.
+  - Das Vertrauen der Mitarbeiter in die Interessenvertreter und deren Kenntnisse über die Bedürfnisse und Wünsche der Mitarbeiter sind entscheidend für den Erfolg.
+  #+BEGIN_NOTES
+  - Eine Betriebsvereinbarung zum Qualitätsmanagement "Zertifizierung nach DIN EN ISO 9001:2015" wird empfohlen.
+  - Interessenvertreter sollten bei der Besetzung des Projektteams, der Benennung des Projektleiters und anderen Aspekten des Projekts beteiligt werden.
+  #+END_NOTES
+
+* Schlussfolgerung
+  - Die Einbeziehung von Personen durch effektive Gesprächsführung ist entscheidend für den Erfolg eines Qualitätsmanagementsystems.
+  - Durch aktives Zuhören, Klarheit in der Kommunikation und die Einbindung aller Beteiligten können Konflikte gelöst und eine positive Unternehmenskultur gefördert werden.
