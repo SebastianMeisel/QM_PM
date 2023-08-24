@@ -156,7 +156,7 @@
   #+END_NOTES
 ** Direkte Kundenbefragung: Fragebogen, Web-Formular, Umfrage
   - **Customer Satisfaction Score (CSAT)**: Durchschnitt aller Kundenbewertungen
-ATTR_HTML: :height 40px
+#+ATTR_HTML: :height 40px
 #+ATTR_LATEX: :width .5\linewidth
 #+ATTR_ORG: :width 700
 [[file:img/CSAT.png]]
