@@ -155,7 +155,11 @@
   Die Erhebung der Kundenzufriedenheit ist ein wesentlicher Bestandteil des Kundenbeziehungsmanagements. Es hilft Unternehmen nicht nur zu verstehen, wie sie in den Augen ihrer Kunden abschneiden, sondern auch, wie sie ihre Angebote verbessern können. Zufriedene Kunden neigen dazu, wiederzukaufen und Unternehmen weiterzuempfehlen. Kundenzufriedenheit kann sich über die Zeit ändern, daher ist kontinuierliche Überwachung wichtig. Trotz ihrer Bedeutung ist die Messung der Kundenzufriedenheit mit verschiedenen Herausforderungen verbunden, von der Gewährleistung der Repräsentativität der Daten bis hin zur Interpretation und Umsetzung des Feedbacks.
   #+END_NOTES
 ** Direkte Kundenbefragung: Fragebogen, Web-Formular, Umfrage
+<<<<<<< HEAD
   - **Customer Satisfaction Score (CSAT)**: Durchschnitt aller Kundenbewertungen
+=======
+  - **Customer Satisfaction Score (CSAT)**: Durrchschnitt aller Kundenbewertungen
+>>>>>>> Sommer23_FIAED
 #+ATTR_HTML: :height 40px
 #+ATTR_LATEX: :width .5\linewidth
 #+ATTR_ORG: :width 700
@@ -193,7 +197,13 @@ Der Customer Effort Score (CES) ist eine Metrik zur Messung der Kundenerfahrung,
 
 
 
+<<<<<<< HEAD
 ** Indirekte Kundenbefragung: Analyse interner und externer Daten
+=======
+
+
+** Indirekte Kundenbefragung: Fragebogen, Web-Formular, Umfrage
+>>>>>>> Sommer23_FIAED
   **1. Analyse von Kundenbewertungen:**
   - Auswertung von Online-Bewertungen und -Rezensionen.
   
