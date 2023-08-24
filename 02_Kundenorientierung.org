@@ -155,19 +155,7 @@
   Die Erhebung der Kundenzufriedenheit ist ein wesentlicher Bestandteil des Kundenbeziehungsmanagements. Es hilft Unternehmen nicht nur zu verstehen, wie sie in den Augen ihrer Kunden abschneiden, sondern auch, wie sie ihre Angebote verbessern können. Zufriedene Kunden neigen dazu, wiederzukaufen und Unternehmen weiterzuempfehlen. Kundenzufriedenheit kann sich über die Zeit ändern, daher ist kontinuierliche Überwachung wichtig. Trotz ihrer Bedeutung ist die Messung der Kundenzufriedenheit mit verschiedenen Herausforderungen verbunden, von der Gewährleistung der Repräsentativität der Daten bis hin zur Interpretation und Umsetzung des Feedbacks.
   #+END_NOTES
 ** Direkte Kundenbefragung: Fragebogen, Web-Formular, Umfrage
-<<<<<<< HEAD
-  - **Customer Satisfaction Score (CSAT)**: Durrchschnitt aller Kundenbewertungen
-=======
-<<<<<<< HEAD:02_Kundenorientierung.org
-<<<<<<< HEAD
   - **Customer Satisfaction Score (CSAT)**: Durchschnitt aller Kundenbewertungen
-=======
-  - **Customer Satisfaction Score (CSAT)**: Durrchschnitt aller Kundenbewertungen
->>>>>>> Sommer23_FIAED
-=======
-  - **Customer Satisfaction Score (CSAT)**: Durchschnitt aller Kundenbewertungen
->>>>>>> 730a0f3 (Fehlerkorrektur):Kundenorientierung.org
->>>>>>> Sommer23_FIAEB
 #+ATTR_HTML: :height 40px
 #+ATTR_LATEX: :width .5\linewidth
 #+ATTR_ORG: :width 700
@@ -203,25 +191,8 @@ Der Customer Effort Score (CES) ist eine Metrik zur Messung der Kundenerfahrung,
   Direkte Kundenbefragungen sind ein wertvolles Instrument, um Einblicke in die Kundenerfahrung zu gewinnen. Der Zusammenhang zwischen dem Aufwand der Befragung, der Anzahl der Rückmeldungen und der Aussagekraft der Daten ist jedoch komplex. Während umfangreichere Befragungen detailliertere Daten liefern können, können sie auch zu einer geringeren Beteiligung führen. Zudem können verschiedene Biases die Ergebnisse beeinflussen, was bei der Interpretation der Daten berücksichtigt werden sollte.
   #+END_NOTES
 
-
-
-<<<<<<< HEAD
-
-
-** Indirekte Kundenbefragung: Fragebogen, Web-Formular, Umfrage
-=======
-<<<<<<< HEAD:02_Kundenorientierung.org
-<<<<<<< HEAD
 ** Indirekte Kundenbefragung: Analyse interner und externer Daten
-=======
 
-
-** Indirekte Kundenbefragung: Fragebogen, Web-Formular, Umfrage
->>>>>>> Sommer23_FIAED
-=======
-** Indirekte Kundenbefragung: Analyse interner und externer Daten
->>>>>>> 730a0f3 (Fehlerkorrektur):Kundenorientierung.org
->>>>>>> Sommer23_FIAEB
   **1. Analyse von Kundenbewertungen:**
   - Auswertung von Online-Bewertungen und -Rezensionen.
   
@@ -260,7 +231,7 @@ Der Customer Effort Score (CES) ist eine Metrik zur Messung der Kundenerfahrung,
 
   #+BEGIN_NOTES
   Indirekte Methoden zur Erhebung der Kundenzufriedenheit basieren auf Daten und Informationen, die nicht direkt durch Befragungen oder Umfragen gesammelt werden. Sie bieten eine Möglichkeit, ein breites Spektrum von Kundenfeedback zu erfassen, ohne direkt mit den Kunden in Kontakt treten zu müssen. Es ist jedoch wichtig, die Grenzen dieser Methoden zu erkennen und sie gegebenenfalls mit direkten Feedback-Methoden zu kombinieren.
-  #+END_NOTES
+   #+END_NOTES
 
 
 * Beschwerdemangement
