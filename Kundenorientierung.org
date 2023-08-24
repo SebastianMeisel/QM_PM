@@ -1,0 +1,304 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 1
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Kundenorientierung & Beschwerdemangement
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+
+* Kundenorientierung & Beschwerdemanagement
+  :PROPERTIES:
+  :Page: 1
+  :END:
+#+ATTR_REVEAL: :frag (appear)
+- Kundenanforderungen identifizieren
+#+BEGIN_NOTES
+   - Umfragen und Feedback-Formulare nutzen
+   - Direkte Kommunikation mit Kunden fördern
+   - Marktanalysen durchführen
+#+END_NOTES
+#+HTML: </br>
+#+ATTR_REVEAL: :frag (appear)
+- Kundenzufriedenheit ermitteln
+#+BEGIN_NOTES
+   - Befragungs-/Messmethoden (direkt/inderekt) wählen
+   - Ergebnisse analysieren
+   - Feedback in Entwicklungs- und Optimierungsprozesse einfließen lassen
+#+END_NOTES
+#+HTML: </br>
+#+ATTR_REVEAL: :frag (appear)
+- Kundenbeschwerden managen
+#+BEGIN_NOTES
+   - Beschwerdemanagement-System einführen
+   - Schnelle Reaktionszeiten gewährleisten
+   - Lösungsorientierte Ansätze verfolgen
+#+END_NOTES
+#+HTML: </br>
+#+ATTR_REVEAL: :frag (appear)
+- Kundenbindung stärken
+#+BEGIN_NOTES
+   - Treueprogramme und Rabattaktionen anbieten
+   - Persönliche Betreuung und Kundenservice bieten
+   - Regelmäßige Kundenkommunikation pflegen
+#+END_NOTES
+
+* Differenzierung von internen und externen Kunden 
+
+#+BEGIN_tolearn
+  - **Externe Kunden:** Individuen, Unternehmen oder Einheiten außerhalb einer Organisation, die die Endprodukte oder Dienstleistungen erhalten.
+  - **Interne Kunden:** Mitarbeiter oder Abteilungen innerhalb einer Organisation, die Dienstleistungen oder Produkte von anderen internen Einheiten erhalten.
+#+END_tolearn
+  #+BEGIN_NOTES
+  Die ISO 9000-Normenserie betont die Bedeutung der Kundenzufriedenheit und unterscheidet zwischen internen und externen Kunden. Während interne Kunden oft Kollegen oder andere Abteilungen sind, sind externe Kunden die Endbenutzer oder Käufer von Produkten und Dienstleistungen. Beide Arten von Kunden sind für den Erfolg und die Qualitätssicherung eines Unternehmens von entscheidender Bedeutung.
+  #+END_NOTES
+
+#+ATTR_HTML: :width 20%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/Interne_exteren_Kunden.png]]
+
+** Prinzip der Kunden-Lieferanten-Beziehung
+
+#+BEGIN_tolearn
+  - **Grundprinzip:** Jeder Prozess in einer Kette hat einen "Kunden" und einen "Lieferanten".
+  - **Interne Kunden:** Abteilungen oder Teams, die den Output eines vorherigen Prozesses als Input nutzen.
+  - **Qualitätssicherung:** Jeder Prozess muss die Anforderungen seines "Kunden" erfüllen.
+  - **Kontinuierliche Verbesserung:** Feedback-Schleifen zwischen "Kunden" und "Lieferanten" fördern die Optimierung.
+#+END_tolearn
+  #+BEGIN_NOTES
+  Das Prinzip der Kunden-Lieferanten-Beziehung betont die Verknüpfung und Abhängigkeit zwischen aufeinanderfolgenden Prozessen in einer Prozesskette. Jeder Prozess liefert Ergebnisse für den nächsten Prozess und erhält Inputs vom vorherigen Prozess. Dieses Prinzip fördert die Verantwortlichkeit und Qualitätssicherung in jeder Phase und unterstützt die kontinuierliche Verbesserung durch regelmäßiges Feedback.
+  #+END_NOTES
+
+#+ATTR_HTML: :width 20%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/Kunden_Lieferanten_Beziehung.png]]
+
+* Kundenanforderungen identifizieren
+  **Herausforderungen**
+  - Unklare Anforderungen
+  - Sich ändernde Anforderungen
+  - Technische Einschränkungen
+  - Kommunikationslücken
+  - Priorisierung von Anforderungen
+
+  #+BEGIN_NOTES
+  Kunden können ihre Bedürfnisse oft nicht klar artikulieren. Anforderungen können sich während des Entwicklungsprozesses ändern. Manchmal sind bestimmte Kundenanforderungen technisch nicht umsetzbar. Missverständnisse zwischen Kunden und Entwicklern können zu falschen Implementierungen führen. Es kann schwierig sein, zu entscheiden, welche Anforderungen zuerst umgesetzt werden sollten.
+  #+END_NOTES
+
+** Traditionelle Lösungen
+
+  - Fragebögen und Umfragen
+  - Persönliche Interviews
+  - Brainstorming-Sitzungen
+  - Flowcharts und Diagramme
+
+  #+BEGIN_NOTES
+  Fragebögen und Umfragen sammeln systematisch Feedback. Persönliche Interviews bieten tiefergehende Einblicke in Kundenbedürfnisse. Brainstorming fördert kreative Lösungen für komplexe Anforderungen. Flowcharts und Diagramme visualisieren Prozesse und klären Anforderungen.
+  #+END_NOTES
+
+** Moderne Tools
+
+  
+  - [[https://www.fhnw.ch/plattformen/iwi/2021/04/07/scrum-und-kanban-agilitaet-mit-unterschied/][Agile Methoden]] (Scrum, Kanban)
+  - [[https://de.wikipedia.org/wiki/User_Story][User Stories]] & Akzeptanzkriterien
+  - [[https://gipfel.dev/blog/prototyping/][Prototyping-Tools]] (Figma, Sketch)
+  - [[https://geekflare.com/de/trello-vs-jira-work-management/][Anforderungsmanagement-Software]] (JIRA, Trello)
+
+  #+BEGIN_NOTES
+  Agile Methoden ermöglichen kurze Entwicklungszyklen und regelmäßiges Kundenfeedback. User Stories helfen, Anforderungen aus der Benutzersicht zu definieren. Prototyping-Tools visualisieren Kundenanforderungen. Anforderungsmanagement-Software hilft bei der Erfassung und Priorisierung von Anforderungen.
+  #+END_NOTES
+
+** Quality Function Deployment (QFD) in der IT
+
+  - Kundenanforderungen erfassen
+  - "[[https://www.business-wissen.de/hb/anwendung-quality-function-deployment-und-beispiele-fuer-das-house-of-quality/][House of Quality]]" erstellen
+  - Beziehungen definieren & Prioritäten setzen
+  - Kontinuierliche Verbesserung
+
+#+CAPTION: House of Quality
+#+NAME: fig:hoq
+#+ATTR_HTML: :width 20%
+#+ATTR_LATEX: :width .5\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/HoQ.png]]
+  #+BEGIN_NOTES
+  QFD ist eine Methode zur Übersetzung von Kundenanforderungen in technische Spezifikationen. Das "House of Quality" verknüpft Kunden- mit technischen Anforderungen. Beziehungen in der Matrix zeigen, wie technische Anforderungen Kundenanforderungen beeinflussen. QFD ist ein iterativer Prozess, der neue Erkenntnisse und Feedback berücksichtigt.
+  #+END_NOTES
+
+* Kundenzufriedenheit messen
+  **Wozu?**
+  - **Kundenbindung:** Zufriedene Kunden sind loyaler.
+  - **Produktverbesserung:** Feedback hilft bei Optimierungen.
+  - **Marktpositionierung:** Verständnis schafft Wettbewerbsvorteile.
+
+  **Herausforderungen:**
+  - **Repräsentativität:** Sicherstellen einer repräsentativen Stichprobe.
+  - **Ehrliches Feedback:** Vermeidung von Biases.
+  - **Dateninterpretation:** Richtige Umsetzung des Feedbacks.
+
+  #+BEGIN_NOTES
+  Die Erhebung der Kundenzufriedenheit ist ein wesentlicher Bestandteil des Kundenbeziehungsmanagements. Es hilft Unternehmen nicht nur zu verstehen, wie sie in den Augen ihrer Kunden abschneiden, sondern auch, wie sie ihre Angebote verbessern können. Zufriedene Kunden neigen dazu, wiederzukaufen und Unternehmen weiterzuempfehlen. Kundenzufriedenheit kann sich über die Zeit ändern, daher ist kontinuierliche Überwachung wichtig. Trotz ihrer Bedeutung ist die Messung der Kundenzufriedenheit mit verschiedenen Herausforderungen verbunden, von der Gewährleistung der Repräsentativität der Daten bis hin zur Interpretation und Umsetzung des Feedbacks.
+  #+END_NOTES
+** Direkte Kundenbefragung: Fragebogen, Web-Formular, Umfrage
+  - **Customer Satisfaction Score (CSAT)**: Durchschnitt aller Kundenbewertungen
+#+ATTR_HTML: :height 40px
+#+ATTR_LATEX: :width .5\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/CSAT.png]]
+#+BEGIN_NOTES
+CSAT (Customer Satisfaction Score) ist ein Maß für die Kundenzufriedenheit, das die Zufriedenheit der Kunden mit einem Produkt, einer Dienstleistung oder einer Kundenbetreuungsinteraktion misst. Es basiert auf einer einfachen Umfrage, bei der Kunden gefragt werden: „Wie zufrieden waren Sie mit [Unternehmen/Produkt/Interaktion]?“. Kunden antworten in der Regel auf einer Skala von 1 bis 5, wobei die Ergebnisse zu einem leicht zu vergleichenden CSAT-Metrik zusammengefasst werden. Ein zusätzlicher offener Kommentarbereich ermöglicht es den Kunden, genauer zu erklären, warum sie eine bestimmte Bewertung gewählt haben.
+#+END_NOTES
+  - **Net Promoter Score (NPS)**: Anzahl (Promoter) – Anzahl (Kritiker)
+#+ATTR_HTML: :height 40px
+#+ATTR_LATEX: :width .5\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/NPS.png]]
+#+BEGIN_NOTES
+Net Promoter Score (NPS) ist ein Metrik, der in Kundenbindung-Programmen verwendet wird, um die Loyalität von Kunden zu einem Unternehmen zu messen. NPS wird mit einer einzigen Frage gemessen: "Wie wahrscheinlich ist es, dass Sie [Organisation X/Produkt Y/Service Z] einem Freund oder Kollegen empfehlen würden?" Die Antwortmöglichkeiten reichen von 0 (überhaupt nicht wahrscheinlich) bis 10 (äußerst wahrscheinlich).Abhängig von ihrer Antwort werden Kunden in eine von drei Kategorien eingeteilt: Promotoren (Bewertung 9-10), Passive (Bewertung 7-8) und Kritiker (Bewertung 0-6).Der endgültige NPS-Wert wird berechnet, indem man den Prozentsatz der Kritiker vom Prozentsatz der Promotoren subtrahiert, wobei ein höherer Wert wünschenswert ist.
+#+END_NOTES
+  - **Der Customer Effort Score (CES)** misst den Aufwand, den ein Kunde aufwenden muss, um ein bestimmtes Problem zu lösen.
+#+BEGIN_NOTES
+Der Customer Effort Score (CES) ist eine Metrik zur Messung der Kundenerfahrung, die die Leichtigkeit bewertet, mit der Kunden Ihr Produkt oder Ihre Dienstleistung nutzen können, ein Supportproblem lösen oder die benötigten Informationen finden können. Kunden bewerten ihren Aufwand auf einer Skala von 1 bis 7 mittels einer CES-Umfrage. Der CES wurde entwickelt, um die "Anstrengung" oder den "Aufwand" zu messen, den ein Kunde unternehmen muss, um ein Problem zu lösen oder eine Anfrage zu erfüllen, wobei ein niedrigerer Aufwand in der Regel zu höherer Kundenzufriedenheit und -loyalität führt.
+#+END_NOTES
+*** Vor- und Nachteile direkter Kundenbefragungen
+  
+  **Vorteile:**
+  - **Direktes Feedback:** Unmittelbare Rückmeldungen zu Produkten, Dienstleistungen oder allgemeinen Erfahrungen.
+  - **Quantifizierbare Daten:** Ermöglicht statistische Analysen und Trends.
+  - **Anpassungsfähigkeit:** Fragen können spezifisch auf Unternehmensbedürfnisse zugeschnitten werden.
+
+  **Nachteile:**
+  - **Aufwand:** Je umfangreicher die Befragung, desto geringer die Rücklaufquote.
+  - **Biases:** Antwortverzerrungen wie soziale Erwünschtheit oder Reihenfolgeeffekte können die Ergebnisse beeinflussen.
+  - **Aussagekraft:** Eine hohe Anzahl an Rückmeldungen garantiert nicht immer eine hohe Qualität oder Repräsentativität der Daten.
+
+  #+BEGIN_NOTES
+  Direkte Kundenbefragungen sind ein wertvolles Instrument, um Einblicke in die Kundenerfahrung zu gewinnen. Der Zusammenhang zwischen dem Aufwand der Befragung, der Anzahl der Rückmeldungen und der Aussagekraft der Daten ist jedoch komplex. Während umfangreichere Befragungen detailliertere Daten liefern können, können sie auch zu einer geringeren Beteiligung führen. Zudem können verschiedene Biases die Ergebnisse beeinflussen, was bei der Interpretation der Daten berücksichtigt werden sollte.
+  #+END_NOTES
+
+
+
+** Indirekte Kundenbefragung: Analyse interner und externer Daten
+  **1. Analyse von Kundenbewertungen:**
+  - Auswertung von Online-Bewertungen und -Rezensionen.
+  
+  **2. Social Media Monitoring:**
+  - Beobachtung von Kundenfeedback und -meinungen in sozialen Netzwerken.
+  
+  **3. Verkaufszahlen und Wiederkaufsraten:**
+  - Analyse von Verkaufstrends und Kundenloyalität.
+
+  #+BEGIN_NOTES
+  Indirekte Methoden zur Erhebung der Kundenzufriedenheit basieren auf Daten und Informationen, die nicht direkt durch Befragungen oder Umfragen gesammelt werden. Stattdessen werden vorhandene Datenquellen genutzt, um Rückschlüsse auf die Zufriedenheit der Kunden zu ziehen. Dies kann eine effiziente Möglichkeit sein, ein breites Spektrum von Kundenfeedback zu erfassen, ohne direkt mit den Kunden in Kontakt treten zu müssen.
+  #+END_NOTES
+
+*** "Things Gone Wrong"-Methode
+ 
+  - **Fokus auf Probleme:** Identifizierung spezifischer Problembereiche.
+  - **Problemlösung:** Gezielte Maßnahmen zur Behebung von Kundenproblemen.
+  - **Vergleich mit Konkurrenten:** Bewertung der Leistung im Branchenvergleich.
+  - **Einfache Interpretation:** Niedrigere Werte sind besser, da sie weniger Probleme anzeigen.
+
+  #+BEGIN_NOTES
+  Die "Things Gone Wrong"-Methode konzentriert sich auf negative Kundenerfahrungen und zielt darauf ab, spezifische Problembereiche zu identifizieren. Ein Unternehmen mit weniger gemeldeten Problemen könnte als überlegen angesehen werden. Es ist jedoch wichtig, diese Methode in Kombination mit anderen Feedback-Methoden zu verwenden, um ein vollständiges Bild der Kundenzufriedenheit zu erhalten.
+  #+END_NOTES
+
+*** Vor- und Nachteile indirekter Methoden
+
+  **Vorteile:**
+  - **Umfassende Daten:** Nutzung vorhandener Datenquellen.
+  - **Zeiteffizient:** Keine zusätzlichen Umfragen oder Befragungen erforderlich.
+  - **Unverfälschtes Feedback:** Keine Beeinflussung durch direkte Befragung.
+
+  **Nachteile:**
+  - **Mögliche Verzerrungen:** Daten können nicht immer direkt auf Zufriedenheit zurückgeführt werden.
+  - **Fehlende Tiefe:** Weniger detaillierte Informationen als bei direkten Befragungen.
+  - **Reaktionsverzögerung:** Feedback kann zeitverzögert oder veraltet sein.
+
+  #+BEGIN_NOTES
+  Indirekte Methoden zur Erhebung der Kundenzufriedenheit basieren auf Daten und Informationen, die nicht direkt durch Befragungen oder Umfragen gesammelt werden. Sie bieten eine Möglichkeit, ein breites Spektrum von Kundenfeedback zu erfassen, ohne direkt mit den Kunden in Kontakt treten zu müssen. Es ist jedoch wichtig, die Grenzen dieser Methoden zu erkennen und sie gegebenenfalls mit direkten Feedback-Methoden zu kombinieren.
+  #+END_NOTES
+
+
+* Beschwerdemangement
+  **Was ist Beschwerdemanagement?**
+  - Systematischer Prozess zur Erfassung, Bearbeitung und Analyse von Kundenbeschwerden.
+
+  **Warum ist es wichtig?**
+  - Erkenntnisse über Kundenerwartungen und -bedürfnisse.
+  - Möglichkeit zur Steigerung der Kundenzufriedenheit.
+  - Chance zur kontinuierlichen Verbesserung von Produkten und Dienstleistungen.
+
+  **Ziel des Beschwerdemanagements:**
+  - Probleme effektiv lösen und negative Kundenerfahrungen in positive Erlebnisse umwandeln.
+
+  #+BEGIN_NOTES
+  Beschwerdemanagement ist ein wesentlicher Bestandteil des Kundenbeziehungsmanagements. Es ermöglicht Unternehmen, direktes Feedback von Kunden zu erhalten und darauf zu reagieren. Ein effektives Beschwerdemanagement kann die Kundenzufriedenheit erhöhen, die Kundenbindung stärken und wertvolle Einblicke für die Unternehmensentwicklung bieten.
+  #+END_NOTES
+
+** Beschwerden als Geschenk 
+  
+  **Wertvolle Rückmeldung:**
+  - Kostenlose Beratung über Verbesserungspotenzial.
+  - Erkennen von Schwachstellen und Problembereichen.
+
+  **Chance zur Verbesserung:**
+  - Optimierung von Produkten und Dienstleistungen.
+  - Behebung wiederkehrender Probleme.
+
+  **Kundenbindung:**
+  - Umgang mit Beschwerden fördert Loyalität.
+  - Zeigt Kunden, dass ihre Bedenken ernst genommen werden.
+
+  #+BEGIN_NOTES
+  Beschwerden bieten Unternehmen die Möglichkeit, direktes Feedback von Kunden zu erhalten. Dieses Feedback kann genutzt werden, um Produkte und Dienstleistungen zu verbessern und die Kundenbindung zu stärken.
+  #+END_NOTES
+
+#+REVEAL: split
+  **Positive Mundpropaganda:**
+  - Zufriedene Kunden nach effektiver Beschwerdebearbeitung.
+  - Förderung des Unternehmensrufs.
+
+  **Risikomanagement:**
+  - Erkennen potenzieller rechtlicher Risiken.
+  - Frühzeitige Behebung von Problemen.
+
+  **Vermeidung zukünftiger Fehler:**
+  - Identifizierung von Mustern in Beschwerden.
+  - Proaktive Maßnahmen zur Fehlervermeidung.
+
+  #+BEGIN_NOTES
+  Ein effektives Beschwerdemanagement kann nicht nur die Kundenzufriedenheit erhöhen, sondern auch das Unternehmensimage stärken und potenzielle Risiken minimieren. Beschwerden bieten somit wertvolle Chancen für kontinuierliche Verbesserungen.
+  #+END_NOTES
+
+** Beschwerde vs. Reklamation
+  
+  **Beschwerde:**
+  - Allgemeines Feedback oder Unzufriedenheit über ein Produkt oder eine Dienstleistung.
+  - Keine rechtlichen Folgen, aber wichtig für das Kundenbeziehungsmanagement.
+
+#+BEGIN_tolearn
+  **Reklamation:**
+  - Einwand aufgrund eines Sachmangels bei einem Produkt oder einer nicht vertragsgemäßen Dienstleistung.
+  - Rechtlich verankert: Bei Sachmängeln haben Kunden Anspruch auf Nachbesserung, Umtausch, Minderung oder Rücktritt vom Vertrag.
+#+END_tolearn
+
+
+  #+BEGIN_NOTES
+  Während sowohl Beschwerden als auch Reklamationen Formen des Kundenfeedbacks sind, haben sie unterschiedliche rechtliche und operative Implikationen. Beschwerden sind allgemeiner Natur und beziehen sich auf Unzufriedenheit, während Reklamationen spezifische Sachmängel oder Vertragsverletzungen betreffen und rechtliche Ansprüche mit sich bringen können. Beide bieten jedoch Unternehmen die Möglichkeit, ihre Produkte, Dienstleistungen und Kundenbeziehungen zu verbessern.
+  #+END_NOTES

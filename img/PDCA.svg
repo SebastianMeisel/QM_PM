@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="173.0677mm"
+   height="170.28998mm"
+   viewBox="0 0 173.0677 170.28998"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="PDCA.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true">
+    <sodipodi:guide
+       position="196.72903,211.68081"
+       orientation="0,-1"
+       id="guide16"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="86.769623,194.51107"
+       orientation="1,0"
+       id="guide17"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.518197,-59.710331)">
+    <g
+       id="g21"
+       inkscape:transform-center-x="62.92111"
+       inkscape:transform-center-y="0.66183228"
+       transform="rotate(-88.603668,102.85948,145.38678)">
+      <g
+         id="g22">
+        <path
+           style="fill:#800000;stroke:#000000;stroke-width:1.93616;stroke-linecap:round;stroke-linejoin:round"
+           d="M 57.85982,102.05232 60.079522,83.105359 41.132558,85.325061 C 8.2625643,118.19534 8.2627293,171.48833 41.132927,204.3584 L 57.860189,187.63114 C 34.228177,163.99929 34.228012,125.68438 57.85982,102.05232 Z"
+           id="path12"
+           sodipodi:nodetypes="cccccc"
+           transform="rotate(88.603668,102.85948,145.38678)" />
+        <path
+           style="fill:#ff6600;stroke:#000000;stroke-width:1.93616;stroke-linecap:round;stroke-linejoin:round"
+           d="m 38.913225,185.41144 18.946964,2.2197 c 23.631906,23.63166 67.238201,23.63166 90.870111,0 l 16.72726,16.72726 c -32.87013,32.86985 -91.454506,32.86985 -124.324633,0 z"
+           id="path11"
+           transform="rotate(88.603668,102.85948,145.38678)" />
+        <path
+           style="display:inline;fill:#008000;stroke:#000000;stroke-width:1.93616;stroke-linecap:round;stroke-linejoin:round"
+           d="m 143.439,102.05232 c 23.63181,23.63206 28.92331,61.94697 5.2913,85.57882 l -2.2197,18.94696 18.94696,-2.2197 c 32.8702,-32.87007 27.57869,-86.16306 -5.2913,-119.033339 z"
+           id="path1"
+           transform="rotate(88.603668,102.85948,145.38678)" />
+        <path
+           style="display:inline;fill:#000080;stroke:#000000;stroke-width:1.93616;stroke-linecap:round;stroke-linejoin:round"
+           d="m 162.38596,104.27202 -18.94696,-2.2197 c -23.63199,-23.632153 -61.94719,-23.632153 -85.57918,0 L 41.132558,85.325061 c 32.870212,-32.870342 86.163492,-32.870342 119.033702,0 z"
+           id="path10"
+           transform="rotate(88.603668,102.85948,145.38678)" />
+        <g
+           id="g15"
+           transform="rotate(88.603668,102.85948,145.38678)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9269px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.57045;stroke-linecap:round;stroke-linejoin:round"
+             id="text12"><textPath
+               xlink:href="#path14"
+               startOffset="50%"
+               id="textPath14"><tspan
+                 id="tspan12"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans;fill:#ffffff;stroke:none;stroke-width:2.57045"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.7556px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
+   id="tspan14">P</tspan>lan</tspan></textPath></text>
+          <path
+             style="display:inline;fill:none;stroke:none;stroke-width:1.93616;stroke-linecap:round;stroke-linejoin:round"
+             d="m 57.85982,96.760653 c 23.63199,-23.63215 61.94719,-23.63215 85.57918,0"
+             id="path14"
+             sodipodi:nodetypes="cc" />
+        </g>
+        <g
+           id="g16"
+           inkscape:transform-center-x="-64.2952"
+           inkscape:transform-center-y="-1.4612487"
+           transform="rotate(178.60367,102.49405,145.00305)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9269px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.57045;stroke-linecap:round;stroke-linejoin:round"
+             id="text16"><textPath
+               xlink:href="#path14"
+               startOffset="50%"
+               id="textPath16"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.7556px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
+   id="tspan17">D</tspan>o</textPath></text>
+          <path
+             style="display:inline;fill:none;stroke:none;stroke-width:1.93616;stroke-linecap:round;stroke-linejoin:round"
+             d="m 57.85982,96.760653 c 23.63199,-23.63215 61.94719,-23.63215 85.57918,0"
+             id="path16"
+             sodipodi:nodetypes="cc" />
+        </g>
+        <g
+           id="g18"
+           inkscape:transform-center-x="-2.1007403"
+           inkscape:transform-center-y="63.067894"
+           transform="rotate(-91.721912,102.47819,144.62653)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9269px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.57045;stroke-linecap:round;stroke-linejoin:round"
+             id="text18"
+             inkscape:transform-center-x="0.67483574"
+             inkscape:transform-center-y="69.891395"
+             transform="rotate(1.6449748,102.09958,145.13738)"><textPath
+               xlink:href="#path14"
+               startOffset="50%"
+               id="textPath18"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.7556px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
+   id="tspan19">C</tspan>heck</textPath></text>
+          <path
+             style="display:inline;fill:none;stroke:none;stroke-width:1.93616;stroke-linecap:round;stroke-linejoin:round"
+             d="m 57.85982,96.760653 c 23.63199,-23.63215 61.94719,-23.63215 85.57918,0"
+             id="path18"
+             sodipodi:nodetypes="cc" />
+        </g>
+        <path
+           style="fill:#800000;stroke:#000000;stroke-width:1.93616;stroke-linecap:round;stroke-linejoin:round"
+           d="M 57.330653,103.11065 60.079522,83.105359 40.074225,85.854228"
+           id="path20"
+           sodipodi:nodetypes="ccc"
+           transform="rotate(88.603668,102.85948,145.38678)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9269px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.57045;stroke-linecap:round;stroke-linejoin:round"
+           id="text20"
+           inkscape:transform-center-x="0.67483574"
+           inkscape:transform-center-y="69.891395"
+           transform="rotate(1.6449748,102.09958,145.13738)"><textPath
+             xlink:href="#path14"
+             startOffset="50%"
+             id="textPath20"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.7556px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
+   id="tspan21">A</tspan>ct</textPath></text>
+        <path
+           style="display:inline;fill:none;stroke:none;stroke-width:1.93616;stroke-linecap:round;stroke-linejoin:round"
+           d="m 57.85982,96.760653 c 23.63199,-23.63215 61.94719,-23.63215 85.57918,0"
+           id="path21"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+  </g>
+</svg>
