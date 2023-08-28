@@ -1,0 +1,26 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: PDCA-Zyklus
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+
+* Einführung in den PDCA-Zyklus
+  :PROPERTIES:
+  :CUSTOM_ID: einfuehrung-pdca
+  :END:
+
+  Der PDCA-Zyklus, auch bekannt als Demingkreis oder Shewhart-Zyklus, wurde ursprünglich von den Statistikern Edwards E. Deming und Walter A. Shewhart entwickelt. Es handelt sich um ein kontinuierliches Verbesserungsinstrument, das in vielen Branchen und Organisationen eingesetzt wird, um Prozesse und Produkte zu optimieren. Während der Zyklus ein mächtiges Werkzeug ist, ist es wichtig zu betonen, dass eine Übersimplifizierung vermieden werden sollte. Die Komplexität und Nuancen des realen Geschäftsumfelds erfordern oft eine tiefere Analyse und Anpassung.
+
+  Alternative Bezeichnungen für den PDCA-Zyklus sind unter anderem "Demingkreis", nach Edwards E. Deming, und "Shewhart-Zyklus", nach Walter A. Shewhart. Beide waren maßgeblich an der Entwicklung und Popularisierung dieses Ansatzes beteiligt.
+
+  #+BEGIN_NOTES
+  Der PDCA-Zyklus ist ein bewährtes Instrument, aber wie bei allen Werkzeugen ist es wichtig, es im richtigen Kontext und mit dem notwendigen Verständnis zu verwenden.
+  #+END_NOTES
