@@ -1,0 +1,95 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Prozessmodelierung im Qualitätsmanagement
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+
+* Einführung 
+
+Die Prozessmodellierung ist ein Schlüsselwerkzeug im Qualitätsmanagement und dient der systematischen Darstellung und Analyse von Geschäfts- oder Systemprozessen. Durch die Verwendung verschiedener Diagrammtypen und Notationen können komplexe Abläufe und Strukturen visualisiert und besser verstanden werden. Dies erleichtert nicht nur die Kommunikation zwischen den Stakeholdern, sondern ermöglicht auch die Identifikation von Optimierungspotenzialen. In diesem Dokument werden verschiedene Methoden der Prozessmodellierung vorgestellt, darunter EPK-Diagramme, UML-Diagramme, Flussdiagramme, PAPs und BPMN. Jede Methode hat ihre eigenen Stärken und Anwendungsbereiche, die im Folgenden detailliert erläutert werden.
+
+** EPK-Diagramme
+   Ereignisgesteuerte Prozessketten (EPKs) sind ein Standard für die Modellierung von Geschäftsprozessen. Sie kombinieren Ereignisse und Funktionen.
+
+#+REVEAL: split
+#+CAPTION: EPK
+#+NAME: fig:epk
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+    [[file:./img/EPK.png]]
+   #+BEGIN_NOTES
+   Weitere Informationen finden Sie auf der [[https://de.wikipedia.org/wiki/Ereignisgesteuerte_Prozesskette][Wikipedia-Seite zu EPKs]].
+   #+END_NOTES
+
+** UML-Diagramme
+   UML bietet verschiedene Diagrammtypen für die Prozessmodellierung, darunter Aktivitäts- und Sequenzdiagramme.
+
+#+REVEAL: split
+#+CAPTION: UML: Von MetaMarph - Eigenes Werk, CC BY-SA 3.0 
+#+NAME: fig:uml
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+    [[file:./img/UML-Diagramme.png]]
+   #+BEGIN_NOTES
+   UML ist die dominierende Sprache für die Softwaresystem-Modellierung. Mehr dazu auf der [[https://de.wikipedia.org/wiki/Unified_Modeling_Language#Diagrammtypen][Wikipedia-Seite zu UML]].
+   #+END_NOTES
+
+** Flussdiagramme
+   Flussdiagramme sind einfache Darstellungen von Prozessen und deren Abläufen, oft mit Entscheidungspunkten.
+
+#+REVEAL: split
+#+CAPTION: Flussdiagramme zum PDCA-Zyklus
+#+NAME: fig:fluss
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+    [[file:./img/Flussdiagramm.png]]
+   #+BEGIN_NOTES
+   Flussdiagramme sind weniger formal als UML und EPK, aber leicht verständlich.
+   #+END_NOTES
+
+** PAP (Programmablaufplan)
+   PAPs sind speziell für die Darstellung von Algorithmen und logischen Abläufen in Softwareprozessen. Sie können abgewandelt auch zur Prozessmodelierung verwendet werden.
+
+#+REVEAL: split
+#+CAPTION: PAP
+#+NAME: fig:PAP
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+    [[file:./img/PAP.png]]
+   #+BEGIN_NOTES
+   Weitere Informationen finden Sie auf der [[https://de.wikipedia.org/wiki/Programmablaufplan][Wikipedia-Seite zu PAPs]].
+   #+END_NOTES
+
+** BPMN (Business Process Model and Notation)
+   BPMN ist ein Standard für die Modellierung von Geschäftsprozessen und bietet eine reiche Syntax.
+
+#+REVEAL: split
+#+CAPTION: BPMN
+#+NAME: fig:BPMN 
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+    [[file:./img/BPMN.png]]
+   #+BEGIN_NOTES
+   BPMN ist ein weit verbreiteter Standard für Geschäftsprozessmodellierung. Mehr dazu auf der [[https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation][Wikipedia-Seite zu BPMN]].
+   #+END_NOTES
