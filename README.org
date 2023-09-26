@@ -1,0 +1,34 @@
+* README für das Repository: QM_PM
+
+** Fach: KOM-ITIL
+Dieses Repository enthält Lernmaterialien für das Fach KOM-ITIL, das im Rahmen der Umschulung zu IT-Berufen wie Fachinformatiker für Anwendungsentwicklung und Fachinformatiker für Systemadministration angeboten wird.
+
+*** Qualitätsmanagement nach ISO 9001
+- Grundlagen des Qualitätsmanagements nach ISO 9001.
+- Sieben Grundsätze des Qualitätsmanagements.
+- PDCA-Zyklus und dessen Anwendung im Qualitätsmanagement.
+- Wichtige Normen und Standards: DIN 69901, DIN EN ISO 9000 ff (insbesondere DIN EN ISO 9001) und 31000.
+
+*** Projektmanagement
+- Grundlagen des Projektmanagements.
+- Unterschiede und Anwendungen von Wasserfall- und agilen Projektmanagementmethoden.
+- Netzplanung, Erstellung und Interpretation.
+- Earned Value Management und seine Bedeutung im Projektmanagement.
+- Agile Methoden wie Scrum und ihre Anwendung in IT-Projekten.
+
+*** ITIL (Information Technology Infrastructure Library)
+- Einführung in ITIL und seine Bedeutung in der IT-Branche.
+- Kernprozesse und Funktionen von ITIL.
+- Service Lifecycle und dessen Phasen.
+- Best Practices für IT-Service-Management.
+
+** Zu lernen:
+:PROPERTIES:
+:BEGIN_tolearn:
+:END:
+Die oben genannten Themen bilden den Kern des Lernstoffs für das Fach KOM-ITIL. Es wird empfohlen, sich gründlich mit jedem Thema zu befassen und praktische Übungen durchzuführen, um ein tiefes Verständnis zu erlangen.
+
+** Weiterführende Ressourcen:
+- [[https://github.com/SebastianMeisel/QM_PM/blob/main/Agiles_Projektmanagement.pdf][Agiles Projektmanagement]]
+- [[https://github.com/SebastianMeisel/QM_PM/blob/main/Einführung_PM.pdf][Einführung in PM]]
+- [[https://github.com/SebastianMeisel/QM_PM/blob/main/ITIL.pdf][ITIL Grundlagen]]
