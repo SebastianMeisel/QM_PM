@@ -1,0 +1,55 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 1
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+* Einführung
+  - Lasten- und Pflichtenheft sind zentrale Dokumente in der Projektplanung und -umsetzung.
+  - Sie dienen als Kommunikationsmittel zwischen Auftraggeber und Auftragnehmer und definieren die Anforderungen und Erwartungen für ein Projekt.
+  #+BEGIN_NOTES
+  - Das Lastenheft und Pflichtenheft sind insbesondere in der IT von großer Bedeutung, da sie dazu beitragen, die Komplexität von Software- und Systemprojekten zu strukturieren und zu managen.
+  #+END_NOTES
+
+* Lastenheft
+  #+BEGIN_tolearn
+  - Wird vom Auftraggeber erstellt.
+  - Stellt die Gesamtheit der Projektanforderungen dar.
+  - Kann in einfacher (nicht fachlicher) Sprache verfasst sein.
+  - Ist nicht rechtsverbindlich.
+  #+END_tolearn
+  #+BEGIN_NOTES
+  - Das Lastenheft beschreibt, was der Auftraggeber von einem Projekt erwartet, ohne dabei auf technische Details einzugehen.
+  - Es dient als Grundlage für die Angebotserstellung durch potenzielle Auftragnehmer.
+  #+END_NOTES
+
+* Pflichtenheft
+  #+BEGIN_tolearn
+  - Wird vom Auftragnehmer erstellt.
+  - Legt die geplante Umsetzung des Projektes dar.
+  - Legt die Abgrenzung des Projektes fest (was soll im Projekt geleistet werden, was nicht).
+  - Ist in Fachsprache verfasst und enthält alle technischen Details.
+  - Ist rechtsverbindlich.
+  #+END_tolearn
+  #+BEGIN_NOTES
+  - Das Pflichtenheft ist eine detaillierte Antwort auf das Lastenheft und beschreibt, wie der Auftragnehmer die Anforderungen des Auftraggebers technisch umsetzen möchte.
+  - Es dient als vertragliche Grundlage für die Projektumsetzung.
+  #+END_NOTES
+
+* Anwendung im IT-Bereich
+  - In der Anwendungsentwicklung werden Lasten- und Pflichtenheft verwendet, um Softwareanforderungen zu definieren und die geplante Implementierung zu beschreiben.
+  - In der Systemadministration können sie verwendet werden, um Systemanforderungen und geplante Wartungsarbeiten zu definieren.
+  #+BEGIN_NOTES
+  - Besonders in komplexen IT-Projekten ist eine klare Definition von Anforderungen und deren Umsetzung essentiell, um Missverständnisse zu vermeiden und das Projekt erfolgreich abzuschließen.
+  #+END_NOTES
+
+* Wichtigkeit
+  - Ein klar definiertes Lasten- und Pflichtenheft kann Missverständnisse vermeiden und stellt sicher, dass beide Parteien die gleichen Erwartungen an das Projekt haben.
+  #+BEGIN_NOTES
+  - Durch die klare Trennung von "Was" (Lastenheft) und "Wie" (Pflichtenheft) können beide Parteien ihre Erwartungen und Leistungen besser abstecken und kontrollieren.
+  #+END_NOTES
+
+
