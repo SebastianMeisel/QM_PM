@@ -1,0 +1,705 @@
+/* Define variables for easier maintenance */
+:root {
+  /* Font and Layout */
+  --main-font: 'Arial', sans-serif;
+  --secondary-font: 'Tahoma', sans-serif;
+  --base-font-size: 16px;
+  --tj-font-size: 11px;
+  --tj-small-font-size: 9px;
+  --tj-h1-font-size: 16px;
+  --tj-h2-font-size: 14px;
+  --tj-h3-font-size: 13px;
+  --tj-h4-font-size: 12px;
+  --tj-page-margin: 35px 5% 25px 5%;
+  --tj-vertical-align: top;
+  --navbar-font-size: 13px;
+  --navbar-font-weight: bold;
+
+  /* Colors */
+  --background-color: #ff6600;
+  --tj-table-bg-color: #ffffff;
+  --tj-table-headline-bg: #f2f2f2;
+  --tj-table-headline-font-size: 16px;
+  --tj-table-cell-padding: 1px 3px;
+  --tj-table-caption-bg: #e6e6e6;
+  --tj-table-legend-bg: #d9d9d9;
+  --tj-legend-font-size: 12px;
+  --tj-legend-symbol-size: 45px;
+  --tj-legend-spacer-width: 30px;
+  --tab-background: #ffffff;
+  --tab-front: #f2f2f2;
+  --tab-head: #e6e6e6;
+  --tab-head-offduty: #d9d9d9;
+  --tab-footer: #cccccc;
+  --text-color: #000000;
+  --cell-padding: 1px 3px 2px 3px;
+  --cost-account-1: #ffcc99;
+  --cost-account-2: #ffaa77;
+  --revenue-account-1: #99ff99;
+  --revenue-account-2: #77ff77;
+  --account-1: #99ccff;
+  --account-2: #7799ff;
+  --task-1: #99ccff;
+  --task-2: #7799ff;
+  --resource-1: #ffcc99;
+  --resource-2: #ffaa77;
+  --busy-1: #ff5050;
+  --busy-2: #ff3030;
+  --loaded-1: #ff9950;
+  --loaded-2: #ff7730;
+  --free-1: #50ff50;
+  --free-2: #30ff30;
+  --offduty-1: #c0c0c0;
+  --offduty-2: #a0a0a0;
+  --calconttask-1: #a0a099;
+  --calconttask-2: #888877;
+  --caltask-1: #5050ff;
+  --caltask-2: #3030ff;
+  --todo-1: #a09999;
+  --todo-2: #877777;
+  --tab-vline: #e6e6e6;
+  --gantt-frame: #000000;
+  --container-bar: #000000;
+  --task-bar: #ff6600;
+  --progress-bar: #006600;
+  --milestone: #660000;
+  --load-stack-frame: #995533;
+  --free: #50ff50;
+  --busy: #ff5050;
+  --assigned: #ff3030;
+  --off-duty: #c0c0c0;
+  --dep-line: #000000;
+  --now-line: #660000;
+  --mark-date-line: #000000;
+  --white: #ffffff;
+}
+
+/* Apply global styles */
+body {
+  font-family: var(--main-font);
+  font-size: var(--base-font-size);
+  background-color: var(--background-color); /* Adds backgroundth */
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.2em;
+}
+
+/* Tables and Cells */
+table,
+tr,
+td,
+div,
+span {
+  margin: 0;
+  padding: 0;
+}
+td img {
+  display: block;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* Base styles for tj_journal */
+.tj_journal {
+  font-size: var(--tj-font-size);
+}
+
+/* Italic text within tj_journal */
+i.tj_journal {
+  font-size: var(--tj-small-font-size);
+}
+
+/* Headings within tj_journal */
+h1.tj_journal,
+h2.tj_journal,
+h3.tj_journal,
+h4.tj_journal {
+  margin-bottom: 0.5em;
+}
+h1.tj_journal {
+  font-size: var(--tj-h1-font-size);
+  margin-left: 0;
+}
+h2.tj_journal {
+  font-size: var(--tj-h2-font-size);
+  margin-left: 10px;
+}
+h3.tj_journal {
+  font-size: var(--tj-h3-font-size);
+  margin: 5px 0 1px 20px;
+}
+h4.tj_journal {
+  font-size: var(--tj-h4-font-size);
+  margin-left: 30px;
+}
+
+/* Paragraphs within tj_journal */
+p.tj_journal {
+  margin: 1px 0 5px 30px;
+}
+
+/* Basic elements of a text report page */
+.tj_text_page {
+  width: 100%;
+  border-spacing: 0; /* Removed px for zero values */
+}
+
+/* Empty rule, consider adding styles or removing */
+.tj_text_row {
+}
+
+/* Column alignment */
+.tj_column_left,
+.tj_column_center,
+.tj_column_right {
+  vertical-align: var(--tj-vertical-align);
+}
+
+/* Top-level page layout */
+.tj_page {
+  margin: var(--tj-page-margin);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .tj_page {
+    margin: 20px 3% 15px 3%;
+  }
+}
+
+/* The container that holds report tables */
+.tj_table_frame {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #9a9a9a;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-spacing: 1px;
+  font-size: 13px;
+}
+
+/* The headline box for report tables */
+.tj_table_headline {
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 5px;
+  margin: 1px;
+  text-align: center;
+  color: #000000;
+  background-color: #d4dde6;
+}
+
+.tj_table {
+  background-color: #9a9a9a;
+  margin: 0px;
+  border-spacing: 1px;
+}
+
+/* The cells of the table header. */
+.tj_table_header_cell {
+  padding: 1px 3px 1px 3px;
+  white-space: nowrap;
+  border-spacing: 0px;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+/* A regular table cell. It usually contains the cell icon, the text
+ * label and a tooltip trigger. */
+.tj_table_cell {
+  font-size: 13px;
+  vertical-align: top;
+  padding: 1px 3px 1px 3px;
+  margin: 0px;
+  width: 100%;
+  border-spacing: 0px;
+  position: relative;
+  overflow: hidden;
+  align-text: left;
+}
+/* Table cell icons */
+.tj_table_cell_icon {
+  vertical-align: top;
+  text-align: right;
+  padding: 1px 3px 0 0;
+  width: 19px;
+}
+
+/* Table cell labels */
+.tj_table_cell_label {
+  font-size: 12px;
+  vertical-align: top;
+  padding-top: 1px;
+}
+
+/* Tooltip triggers */
+.tj_table_cell_tooltip {
+  font-size: var(--tj-table-font-size);
+  vertical-align: top;
+  padding: 2px 0 0 3px;
+}
+
+/* Tooltip container */
+.tj_tooltip_box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  visibility: hidden;
+}
+
+/* Table captions */
+.tj_table_caption {
+  padding: 5px 13px;
+  background-color: var(--tj-table-caption-bg);
+  text-align: left;
+  white-space: normal;
+  margin: 1px;
+  font-size: var(--tj-table-font-size);
+}
+
+/* Legend frame */
+.tj_table_legend_frame {
+  padding: 5px;
+  margin: 1px;
+  background-color: var(--tj-table-legend-bg);
+}
+
+/* Table legends */
+.tj_table_legend {
+  margin: auto;
+  text-align: center;
+  font-size: 11px;
+  color: #000;
+  border-spacing: 1px;
+}
+
+/* Legend rows */
+.tj_legend_row {
+  height: 19px;
+}
+/* Legend headlines */
+.tj_legend_headline {
+  font-size: var(--tj-legend-font-size);
+  font-weight: bold;
+}
+
+/* Legend items */
+.tj_legend_item {
+  /* Empty for now, can be used for future styling */
+}
+
+/* Legend symbols */
+.tj_legend_symbol {
+  position: relative;
+  width: var(--tj-legend-symbol-size);
+  height: 19px;
+}
+
+/* Legend labels */
+.tj_legend_label {
+  text-align: left;
+}
+
+/* Legend spacers */
+.tj_legend_spacer {
+  width: var(--tj-legend-spacer-width);
+}
+
+/* Gantt chart jags */
+.tj_gantt_jag {
+  position: absolute;
+  border-style: solid;
+  border-width: 0;
+  border-top: 5px solid var(--container-bar);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+/* Diamond shapes for charts */
+.tj_diamond_top,
+.tj_diamond_bottom {
+  position: absolute;
+  border-style: solid;
+  border-width: 0;
+  line-height: 0;
+}
+
+.tj_diamond_top {
+  padding-top: 1px;
+  border-bottom: 7px solid var(--milestone);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+
+.tj_diamond_bottom {
+  border-top: 7px solid var(--milestone);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+/* Arrow heads in tables */
+.tj_arrow_head {
+  position: absolute;
+  border-style: solid;
+  border-width: 0;
+  border-top: 5px solid transparent;
+  border-left: 5px solid black;
+  border-bottom: 5px solid transparent;
+}
+
+/* Table background */
+.tabback {
+  background-color: var(--tab-background);
+  overflow: visible;
+}
+
+/* Table foreground */
+.tabfront {
+  background-color: var(--tab-front);
+}
+
+/* Table header */
+.tabhead {
+  white-space: nowrap;
+  background-color: var(--tab-head);
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* Off-duty table header */
+.tabhead_offduty {
+  white-space: nowrap;
+  background-color: var(--tab-head-offduty);
+  color: #000000;
+}
+
+/* Table footer */
+.tabfooter {
+  white-space: nowrap;
+  background-color: var(--tab-footer);
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* Header cell div */
+.headercelldiv {
+  padding: 1px 3px 0 3px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Cell div */
+.celldiv {
+  padding: var(--cell-padding);
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Table line */
+.tabline {
+  color: #000000;
+}
+
+/* Table cell */
+.tabcell {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0;
+}
+/* Common properties for all cell types */
+.cell-common {
+  white-space: nowrap;
+  padding: 0;
+}
+
+/* Cost account cells */
+.costaccountcell1 {
+  background-color: var(--cost-account-1);
+}
+.costaccountcell2 {
+  background-color: var(--cost-account-2);
+}
+
+/* Revenue account cells */
+.revenueaccountcell1 {
+  background-color: var(--revenue-account-1);
+}
+.revenueaccountcell2 {
+  background-color: var(--revenue-account-2);
+}
+
+/* General account cells */
+.accountcell1 {
+  background-color: var(--account-1);
+}
+.accountcell2 {
+  background-color: var(--account-2);
+}
+
+/* Task cells */
+.taskcell1 {
+  background-color: var(--task-1);
+}
+.taskcell2 {
+  background-color: var(--task-2);
+}
+
+/* Resource cells */
+.resourcecell1 {
+  background-color: var(--resource-1);
+}
+.resourcecell2 {
+  background-color: var(--resource-2);
+}
+/* Busy status */
+.busy1 {
+  background-color: var(--busy-1);
+}
+.busy2 {
+  background-color: var(--busy-2);
+}
+
+/* Loaded status */
+.loaded1 {
+  background-color: var(--loaded-1);
+}
+.loaded2 {
+  background-color: var(--loaded-2);
+}
+
+/* Free status */
+.free1 {
+  background-color: var(--free-1);
+}
+.free2 {
+  background-color: var(--free-2);
+}
+
+/* Off-duty status */
+.offduty1 {
+  background-color: var(--offduty-1);
+}
+.offduty2 {
+  background-color: var(--offduty-2);
+}
+
+/* Calendar Contingent Task */
+.calconttask1 {
+  background-color: var(--calconttask-1);
+}
+.calconttask2 {
+  background-color: var(--calconttask-2);
+}
+
+/* Calendar Task */
+.caltask1 {
+  background-color: var(--caltask-1);
+}
+.caltask2 {
+  background-color: var(--caltask-2);
+}
+
+/* To-Do */
+.todo1 {
+  background-color: var(--todo-1);
+}
+.todo2 {
+  background-color: var(--todo-2);
+}
+/* Common class for all elements with absolute positioning */
+.absolute-position {
+  position: absolute;
+}
+
+/* Vertical line in tab */
+.tabvline {
+  background-color: var(--tab-vline);
+}
+
+/* Gantt frame */
+.tj_gantt_frame {
+  background-color: var(--gantt-frame);
+  z-index: -1; /* Make sure this element is above all other elements */
+}
+
+/* Container bar */
+.containerbar {
+  background-color: var(--container-bar);
+}
+
+/* Task bar frame */
+.taskbarframe {
+  background-color: var(--container-bar);
+}
+
+/* Task bar */
+.taskbar {
+  background-color: var(--task-bar);
+}
+
+/* Progress bar */
+.progressbar {
+  background-color: var(--progress-bar);
+}
+
+/* Milestone */
+.milestone {
+  background-color: var(--milestone);
+}
+
+/* Load stack frame */
+.loadstackframe {
+  background-color: var(--load-stack-frame);
+}
+
+/* Free */
+.free {
+  background-color: var(--free);
+}
+
+/* Busy */
+.busy {
+  background-color: var(--busy);
+}
+
+/* Assigned */
+.assigned {
+  background-color: var(--assigned);
+}
+
+/* Off-duty */
+.offduty {
+  background-color: var(--off-duty);
+  white-space: nowrap;
+  z-index: 0;
+}
+
+/* Dependency line */
+.depline {
+  background-color: var(--dep-line);
+}
+
+/* Now line */
+.nowline {
+  background-color: var(--now-line);
+}
+
+/* Mark date line */
+.markdateline {
+  background-color: var(--mark-date-line);
+}
+
+/* White */
+.white {
+  background-color: var(--white);
+}
+
+/* Add the common class to all elements */
+.tabvline,
+.tj_gantt_frame,
+.containerbar,
+.taskbarframe,
+.taskbar,
+.progressbar,
+.milestone,
+.loadstackframe,
+.free,
+.busy,
+.assigned,
+.offduty,
+.depline,
+.nowline,
+.markdateline,
+.white {
+  position: absolute;
+}
+/* Common class for navbar rulers */
+.navbar_ruler {
+  margin: 5px 0px 0px 0px;
+}
+
+/* Top ruler in navbar */
+.navbar_topruler {
+  margin-top: 7px;
+}
+
+/* Bottom ruler in navbar */
+.navbar_bottomruler {
+  margin-bottom: 7px;
+}
+
+/* Common class for navbar items */
+.navbar_item {
+  font-size: var(--navbar-font-size);
+  font-weight: var(--navbar-font-weight);
+}
+
+/* Current item in navbar */
+.navbar_current {
+  background-color: #606060;
+  padding: 5px;
+  color: #ffffff;
+}
+
+/* Other items in navbar */
+.navbar_other {
+  background-color: #ffffff;
+  padding: 2px;
+}
+
+/* Navbar */
+.navbar {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+/* Copyright text */
+.copyright {
+  font-size: 9px;
+  color: #101010;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Code section container */
+div[codesection] {
+  border: 2px solid #ababab;
+  background-color: #f0f0f0;
+  margin: 8px 0px;
+}
+
+/* Code section content */
+pre[codesection] {
+  padding: 0px 15px;
+}
