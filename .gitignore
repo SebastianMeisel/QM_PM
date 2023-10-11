@@ -9,3 +9,6 @@ Methode_vs_Prozess.odp
 *.out
 *.tex
 /FISID_Übungen/Online_Shop.Projekt.Lösung.xlsx
+*.fdb_latexmk
+/*.fls
+*.xdv
