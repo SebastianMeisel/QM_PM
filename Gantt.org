@@ -1,0 +1,258 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:2
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Gantt
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+
+
+* Gantt-Diagramm: Eine Einführung
+  :PROPERTIES:
+  :CUSTOM_ID: einleitung
+  :END:
+
+  Gantt-Diagramme sind ein beliebtes Werkzeug im Projektmanagement. Sie bieten eine visuelle Darstellung des Zeitplans eines Projekts.
+
+  - Verstehen, was ein Gantt-Diagramm ist
+  - Wissen, wie es im Projektmanagement verwendet wird
+
+* Geschichte des Gantt-Diagramms
+  :PROPERTIES:
+  :CUSTOM_ID: geschichte
+  :END:
+
+  Das Gantt-Diagramm wurde erstmals von Henry Gantt um 1910 entwickelt.
+
+[[file:img/gantt_historisch.png]]
+  
+* Beispiel-Gantt-Diagramme für ein Softwareprojekt
+
+** Einfaches Gantt-Diagramm
+
+#+NAME: Gantt
+| Arbeitspaket             | Dauer (Tage) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |    |
+|--------------------------+--------------+---+---+---+---+---+---+---+---+---+----+----+----+----+----+----+----+----+----+----+----+----|
+| Anforderungsanalyse      |            3 | X | X | X |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |
+| Backend-Design           |            4 |   |   |   | X | X | X | X |   |   |    |    |    |    |    |    |    |    |    |    |    |    |
+| Frontend-Design          |            6 |   |   |   | X | X | X | X | X | X |    |    |    |    |    |    |    |    |    |    |    |    |
+| Backend-Implementierung  |            3 |   |   |   |   |   |   |   |   |   | X  | X  | X  |    |    |    |    |    |    |    |    |    |
+| Frontend-Implementierung |            5 |   |   |   |   |   |   |   |   |   |    |    | X  | X  | X  | X  | X  |    |    |    |    |    |
+| API-Entwicklung          |            7 |   |   |   |   |   |   |   |   |   | X  | X  | X  | X  | X  | X  | X  |    |    |    |    |    |
+| Backend-Testing          |            8 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    | X  | X  | X  | X  |    |
+| Frontend-Testing         |            5 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    | X  | X  | X  | X  |    |
+| API-Testing              |            3 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    | X  | X  | X  |    |    |
+| Integration              |            3 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |    |
+| Dokumentation            |            2 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |    |
+| Abschluss                |            1 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |  |
+                          |              |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |  |
+
+#+REVEAL: split 
+- Sehr grundlegend und einfach zu verstehen.
+- Ideal für kleine Projekte mit wenigen Aufgaben.
+- Keine Abhängigkeiten zwischen den Aufgaben.
+
+- Nicht geeignet für komplexe Projekte.
+- Keine Möglichkeit, Abhängigkeiten oder Meilensteine darzustellen.
+
+** Gantt-Diagramm mit Abhängigkeiten
+#+BEGIN_SRC mermaid :exports results :file ./img/gantt_mit_abhaengigkeiten.png
+gantt
+    title Softwareprojekt mit Abhängigkeiten
+    dateFormat  YYYY-MM-DD
+    section Planung
+    Anforderungsanalyse :done,    aa, 2023-01-01, 3d
+    Design              :active,  des, after aa, 4d
+    Implementierung     :         imp, after des, 7d
+    Testing             :         tes, after imp, 5d
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/gantt_mit_abhaengigkeiten.png]]
+
+- Zeigt die Abhängigkeiten zwischen den Aufgaben.
+- Ermöglicht eine bessere Planung und Ressourcenallokation.
+
+- Kann kompliziert werden, wenn viele Abhängigkeiten vorhanden sind.
+- Erfordert sorgfältige Planung und Aktualisierung.
+
+** Erweitertes Gantt-Diagramm mit Teilprojekten und kritischem Pfad
+#+BEGIN_SRC mermaid :exports results :file ./img/gantt_mit_teilprojekten_erweitert.png
+gantt
+    title Erweitertes Softwareprojekt mit Teilprojekten
+    dateFormat  DD.MM.
+    axisFormat  %d.%m
+    excludes    weekends 31.10.
+    section Planung
+    Anforderungsanalyse       :crit,done,    aa, 09.10., 3d
+    section Entwicklung
+    Backend-Design            :active,  bdes, after aa, 4d
+    Frontend-Design           :crit,active,  fdes, after aa, 6d
+    Design done               :milestone,    m1, after bdes fdes, 20.10. 
+    Backend-Implementierung   :         bimp, after bdes, 3d
+    Frontend-Implementierung  :crit,         fimp, after fdes, 5d
+    API-Entwicklung           :         api, after bdes, 7d
+    Implementierung done      :milestone,    m2, after bimp fimp api, 27.10.
+    section Abschluss
+    Backend-Testing           :         btes, after bimp, 8d
+    Frontend-Testing          :crit,         ftes, after fimp, 5d
+    API-Testing               :         ates, after api, 3d
+    Testing done              :milestone,    m3, after btes ftes ates,
+    Integration               :crit,    intg, after m3, 3d
+    Dokumentation             :crit,    dok, after intg, 2d
+    Abschluss                 :crit,    abs, after dok, 1d
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/gantt_mit_teilprojekten_erweitert.png]]
+
+- Sehr detailliert und umfasst Teilprojekte.
+- Zeigt den kritischen Pfad und Meilensteine.
+
+- Kann sehr komplex und schwer zu verwalten sein.
+- Erfordert spezielle Software oder Kenntnisse zur Erstellung.
+
+
+** Complex Gantt Chart Example with TaskJuggler
+#+BEGIN_SRC taskjuggler :file gantt.html :exports none
+project "Complex Software Project" 2023-10-09 - 2023-11-10 {
+  timezone "UTC"
+  workinghours mon - fri 00:00 - 24:00
+}
+
+resource fe "Frontend Development" {
+    resource senior "Senior Entwickler"
+    resource junior "Junior Entwickler"
+}
+
+resource be "Backend Development" {
+    resource alter "Alter Hase"
+    resource newb "Keine Ahnung"
+}
+
+resource pm "Projektmanager"
+resource ma "Mädchen für alles"
+
+leaves holiday "Reformationstag" 2023-10-31
+leaves holiday "Heilig Abend" 2023-12-24
+leaves holiday "1. Feiertag" 2023-12-25
+leaves holiday "2. Feiertag" 2023-12-26
+leaves annual 2023-12-23 - 2024-01-06
+leaves holiday "Silvester" 2023-12-31
+leaves holiday "Neujahr" 2024-01-01
+
+
+task proj "Software Project" {
+  task plan "Planning" {
+    task req "Requirement Analysis" {
+      start 2023-10-09
+      effort 9d
+      allocate pm
+    }
+  }
+  task dev "Development" {
+    task bdev "Backend Design" {
+      depends !!plan.req
+      effort 7d
+      allocate be
+    }
+    task fdev "Frontend Design" {
+      depends !!plan.req
+      effort 14d
+      allocate fe
+    }
+    task mdev "Design review"{
+      depends !bdev, !fdev
+      note "Test"
+    }
+    task bimp "Backend Implementation" {
+      depends !bdev
+      effort 22d
+      allocate be
+    }
+    task fimp "Frontend Implementation" {
+      depends !fdev
+      effort 16d
+      allocate fe
+    }
+    task adev "API Development" {
+      depends !bdev
+      effort 14d
+      allocate be
+    }
+    task mimp "Implementation review"{
+      depends !bimp, !fimp, !adev
+      note ""
+    }
+  }
+  task close "Closure" {
+    task btest "Backend Testing" {
+      depends !!dev.mimp
+      effort 19d
+      allocate be
+    }
+    task ftest "Frontend Testing" {
+      depends !!dev.fimp 
+      effort 21d
+      allocate fe
+    }
+    task atest "API Testing" {
+      depends !!dev.bimp 
+      effort 11d
+      allocate be
+    }
+    task int "Integration" {
+      depends !ftest, !btest, !atest
+      effort 9d
+      allocate be
+    }
+    task mint "Integration review"{
+      depends !int 
+    }
+    task doc "Documentation" {
+      depends !int
+      effort 7d
+      allocate ma
+    }
+    task rel "Release"{
+      depends !int, !doc
+    }
+    task cls "Closure" {
+      depends !doc
+      effort 1d
+      allocate pm
+    }
+  }
+}
+
+taskreport "Gantt Chart" {
+  formats html
+  headline "Project Gantt Chart"
+  columns name, duration, chart {scale day width 2000 }
+  timeformat "%a %d.%m.%Y"
+  loadunit days
+  hideresource 1
+}
+#+END_SRC
+
+[[file:img/gantt_taskjuggler.png]]
+
+- Extrem detailliert und ermöglicht die Zuweisung von Ressourcen.
+- Berücksichtigt Feiertage und andere nicht-arbeitsfreie Tage.
+
+- Erfordert Kenntnisse in TaskJuggler-Syntax.
+- Kann überwältigend sein und ist eher für große Projekte geeignet.
