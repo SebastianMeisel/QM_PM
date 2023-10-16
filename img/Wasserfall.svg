@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="312.93115"
+   width="723.10699"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="Wasserfall.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <path
+     id="rect12"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="M 119.77693,0.1889765 V 16.888195 h 86.19531 V 51.15968 l 8.34961,12 8.34961,-12 V 16.888195 C 222.65526,4.4119566 218.92919,0.3745342 205.97224,0.1889765 Z"
+     sodipodi:nodetypes="ccccccccc" />
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.95267765"
+     inkscape:cx="151.15291"
+     inkscape:cy="290.23458"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <!-- Diagramm für Wasserfall-Modell -->
+  <g
+     id="g6"
+     transform="translate(-49,2.6691719)">
+    <rect
+       x="50"
+       y="20"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#0000ff;stroke:#000000;stroke-width:2"
+       id="rect1" />
+    <text
+       x="89.874001"
+       y="45"
+       fill="#ffffff"
+       id="text1">Anforderungsanalyse</text>
+  </g>
+  <g
+     id="g7"
+     transform="translate(55.221402,2.5215704)">
+    <rect
+       x="50"
+       y="70"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#008000;stroke:#000000;stroke-width:2"
+       id="rect2" />
+    <text
+       x="130.32001"
+       y="95"
+       fill="#ffffff"
+       id="text2">Design</text>
+  </g>
+  <g
+     id="g8"
+     transform="translate(159.4428,2.3739689)">
+    <rect
+       x="50"
+       y="120"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#ff0000;stroke:#000000;stroke-width:2"
+       id="rect3" />
+    <text
+       x="100.62003"
+       y="145"
+       fill="#ffffff"
+       id="text3">Implementierung</text>
+  </g>
+  <g
+     id="g9"
+     transform="translate(263.66421,2.2263674)">
+    <rect
+       x="50"
+       y="170"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#ffff00;stroke:#000000;stroke-width:2"
+       id="rect4" />
+    <text
+       x="138.73201"
+       y="195"
+       fill="#000000"
+       id="text4">Test</text>
+  </g>
+  <g
+     id="g10"
+     transform="translate(367.88561,2.078766)">
+    <rect
+       x="50"
+       y="220"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#ffa500;stroke:#000000;stroke-width:2"
+       id="rect5" />
+    <text
+       x="115.11002"
+       y="245"
+       fill="#ffffff"
+       id="text5">Deployment</text>
+  </g>
+  <g
+     id="g11"
+     transform="translate(472.10701,1.9311645)">
+    <rect
+       x="50"
+       y="270"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#800080;stroke:#000000;stroke-width:2"
+       id="rect6" />
+    <text
+       x="125.86199"
+       y="295"
+       fill="#ffffff"
+       id="text6">Wartung</text>
+  </g>
+  <path
+     id="path12"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="m 227.77693,50.188976 v 16.699219 h 82.19531 v 34.271485 l 8.34961,12 8.34961,-12 V 66.888195 c -0.0162,-12.476239 -3.74227,-16.513661 -16.69922,-16.699219 z"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     id="path13"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="m 331.77693,100.18897 v 16.69922 h 82.19531 v 34.27149 l 8.34961,12 8.34961,-12 v -34.27149 c -0.0162,-12.47624 -3.74227,-16.51366 -16.69922,-16.69922 z"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     id="path14"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="m 435.77693,150.18897 v 16.69922 h 82.19531 v 34.27149 l 8.34961,12 8.34961,-12 v -34.27149 c -0.0162,-12.47624 -3.74227,-16.51366 -16.69922,-16.69922 z"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     id="path15"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="m 541.77693,200.18897 v 16.69922 h 82.19531 v 34.27149 l 8.34961,12 8.34961,-12 v -34.27149 c -0.0162,-12.47624 -3.74227,-16.51366 -16.69922,-16.69922 z"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     id="path16"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="M 119.77693,0.1889765 V 16.888195 h 86.19531 V 51.15968 l 8.34961,12 8.34961,-12 V 16.888195 C 222.65526,4.4119566 218.92919,0.3745342 205.97224,0.1889765 Z"
+     sodipodi:nodetypes="ccccccccc" />
+  <g
+     id="g16"
+     transform="translate(-49,2.6691719)">
+    <rect
+       x="50"
+       y="20"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#0000ff;stroke:#000000;stroke-width:2"
+       id="rect16" />
+    <text
+       x="89.874001"
+       y="45"
+       fill="#ffffff"
+       id="text16">Anforderungsanalyse</text>
+  </g>
+  <g
+     id="g17"
+     transform="translate(55.221402,2.5215704)">
+    <rect
+       x="50"
+       y="70"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#008000;stroke:#000000;stroke-width:2"
+       id="rect17" />
+    <text
+       x="130.32001"
+       y="95"
+       fill="#ffffff"
+       id="text17">Design</text>
+  </g>
+  <g
+     id="g18"
+     transform="translate(159.4428,2.3739689)">
+    <rect
+       x="50"
+       y="120"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#ff0000;stroke:#000000;stroke-width:2"
+       id="rect18" />
+    <text
+       x="100.62003"
+       y="145"
+       fill="#ffffff"
+       id="text18">Implementierung</text>
+  </g>
+  <g
+     id="g19"
+     transform="translate(263.66421,2.2263674)">
+    <rect
+       x="50"
+       y="170"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#ffff00;stroke:#000000;stroke-width:2"
+       id="rect19" />
+    <text
+       x="138.73201"
+       y="195"
+       fill="#000000"
+       id="text19">Test</text>
+  </g>
+  <g
+     id="g20"
+     transform="translate(367.88561,2.078766)">
+    <rect
+       x="50"
+       y="220"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#ffa500;stroke:#000000;stroke-width:2"
+       id="rect20" />
+    <text
+       x="115.11002"
+       y="245"
+       fill="#ffffff"
+       id="text20">Deployment</text>
+  </g>
+  <g
+     id="g21"
+     transform="translate(472.10701,1.9311645)">
+    <rect
+       x="50"
+       y="270"
+       rx="5"
+       ry="5"
+       width="200"
+       height="40"
+       style="fill:#800080;stroke:#000000;stroke-width:2"
+       id="rect21" />
+    <text
+       x="125.86199"
+       y="295"
+       fill="#ffffff"
+       id="text21">Wartung</text>
+  </g>
+  <path
+     id="path21"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="m 227.77693,50.188976 v 16.699219 h 82.19531 v 34.271485 l 8.34961,12 8.34961,-12 V 66.888195 c -0.0162,-12.476239 -3.74227,-16.513661 -16.69922,-16.699219 z"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     id="path22"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="m 331.77693,100.18897 v 16.69922 h 82.19531 v 34.27149 l 8.34961,12 8.34961,-12 v -34.27149 c -0.0162,-12.47624 -3.74227,-16.51366 -16.69922,-16.69922 z"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     id="path23"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="m 435.77693,150.18897 v 16.69922 h 82.19531 v 34.27149 l 8.34961,12 8.34961,-12 v -34.27149 c -0.0162,-12.47624 -3.74227,-16.51366 -16.69922,-16.69922 z"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     id="path24"
+     style="fill:#00ffff;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+     d="m 541.77693,200.18897 v 16.69922 h 82.19531 v 34.27149 l 8.34961,12 8.34961,-12 v -34.27149 c -0.0162,-12.47624 -3.74227,-16.51366 -16.69922,-16.69922 z"
+     sodipodi:nodetypes="ccccccccc"
+     inkscape:export-filename="Wasserfall.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+</svg>
