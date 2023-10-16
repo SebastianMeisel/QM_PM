@@ -1,0 +1,79 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Wasserfallmodell vs.Iteratives Modell
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+* Unterschied zwischen Wasserfall-Modell und interaktiven Modellen im Projektmanagement
+** Wasserfall-Modell
+
+#+CAPTION: Wasserfallmodell
+#+NAME: fig:waterfall
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/Wasserfall.png]]
+
+*** Hauptmerkmale
+#+BEGIN_tolearn
+- Stark dokumentgetrieben
+- Sequenzielles Modell
+- Umfangreiche Planung und Dokumentation
+#+END_tolearn
+*** Symbolik des Wasserfalls
+- Der Begriff „Wasserfall“ symbolisiert die Einweg-Natur des Prozesses.
+- Jede Phase fließt in die nächste, ohne Möglichkeit zur Rückkehr.
+
+*** Zusätzliche Anmerkungen
+#+BEGIN_NOTES
+- Effektiv für gut verstandene Projekte
+- Änderungen sind schwierig und kostspielig
+- Beispiel: Software für eine Bank
+#+END_NOTES
+
+** Iteratives Modelle (z. B. Agile, Scrum)
+
+#+CAPTION: Iteratives Modell
+#+NAME: fig:iterativ
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/Interativ.png]]
+
+*** Hauptmerkmale
+#+BEGIN_tolearn
+- Flexibel und adaptiv
+- Kontinuierliche Kommunikation
+- Weniger Fokus auf umfangreiche Dokumentation
+- Nutzer-Feedback ist integraler Bestandteil
+- Iterativ: Zyklen der Planung, Umsetzung, Überprüfung und Anpassung
+#+END_tolearn
+*** Bedeutung von Iterativ
+
+- „Iterativ“ bezieht sich auf die wiederholte Durchführung von Zyklen.
+- Jeder Zyklus verbessert das Produkt basierend auf den Erfahrungen des vorherigen.
+
+*** Zusätzliche Anmerkungen
+#+BEGIN_NOTES
+- Gut für unklare oder variable Anforderungen
+- Änderungen können leicht integriert werden
+- Beispiel: Startup-Unternehmen für mobile Anwendungen
+- Nutzer-Feedback wird kontinuierlich gesammelt
+- Beispiel für Nutzer-Feedback: Web-Entwicklungsprojekt mit Beta-Testern
+#+END_NOTES
+

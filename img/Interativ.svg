@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="192.95151"
+   width="270.96429"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="Interativ.svg"
+   inkscape:export-filename="Interativ.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="2.71"
+     inkscape:cx="112.73063"
+     inkscape:cy="104.98155"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9">
+    <sodipodi:guide
+       position="108.91222,202.39405"
+       orientation="0,-1"
+       id="guide20"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="131.79045,213.83317"
+       orientation="1,0"
+       id="guide21"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <!-- Diagramm für Interaktive Modelle -->
+  <g
+     id="g29"
+     transform="translate(-37.213238,-55.899586)">
+    <path
+       style="fill:#800000;stroke:#000000;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+       d="m 132.44515,66.491824 c -11.34295,4.797695 -21.55792,11.740038 -30.13658,20.318695 -8.578659,8.578658 -15.521003,18.793631 -20.318699,30.136581 -4.797696,11.34295 -7.450743,23.81388 -7.450809,36.90446 6.5e-5,13.09058 2.653112,25.56151 7.450807,36.90446 l 13.821228,-5.83868 c -4.077042,-9.74577 -6.271969,-20.04627 -6.272035,-31.06578 6.7e-5,-11.01951 2.233382,-21.51741 6.272037,-31.06578 4.038655,-9.54838 9.882651,-18.14723 17.104071,-25.368657 7.22143,-7.221424 15.96009,-13.168095 25.36866,-17.104072 l 5.93675,-10.60065 z"
+       id="path9"
+       sodipodi:nodetypes="cssccccssccc" />
+    <path
+       style="fill:#5555ff;stroke:#000000;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+       d="m 81.989869,190.75602 c 4.797696,11.34295 11.740039,21.55793 20.318701,30.13658 8.57865,8.57866 18.79363,15.52101 30.13658,20.3187 11.34295,4.7977 23.81388,7.45074 36.90446,7.45081 v -7.5 -7.5 c -11.01951,0 -21.51741,-2.23338 -31.06578,-6.27204 -9.54838,-4.03865 -18.14724,-9.88264 -25.36866,-17.10407 -7.22142,-7.22142 -13.168096,-15.96009 -17.104073,-25.36866 L 85.57945,179.7186 Z"
+       id="path10"
+       sodipodi:nodetypes="csscccssccc" />
+    <path
+       style="fill:#112b00;stroke:#000000;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+       d="m 169.34961,248.66211 c 13.09058,-6e-5 25.56151,-2.65311 36.90446,-7.45081 11.34296,-4.79769 21.55793,-11.74004 30.13659,-20.31869 8.57865,-8.57866 15.521,-18.79363 20.31869,-30.13659 l -13.82123,-5.83868 c -3.93598,9.40857 -9.88264,18.14724 -17.10407,25.36866 -7.22142,7.22143 -15.82028,13.06542 -25.36866,17.10407 -9.54837,4.03866 -20.04627,6.27204 -31.06578,6.27204 l -7.38007,7.5 z"
+       id="path11"
+       sodipodi:nodetypes="cssccssccc" />
+    <path
+       style="fill:#ff6600;stroke:#000000;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+       d="m 256.70935,190.75602 c 4.7977,-11.34295 7.45075,-23.81388 7.45081,-36.90446 -7e-5,-13.09058 -2.65311,-25.56151 -7.45081,-36.90446 -4.7977,-11.34295 -11.74004,-21.557924 -20.3187,-30.136581 l -10.6066,10.606604 c 7.21156,7.211557 13.06542,15.820277 17.10407,25.368657 4.03866,9.54837 6.27197,20.04627 6.27204,31.06578 -7e-5,11.01951 -2.195,21.32001 -6.27204,31.06578 l 3.58958,11.77543 z"
+       id="path12"
+       sodipodi:nodetypes="ccsccscccc" />
+    <path
+       style="fill:#000080;stroke:#000000;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+       d="M 236.39065,86.810519 C 227.812,78.231861 217.59702,71.289518 206.25407,66.491823 c -11.34295,-4.797695 -23.81388,-7.450742 -36.90446,-7.450807 -13.09058,6.5e-5 -25.56151,2.653112 -36.90446,7.450808 l 11.77543,2.851573 -5.93675,10.969654 c 9.74577,-4.077042 20.04627,-6.271969 31.06578,-6.272035 11.01951,6.6e-5 21.51741,2.233381 31.06578,6.272035 9.54838,4.038654 18.1571,9.892514 25.36866,17.104072 l 11.20736,0.600757 z"
+       id="path13"
+       sodipodi:nodetypes="cscccccsccc" />
+    <g
+       id="g28"
+       transform="translate(16)">
+      <path
+         id="rect9"
+         style="fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         d="m 21.402214,56.088562 h 78.304461 v 0 l 11.317605,7.311023 -11.317605,7.311024 v 0 H 21.402214 v 0 z"
+         sodipodi:nodetypes="ccccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:9.24823px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:center;text-anchor:middle;fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         x="66.461601"
+         y="65.729706"
+         id="text18"><tspan
+           sodipodi:role="line"
+           id="tspan18"
+           x="66.461601"
+           y="65.729706"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:none;stroke-width:0.377953">Anforderungen</tspan></text>
+    </g>
+    <g
+       id="g19"
+       inkscape:transform-center-x="-15.970311"
+       inkscape:transform-center-y="-73.729215"
+       transform="rotate(-0.53462577,168.99787,153.42506)">
+      <path
+         style="fill:none;stroke:none;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+         d="m 142.46844,74.211825 c 9.98014,-3.463969 20.39706,-5.015008 31.39531,-4.330771 10.99824,0.684368 21.33719,3.565284 30.61633,8.189089 9.27916,4.623805 17.50774,11.000962 24.25755,18.646433"
+         id="path18"
+         sodipodi:nodetypes="ccsc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:9.24823px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:center;text-anchor:middle;fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         id="text19"><textPath
+           xlink:href="#path18"
+           startOffset="50%"
+           id="textPath19"><tspan
+             id="tspan19"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:none;stroke-width:0.377953">Planung</tspan></textPath></text>
+    </g>
+    <g
+       id="g20"
+       inkscape:transform-center-x="-74.237807"
+       inkscape:transform-center-y="-14.832819"
+       transform="rotate(64.16376,168.99787,153.79407)">
+      <path
+         style="fill:none;stroke:none;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+         d="m 142.46844,74.211825 c 9.98014,-3.463969 20.39706,-5.015008 31.39531,-4.330771 10.99824,0.684368 21.33719,3.565284 30.61633,8.189089 9.27916,4.623805 17.50774,11.000962 24.25755,18.646433"
+         id="path19"
+         sodipodi:nodetypes="ccsc" />
+    </g>
+    <g
+       id="g21"
+       inkscape:transform-center-x="-74.22505"
+       inkscape:transform-center-y="-13.92906"
+       transform="rotate(64.785348,168.99787,153.42506)">
+      <path
+         style="fill:none;stroke:none;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+         d="m 142.46844,74.211825 c 9.98014,-3.463969 20.39706,-5.015008 31.39531,-4.330771 10.99824,0.684368 21.33719,3.565284 30.61633,8.189089 9.27916,4.623805 17.50774,11.000962 24.25755,18.646433"
+         id="path21"
+         sodipodi:nodetypes="ccsc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:9.24823px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:center;text-anchor:middle;fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         id="text21"><textPath
+           xlink:href="#path18"
+           startOffset="50%"
+           id="textPath21"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:none">Entwicklung</textPath></text>
+    </g>
+    <g
+       id="g22"
+       inkscape:transform-center-x="-39.957631"
+       inkscape:transform-center-y="57.217479"
+       transform="rotate(131.31952,168.65372,153.63841)">
+      <path
+         style="fill:none;stroke:none;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+         d="m 142.46844,74.211825 c 9.98014,-3.463969 20.39706,-5.015008 31.39531,-4.330771 10.99824,0.684368 21.33719,3.565284 30.61633,8.189089 9.27916,4.623805 17.50774,11.000962 24.25755,18.646433"
+         id="path22"
+         sodipodi:nodetypes="ccsc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:9.24823px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:center;text-anchor:middle;fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         id="text22"><textPath
+           xlink:href="#path18"
+           startOffset="50%"
+           id="textPath22"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:none">Testen</textPath></text>
+    </g>
+    <g
+       id="g23"
+       inkscape:transform-center-x="40.260695"
+       inkscape:transform-center-y="58.650209"
+       transform="rotate(-158.51191,168.95,153.73593)">
+      <path
+         style="fill:none;stroke:none;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+         d="m 142.46844,74.211825 c 9.98014,-3.463969 20.39706,-5.015008 31.39531,-4.330771 10.99824,0.684368 21.33719,3.565284 30.61633,8.189089 9.27916,4.623805 17.50774,11.000962 24.25755,18.646433"
+         id="path23"
+         sodipodi:nodetypes="ccsc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:9.24823px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:center;text-anchor:middle;fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         id="text23"><textPath
+           xlink:href="#path18"
+           startOffset="50%"
+           id="textPath23"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:none">Auswertung</textPath></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:9.24823px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:center;text-anchor:middle;fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         id="text24"><textPath
+           xlink:href="#path18"
+           startOffset="50%"
+           id="textPath24"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:none">Auswertung</textPath></text>
+    </g>
+    <g
+       id="g26"
+       inkscape:transform-center-x="67.771259"
+       inkscape:transform-center-y="-28.227617"
+       transform="rotate(-79.793096,168.88941,153.9923)">
+      <path
+         style="fill:none;stroke:none;stroke-width:0.377952;stroke-linecap:round;stroke-linejoin:round"
+         d="m 142.46844,74.211825 c 9.98014,-3.463969 20.39706,-5.015008 31.39531,-4.330771 10.99824,0.684368 21.33719,3.565284 30.61633,8.189089 9.27916,4.623805 17.50774,11.000962 24.25755,18.646433"
+         id="path24"
+         sodipodi:nodetypes="ccsc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:9.24823px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:center;text-anchor:middle;fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         id="text25"><textPath
+           xlink:href="#path18"
+           startOffset="50%"
+           id="textPath25"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:none">Anpassung</textPath></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:9.24823px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:center;text-anchor:middle;fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         id="text26"><textPath
+           xlink:href="#path18"
+           startOffset="50%"
+           id="textPath26"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:none" /></text>
+    </g>
+    <g
+       id="g27"
+       transform="translate(-14)">
+      <path
+         id="path26"
+         style="fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         d="M 321.98856,233.12787 H 243.6841 v 0 l -11.3176,7.31103 11.3176,7.31102 v 0 h 78.30446 v 0 z"
+         sodipodi:nodetypes="ccccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:9.24823px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:center;text-anchor:middle;fill:#220055;stroke:#000000;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round"
+         x="276.7937"
+         y="243.6812"
+         id="text18-7"><tspan
+           sodipodi:role="line"
+           id="tspan18-8"
+           x="276.7937"
+           y="243.6812"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:none;stroke-width:0.377953">Feedback</tspan></text>
+    </g>
+  </g>
+</svg>
