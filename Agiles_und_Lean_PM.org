@@ -1,0 +1,178 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Agile und Lean
+#+SUBTITLE: KOM-ITIL 
+#+AUTHOR: Sebastian Meisel
+
+* Einführung in Agile und Lean Projektmanagement
+  Agile und Lean sind zwei moderne Ansätze im Projektmanagement, die sich darauf konzentrieren, effizientere und effektivere Prozesse zu schaffen. Sie sind besonders in der IT-Branche beliebt, wo Projekte oft komplex und unvorhersehbar sind.
+
+** Typische Faktoren für das Scheitern von IT-Projekten
+   - Unklare Anforderungen
+   - Mangelnde Kommunikation
+   - Rigidität
+
+*** Agile Projektmanagement
+    :PROPERTIES:
+    :CUSTOM_ID: agile
+    :END:
+
+**** Grundlagen
+     Agile basiert auf dem Agilen Manifest, das vier Hauptprinzipien hat:
+     1. Individuen und Interaktionen über Prozesse und Tools
+     2. Funktionierende Produkte über umfassende Dokumentation
+     3. Zusammenarbeit mit dem Kunden über Vertragsverhandlung
+     4. Reagieren auf Veränderung über das Befolgen eines Plans
+
+**** Lösung von IT-Problemen durch Agile
+     - Anpassungsfähigkeit: Agile Methoden wie Scrum ermöglichen es Teams, flexibel auf Änderungen zu reagieren.
+     - Kommunikation: Durch tägliche Stand-ups und Retrospektiven wird die Kommunikation innerhalb des Teams und mit Stakeholdern gefördert.
+
+*** Lean Projektmanagement
+    :PROPERTIES:
+    :CUSTOM_ID: lean
+    :END:
+
+**** Grundlagen
+     Lean fokussiert sich auf die Eliminierung von Verschwendung (Waste), um den Wert für den Kunden zu maximieren. Die sieben Arten von Verschwendung sind:
+     1. Überproduktion
+     2. Wartezeit
+     3. Transport
+     4. Überbearbeitung
+     5. Lagerung
+     6. Bewegung
+     7. Herstellung von Fehlern
+
+**** Lösung von IT-Problemen durch Lean
+     - Effizienz: Durch die Identifizierung und Eliminierung von Verschwendung werden Prozesse effizienter.
+     - Kundenfokus: Lean legt großen Wert darauf, genau das zu produzieren, was der Kunde benötigt und wann er es benötigt.
+
+** Gemeinsame Probleme bei der Implementierung
+   - Dogmatismus: Die strikte Befolgung der Methoden ohne Anpassung an den Kontext kann kontraproduktiv sein.
+   - Fehlende Anpassung: Beide Methoden müssen an die spezifischen Bedürfnisse des Projekts angepasst werden.
+
+#+BEGIN_tolearn
+- Agile und Lean sollten als Werkzeuge betrachtet werden, die je nach Projektanforderungen angepasst werden können.
+- Es ist wichtig, die Prinzipien hinter Agile und Lean zu verstehen, um sie effektiv implementieren zu können.
+#+END_tolearn
+
+#+BEGIN_NOTES
+- Agile ist mehr auf die Menschen und die Zusammenarbeit fokussiert, während Lean mehr auf Prozesse und Effizienz ausgerichtet ist.
+- Beide Ansätze haben ihre eigenen Stärken und Schwächen und können sogar kombiniert werden, um die Vorteile beider zu nutzen.
+#+END_NOTES
+ 
+* Agile Methoden
+**** Extrem Programming (XP)
+      :PROPERTIES:
+      :CUSTOM_ID: xp
+      :END:
+
+#+CAPTION: Extreme Programming (XP)
+#+NAME: fig:XP
+#+ATTR_HTML: :width 25% :class logo
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700 
+     [[file:img/XP.png]] 
+***** Grundlagen
+       Extrem Programming (XP) ist eine agile Methode, die sich auf technische Exzellenz und enge Zusammenarbeit im Team konzentriert.
+       
+***** Prinzipien
+       - Einfaches Design
+       - Testgetriebene Entwicklung
+       - Pair-Programming
+       
+***** Weiterführende Ressource
+[[https://t2informatik.de/wissen-kompakt/extreme-programming/][Extrem Programming]]
+       
+**** Test-Driven Development (TDD)
+      :PROPERTIES:
+      :CUSTOM_ID: tdd
+      :END:
+
+***** Grundlagen
+       TDD ist eine agile Softwareentwicklungsmethode, die das Schreiben von Tests vor dem Code fördert.
+
+***** Prinzipien
+       - Rote-Grüne-Refaktor-Zyklus
+       
+***** Weiterführende Ressource
+[[https://www.ionos.de/digitalguide/websites/web-entwicklung/was-ist-test-driven-development/][Test Driven Development: So funktioniert die Methode]]
+
+* Lean Methoden
+**** Kanban
+      :PROPERTIES:
+      :CUSTOM_ID: kanban
+      :END:
+
+***** Grundlagen
+       Kanban ist eine Lean-Methode, die den Arbeitsfluss durch visuelle Darstellung optimiert.
+
+***** Prinzipien
+       - Visualisierung des Arbeitsflusses
+       - Begrenzung der Work-in-Progress-Elemente
+       
+***** Weiterführende Ressource
+[[https://businessmap.io/de/kanban-ressourcen/kanban-erste-schritte/was-ist-kanban][Was ist Kanban? Ein Einstieg.]]
+
+
+**** Business Model Canvas
+      :PROPERTIES:
+      :CUSTOM_ID: bmc
+      :END:
+
+***** Grundlagen
+       Das Business Model Canvas ist ein strategisches Lean-Tool zur Entwicklung neuer oder zur Dokumentation bestehender Geschäftsmodelle.
+
+***** Prinzipien
+       - Neun Bausteine, die die Logik eines Geschäftsmodells darstellen
+       
+***** Weiterführende Ressource
+[[https://projekte-leicht-gemacht.de/blog/business-wissen/business-model-canvas/][Business Model Canvas: Was es ist und wofür du es brauchst]]
+
+**** Lean Development
+      :PROPERTIES:
+      :CUSTOM_ID: leandevelopment
+      :END:
+
+***** Grundlagen
+       Lean Development bezieht sich auf die Anwendung von Lean-Prinzipien in der Softwareentwicklung.
+
+***** Prinzipien
+       - Eliminierung von Verschwendung
+       - Just-in-Time-Produktion
+       
+***** Weiterführende Ressource
+[[https://kruschecompany.com/de/lean-softwareentwicklung/][Lean-Softwareentwicklung – Vorläufer oder Nachfolger der Agile-Bewegung?]]
+
+**** Kaizen
+      :PROPERTIES:
+      :CUSTOM_ID: kaizen
+      :END:
+
+***** Grundlagen
+       Kaizen ist eine Lean-Philosophie, die kontinuierliche Verbesserung fördert.
+
+***** Prinzipien
+       - Kleine, inkrementelle Veränderungen
+       
+***** Weiterführende Ressource
+[[https://www.inloox.de/unternehmen/blog/artikel/die-5-grundlagen-der-kaizen-methode-einfach-erklaert/][Die 5 Grundlagen der Kaizen Methode einfach erklärt]]       
+
+
+
+       
