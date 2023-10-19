@@ -1,0 +1,247 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Agile und Lean
+#+SUBTITLE: KOM-ITIL 
+#+AUTHOR: Sebastian Meisel
+
+* Einführung in Agile und Lean Projektmanagement
+  Agile und Lean sind zwei moderne Ansätze im Projektmanagement, die sich darauf konzentrieren, effizientere und effektivere Prozesse zu schaffen. Sie sind besonders in der IT-Branche beliebt, wo Projekte oft komplex und unvorhersehbar sind.
+
+** Typische Faktoren für das Scheitern von IT-Projekten
+   - Unklare Anforderungen
+   - Mangelnde Kommunikation
+   - Rigidität
+
+*** Agile Projektmanagement
+    :PROPERTIES:
+    :CUSTOM_ID: agile
+    :END:
+
+**** Grundlagen
+     Agile basiert auf dem [[https://agilemanifesto.org/iso/de/manifesto.html][Agilen Manifest]] (2001), das vier Hauptprinzipien hat:
+     #+ATTR_REVEAL: :frag (appear)
+     1. Individuen und Interaktionen über Prozesse und Tools
+     2. Funktionierende Produkte über umfassende Dokumentation
+     3. Zusammenarbeit mit dem Kunden über Vertragsverhandlung
+     4. Reagieren auf Veränderung über das Befolgen eines Plans
+
+#+BEGIN_NOTES
+1) Individuen und Interaktionen über Prozesse und Werkzeuge: Dieses Prinzip betont die Bedeutung der Menschen, die an einem Projekt arbeiten. Es sagt, dass gute Kommunikation und Teamarbeit wichtiger sind als strikte Prozesse oder spezielle Softwaretools.
+2) Funktionierende Software über umfassende Dokumentation: Anstatt viel Zeit in die Erstellung detaillierter Dokumente zu investieren, sollte der Fokus auf der Entwicklung einer funktionierenden Software liegen. Das heißt nicht, dass Dokumentation unwichtig ist, sondern dass sie nicht auf Kosten der Softwarequalität gehen sollte.
+3) Zusammenarbeit mit dem Kunden über Vertragsverhandlung: Dieses Prinzip legt Wert auf eine enge Zusammenarbeit mit dem Kunden, um sicherzustellen, dass die entwickelte Software wirklich seinen Bedürfnissen entspricht. Anstatt sich nur auf Verträge und Spezifikationen zu konzentrieren, sollte der Dialog mit dem Kunden im Vordergrund stehen.
+4) Reagieren auf Veränderung über das Befolgen eines Plans: In der Softwareentwicklung können sich Anforderungen schnell ändern. Dieses Prinzip sagt, dass Teams flexibel und anpassungsfähig sein sollten, anstatt starr einem vorher festgelegten Plan zu folgen.
+#+END_NOTES
+**** Lösung von IT-Problemen durch Agile
+     - Anpassungsfähigkeit: Agile Methoden wie Scrum ermöglichen es Teams, flexibel auf Änderungen zu reagieren.
+     - Kommunikation: Durch tägliche Stand-ups und Retrospektiven wird die Kommunikation innerhalb des Teams und mit Stakeholdern gefördert.
+
+*** Lean Projektmanagement
+    :PROPERTIES:
+    :CUSTOM_ID: lean
+    :END:
+
+**** Grundlagen
+     Lean fokussiert sich auf die Eliminierung von Verschwendung (Waste), um den Wert für den Kunden zu maximieren. Die sieben Arten von Verschwendung sind:
+     #+ATTR_REVEAL: :frag (appear)
+     1. Überproduktion
+     2. Wartezeit
+     3. Transport
+     4. Überbearbeitung
+     5. Lagerung
+     6. Bewegung
+     7. Herstellung von Fehlern
+#+BEGIN_NOTES
+1) Überproduktion: Das Erstellen von mehr Produkten oder Funktionen, als tatsächlich benötigt werden. Dies führt zu Lagerkosten und macht es schwieriger, auf Änderungen zu reagieren.
+2) Wartezeiten: Zeiten, in denen Teammitglieder oder Ressourcen ungenutzt sind, weil sie auf etwas warten müssen, z.B. auf Entscheidungen oder Feedback.
+3) Transport: Unnötige Bewegungen von Materialien, Informationen oder Personen. In der Softwareentwicklung könnte dies das häufige Verschieben von Code zwischen verschiedenen Umgebungen ohne klaren Nutzen sein.
+4) Überbearbeitung: Mehr Arbeit in ein Produkt oder eine Funktion stecken, als vom Kunden gewünscht oder benötigt wird. Dies verschwendet Zeit und Ressourcen.
+5) Lagerhaltung: Das Aufbewahren von ungenutzten oder halbfertigen Produkten, Materialien oder Informationen. In der Softwareentwicklung könnte dies ungenutzter Code oder nicht implementierte Funktionen sein.
+6) Bewegung: Unnötige physische oder mentale Bewegungen, die keine Wertschöpfung bieten. Zum Beispiel könnte das ständige Wechseln zwischen verschiedenen Aufgaben (Task-Switching) als Verschwendung angesehen werden.
+7) Fehler/Defekte: Arbeit, die aufgrund von Fehlern, Mängeln oder Unklarheiten korrigiert werden muss. Dies führt zu zusätzlichem Aufwand und Verzögerungen.
+#+END_NOTES
+**** Lösung von IT-Problemen durch Lean
+     - Effizienz: Durch die Identifizierung und Eliminierung von Verschwendung werden Prozesse effizienter.
+     - Kundenfokus: Lean legt großen Wert darauf, genau das zu produzieren, was der Kunde benötigt und wann er es benötigt.
+
+** Gemeinsame Probleme bei der Implementierung
+   - Dogmatismus: Die strikte Befolgung der Methoden ohne Anpassung an den Kontext kann kontraproduktiv sein.
+   - Fehlende Anpassung: Beide Methoden müssen an die spezifischen Bedürfnisse des Projekts angepasst werden.
+
+#+BEGIN_tolearn
+- Agile ist mehr auf die Menschen und die Zusammenarbeit fokussiert, während Lean mehr auf Prozesse und Effizienz ausgerichtet ist.
+- Beide Ansätze haben ihre eigenen Stärken und Schwächen und können sogar kombiniert werden, um die Vorteile beider zu nutzen.
+#+END_tolearn
+
+#+BEGIN_NOTES
+- Agile und Lean sollten als Werkzeuge betrachtet werden, die je nach Projektanforderungen angepasst werden können.
+- Es ist wichtig, die Prinzipien hinter Agile und Lean zu verstehen, um sie effektiv implementieren zu können.
+- Sie sollte nicht primär als Mittel zur Zeitersparnis und Produktivitätssteigerung missverstanden werden.
+#+END_NOTES
+ 
+* Agile Methoden
+**** Extrem Programming (XP)
+      :PROPERTIES:
+      :CUSTOM_ID: xp
+      :END:
+
+#+CAPTION: Extreme Programming (XP)
+#+NAME: fig:XP
+#+ATTR_HTML: :width 25% :class logo
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700 
+     [[file:img/XP.png]] 
+***** Grundlagen
+       Extrem Programming (XP) ist eine agile Methode, die sich auf technische Exzellenz und enge Zusammenarbeit im Team konzentriert.
+       
+***** Prinzipien
+       - Einfaches Design
+       - Testgetriebene Entwicklung
+       - Pair-Programming
+       
+***** Weiterführende Ressource
+[[https://t2informatik.de/wissen-kompakt/extreme-programming/][Extrem Programming]]
+       
+**** Test-Driven Development (TDD)
+      :PROPERTIES:
+      :CUSTOM_ID: tdd
+      :END:
+
+***** Grundlagen
+       TDD ist eine agile Softwareentwicklungsmethode, die das Schreiben von Tests vor dem Code fördert.
+
+***** Prinzipien
+       - Rot-Grün-Refaktor-Zyklus
+#+BEGIN_NOTES
+1) Rot: In dieser Phase schreibt der Entwickler einen Test, der die gewünschte Funktionalität beschreibt. Der Test wird fehlschlagen, da die Funktionalität noch nicht implementiert ist. Das Ziel ist es, sicherzustellen, dass der Test korrekt und sinnvoll ist.
+2) Grün: Jetzt wird der minimale Code geschrieben, der benötigt wird, um den Test bestehen zu lassen. In dieser Phase ist es nicht wichtig, "schönen" oder effizienten Code zu schreiben; das Ziel ist einfach, den Test "grün" zu bekommen.
+3) Refaktor: Nachdem der Test bestanden ist, wird der Code überarbeitet und optimiert, ohne dass sich das Verhalten ändert. Das Ziel ist es, den Code sauberer, effizienter und wartbarer zu machen, während er immer noch alle Tests besteht.
+#+END_NOTES 
+***** Weiterführende Ressourcen
+[[https://www.ionos.de/digitalguide/websites/web-entwicklung/was-ist-test-driven-development/][Test Driven Development: So funktioniert die Methode]]
+[[https://www.youtube.com/watch?v=ibVSPVz2LAA][YouTube: Python Simplified: Python TDD Workflow - Unit Testing Code Example for Beginners]]
+(automatisch übersetzte Untertitle verfügbar)
+
+* Lean Methoden
+**** Kanban
+      :PROPERTIES:
+      :CUSTOM_ID: kanban
+      :END:
+#+BEGIN_EXPORT html 
+    <table id="kanbanBoard">
+      <thead>
+        <tr>
+          <td></td>
+          <td id="WIP_Todo">0/6</td>
+          <td id="WIP_Development" colspan="2">0/4</td>
+          <td id="WIP_Testing" colspan="2">0/4</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Backlog</td>
+          <td>Todo</td>
+          <td>Development-WIP</td>
+          <td>Development-Done</td>
+          <td>Testing-WIP</td>
+          <td>Testing-Done</td>
+          <td>Release</td>
+        </tr>
+      </thead>
+      <tbody>
+        <td id="Backlog" class="column"></td>
+        <td id="Todo" class="column"></td>
+        <td id="Development-WIP" class="column"></td>
+        <td id="Development-Done" class="column"></td>
+        <td id="Testing-WIP" class="column"></td>
+        <td id="Testing-Done" class="column"></td>
+        <td id="Released" class="column"></td>
+      </tbody>
+    </table>
+    <script src="scripts/kanban.js"></script>
+#+END_EXPORT
+
+#+CAPTION: Kanban-Board
+#+NAME: fig:kanban
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_HTML: :style visibility: hidden
+#+ATTR_ORG: :width 700
+[[file:img/Kanban.jpg]]
+
+#+REVEAL: split
+***** Grundlagen
+       Kanban ist eine Lean-Methode, die den Arbeitsfluss durch visuelle Darstellung optimiert.
+
+***** Prinzipien
+       - Visualisierung des Arbeitsflusses
+       - Begrenzung der Work-in-Progress-Elemente
+       
+***** Weiterführende Ressource
+[[https://businessmap.io/de/kanban-ressourcen/kanban-erste-schritte/was-ist-kanban][Was ist Kanban? Ein Einstieg.]]
+
+
+**** Business Model Canvas
+      :PROPERTIES:
+      :CUSTOM_ID: bmc
+      :END:
+#+CAPTION: Buisness Modell Canvas
+#+NAME: fig:BMC
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+
+
+***** Grundlagen
+       Das Business Model Canvas ist ein strategisches Lean-Tool zur Entwicklung neuer oder zur Dokumentation bestehender Geschäftsmodelle.
+
+***** Prinzipien
+       - Neun Bausteine, die die Logik eines Geschäftsmodells darstellen
+       
+***** Weiterführende Ressource
+[[https://projekte-leicht-gemacht.de/blog/business-wissen/business-model-canvas/][Business Model Canvas: Was es ist und wofür du es brauchst]]
+
+**** Lean Development
+      :PROPERTIES:
+      :CUSTOM_ID: leandevelopment
+      :END:
+
+***** Grundlagen
+       Lean Development bezieht sich auf die Anwendung von Lean-Prinzipien in der Softwareentwicklung.
+
+***** Prinzipien
+       - Eliminierung von Verschwendung
+       - Just-in-Time-Produktion
+       
+***** Weiterführende Ressource
+[[https://kruschecompany.com/de/lean-softwareentwicklung/][Lean-Softwareentwicklung – Vorläufer oder Nachfolger der Agile-Bewegung?]]
+
+**** Kaizen
+      :PROPERTIES:
+      :CUSTOM_ID: kaizen
+      :END:
+
+***** Grundlagen
+       Kaizen ist eine Lean-Philosophie, die kontinuierliche Verbesserung fördert.
+
+***** Prinzipien
+       - Kleine, inkrementelle Veränderungen
+       
+***** Weiterführende Ressource
+[[https://www.inloox.de/unternehmen/blog/artikel/die-5-grundlagen-der-kaizen-methode-einfach-erklaert/][Die 5 Grundlagen der Kaizen Methode einfach erklärt]]       
+
+
+
+       
