@@ -148,3 +148,20 @@ img .logo {
   top: 20px;
   right: -20 px;
 }
+
+.column {
+  height: 200px;
+  position: relative;
+}
+
+.card {
+  font-family: 'Source Sans Pro', 'Roboto', sans-serif; /* Modern font */
+  width: 100px;
+  height: 50px;
+  background-color: orange; /* Changed to orange */
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
