@@ -1,63 +1,61 @@
-section {font-size: 85% }
+section {
+  font-size: 85%;
+}
 
-/* img { */
-/*     width: 50%; */
-/* } */
-
-.reveal .title {font-size: 300% }
+.reveal .title {
+  font-size: 300%;
+}
 
 section p {
-    text-align: left;
+  text-align: left;
 }
 
 section p.subtitle {
-    text-align: center;
+  text-align: center;
 }
 
 div.figure p {
-    align: center;
-    text-align: center;
-    font-size: 40%;
-    text-color: darkgray;
+  align: center;
+  text-align: center;
+  font-size: 40%;
+  text-color: darkgray;
 }
 
 ul {
-    text-align: left;
-    align: left;	     
+  text-align: left;
+  align: left;
 }
 
-
 ul li {
-    text-align: left;
+  text-align: left;
 }
 
 .fragment .appear .visible {
-    text-align: left;
+  text-align: left;
 }
 
-
 table {
-    position: absolute;
-    left: -15%;
-    width: 130%;
-    font-size: 65%;
+  position: absolute;
+  left: -15%;
+  width: 130%;
+  font-size: 65%;
 }
 
 .logo {
-    position: absolute;
-    top: -50px;
-    right: -50px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
 }
 
 .tolearn {
-    border: 2px solid red;
-    background-color: lightcoral; /* Light red background */
-    text-color: black;
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 120%;
-    font-weight: bold;
-    font-style: italic;
+  border: 2px solid red;
+  background-color: lightcoral; /* Light red background */
+  text-color: black;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 120%;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .goals {
@@ -71,9 +69,6 @@ table {
   clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 0% 0%);
 }
 
-
-<<<<<<< HEAD
-=======
 /* Stil für jeden Listeneintrag */
 ol li {
   counter-increment: list-counter;
@@ -160,4 +155,3 @@ img .logo {
   border-radius: 12px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
->>>>>>> 88958d7 (Agile und Lean)
