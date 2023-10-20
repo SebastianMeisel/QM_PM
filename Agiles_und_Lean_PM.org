@@ -99,12 +99,11 @@
       :CUSTOM_ID: xp
       :END:
 
-#+CAPTION: Extreme Programming (XP)
 #+NAME: fig:XP
-#+ATTR_HTML: :width 25% :class logo
+#+ATTR_HTML: :width 15% :class logo
 #+ATTR_LATEX: :width .65\linewidth
 #+ATTR_ORG: :width 700 
-     [[file:img/XP.png]] 
+[[file:img/XP.png]] 
 ***** Grundlagen
        Extrem Programming (XP) ist eine agile Methode, die sich auf technische Exzellenz und enge Zusammenarbeit im Team konzentriert.
        
@@ -120,6 +119,11 @@
       :PROPERTIES:
       :CUSTOM_ID: tdd
       :END:
+#+NAME: fig:TDD
+#+ATTR_HTML: :width 15% :class logo
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/TDD.png]]
 
 ***** Grundlagen
        TDD ist eine agile Softwareentwicklungsmethode, die das Schreiben von Tests vor dem Code fördert.
@@ -174,7 +178,6 @@
     <script src="scripts/kanban.js"></script>
 #+END_EXPORT
 
-#+CAPTION: Kanban-Board
 #+NAME: fig:kanban
 #+ATTR_LATEX: :width .65\linewidth
 #+ATTR_HTML: :style visibility: hidden
@@ -197,12 +200,12 @@
       :PROPERTIES:
       :CUSTOM_ID: bmc
       :END:
-#+CAPTION: Buisness Modell Canvas
-#+NAME: fig:BMC
-#+ATTR_HTML: :width 50%
+
+#+NAME: fig:
+#+ATTR_HTML: :width 15% :class logo
 #+ATTR_LATEX: :width .65\linewidth
 #+ATTR_ORG: :width 700
-
+[[file:img/BusinessCanvas.png]]
 
 ***** Grundlagen
        Das Business Model Canvas ist ein strategisches Lean-Tool zur Entwicklung neuer oder zur Dokumentation bestehender Geschäftsmodelle.
@@ -217,6 +220,11 @@
       :PROPERTIES:
       :CUSTOM_ID: leandevelopment
       :END:
+#+#+NAME: fig:lean
+#+ATTR_HTML: :width 15% :class logo
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/LeanDev.png]]
 
 ***** Grundlagen
        Lean Development bezieht sich auf die Anwendung von Lean-Prinzipien in der Softwareentwicklung.
@@ -232,9 +240,15 @@
       :PROPERTIES:
       :CUSTOM_ID: kaizen
       :END:
+#+NAME: fig:kaizen
+#+ATTR_HTML: :width 15% :class logo
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/Kaizen.png]]
 
 ***** Grundlagen
-       Kaizen ist eine Lean-Philosophie, die kontinuierliche Verbesserung fördert.
+       Kaizen ist eine Lean-Philosophie, die kontinuierliche
+       Verbesserung fördert.
 
 ***** Prinzipien
        - Kleine, inkrementelle Veränderungen
