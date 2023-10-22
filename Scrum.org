@@ -161,7 +161,6 @@ Außerdem sollte der /Product Owner/ nur im absoluten Ausnahmefall teilnehmen.
   4. Kommunikations- und Kollaborationswerkzeug zwischen allen Beteiligten.
 #+END_NOTES
 
-
 **** INVEST-Kriterien
 
 #+CAPTION: INVEST-Kriterien
@@ -204,6 +203,29 @@ Was ist beim Erstellen einer User-Story zu beachten?
 
 **** Definition of Done
     - Die Kriterien, die erfüllt sein müssen, damit eine User-Story als abgeschlossen gilt.
+*** Story-Map
+#+CAPTION: Story-Map
+#+NAME: fig:map
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/StoryBoard.png]]
+
+    - Ein visuelles Hilfsmittel zur Darstellung der Benutzererfahrung und zur Priorisierung von User-Stories.
+    - Strukturiert in Aktivitäten, Aufgaben und User-Stories.
+
+#+BEGIN_NOTES
+    - **Struktur**
+      - Horizontale Achse: Sequenz der Benutzererfahrung
+      - Vertikale Achse: Priorität der User-Stories
+
+    - **Vorteile**
+      - Benutzerzentrierung
+      - Priorisierung
+      - Kommunikation
+      - Planung
+#+END_NOTES
+
 *** Story-Points
 
 #+CAPTION: Kriterien zur Vergabe von Story-Points
@@ -319,7 +341,6 @@ Was ist beim Erstellen einer User-Story zu beachten?
  
 * Mögliche Kritikpunkte                                           
 Die folgenden Aussagen sind eine Zusammenfassung eines Blog-Artikels auf [[https://stackoverflow.blog/2020/06/29/does-scrum-ruin-great-engineers-or-are-you-doing-it-wrong/][Stackoverflow]].
-** Kritische Betrachtung von Scrum
 *** Effektivität und Produktivität
     - Scrum könnte gute Entwickler zu durchschnittlichen machen, da es zu "Ticket-Hochscoren" und oberflächlicher Produktivität führen kann.
 *** Management und Teamdynamik
