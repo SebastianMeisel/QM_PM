@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="109.64535mm"
+   height="95.404778mm"
+   viewBox="0 0 109.64535 95.404778"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.962276,-26.030684)">
+    <path
+       style="fill:none;stroke:#ff6600;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;marker-start:url(#Triangle)"
+       d="M 84.022138,29.58176 V 89.334465"
+       id="path1" />
+    <path
+       style="fill:#800080;stroke:#800080;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;marker-start:url(#Triangle)"
+       d="M 32.037598,119.65677 83.784952,89.780413"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;marker-start:url(#Triangle)"
+       d="M 135.5323,119.65675 83.784952,89.780413"
+       id="path3" />
+    <g
+       id="g4">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect4"
+         width="51.509228"
+         height="7.306273"
+         x="58.815498"
+         y="44.568264"
+         rx="5.5811837e-16"
+         ry="5.5811837e-16" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:7.05556px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00264583px;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="83.65683"
+         y="50.413284"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+           x="83.65551"
+           y="50.413284">Arbeitsaufwand</tspan></text>
+    </g>
+    <g
+       id="g5"
+       transform="translate(-23.380074,55.162362)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect5"
+         width="51.509228"
+         height="7.306273"
+         x="58.815498"
+         y="44.568264"
+         rx="5.5811837e-16"
+         ry="5.5811837e-16" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:7.05556px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00264583px;text-anchor:middle;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="83.65683"
+         y="50.413284"
+         id="text5"><tspan
+           sodipodi:role="line"
+           id="tspan5"
+           style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+           x="83.65551"
+           y="50.413284">Komplexität</tspan></text>
+    </g>
+    <g
+       id="g6"
+       transform="translate(24.244927,55.162362)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         id="rect6"
+         width="51.509228"
+         height="7.306273"
+         x="58.815498"
+         y="44.568264"
+         rx="5.5811837e-16"
+         ry="5.5811837e-16" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:7.05556px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00264583px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="83.65683"
+         y="50.413284"
+         id="text6"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+           x="83.65551"
+           y="50.413284">Risiko</tspan></text>
+    </g>
+  </g>
+</svg>

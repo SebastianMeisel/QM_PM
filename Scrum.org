@@ -1,0 +1,338 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Scrum
+#+SUBTITLE: Kom-ITIL
+#+AUTHOR: Sebastian Meisel
+
+* Einführung
+
+#+BEGIN_tolearn
+  - Scrum ist ein agiles Framework zur Projektverwaltung. Ursprünglich wurde es für die Softwareentwicklung formalisiert, findet aber mittlerweile auch in anderen Bereichen Anwendung.
+  - Das Konzept von Scrum wurde Anfang der 1990er Jahre von Ken Schwaber und Jeff Sutherland eingeführt.
+  - 2002 wurde Scrum unter Aufnahme der Ideen aus dem Agilen Manifest (2001) veröffentlicht.
+#+END_tolearn
+
+** Rollen
+#+CAPTION: Scrum Rollen
+#+NAME: fig:roles
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/Scrum_Rollen.png]]
+
+*** Product Owner
+#+BEGIN_tolearn
+    - Der Product Owner ist verantwortlich für die Definition der Produktanforderungen und deren Priorisierung im /Product Backlog/.
+    - Er ist für die Kommunikation mit den Stakeholdern verantwortlich.
+    - Er ist *kein* Teil des Projektteams.
+    - Er gibt vor, in welcher Reihenfolge die Anforderungen, die im /Product Backlog/ stehen, bearbeitet werden und bestimmt die Akzeptanzkriterien für die Abnahme.
+#+END_tolearn
+
+*** Scrum Master
+#+BEGIN_tolearn
+  - Der Scrum Master hilft dem Team, dem Scrum-Framework zu folgen, und beseitigt Hindernisse.
+   Er vermittelt bei Konflikten zwischen dem Team und den Stakeholdern.
+#+END_tolearn
+
+*** Entwicklungsteam
+#+BEGIN_tolearn
+  - Das Entwicklungsteam ist verantwortlich für die Lieferung potenziell versandfertiger Prototypen (/Inkrementen/) des Produkts.
+  - Es besteht aus 3 bis 9 Personen, möglichst aus verschiedenen Bereichen (z. B. Entwicklung, System-Administration, kaufmännischer Bereich).
+  - Arbeitet selbstbestimmt in Bezug auf Methodik und Reihenfolge der Aufgaben in einem Entwicklungszyklus (/Sprint/).
+#+END_tolearn
+
+** Artefakte
+
+#+CAPTION: Scrum Artefakte
+#+NAME: fig:artefacts
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/Scrum_Artefakte.png]]
+
+*** Product Backlog
+#+BEGIN_tolearn
+  -  Das Product Backlog ist eine dynamische Liste von Funktionen, Erweiterungen, Fehlerbehebungen und technischen Aanforderungen für das *gesamte* Projekt.
+  - Für das Product Backlog ist der Product Owner verantwortlich. 
+#+END_tolearn
+*** Sprint Backlog
+#+BEGIN_tolearn
+  - Das Sprint Backlog enthält die Aufgaben, die das Entwicklungsteam beschließt, während eines einzelnen Sprints zu bearbeiten.
+#+END_tolearn
+*** Inkrement
+#+BEGIN_tolearn
+  - Das Inkrement ist die Summe aller im Sprint abgeschlossenen Product-Backlog-Elemente.
+  - Es sollte ein auslieferbares Produkt sein.
+  - Das Inkrement dient dazu Feedback der Stakeholder einzuholen und sie über den Fortschritt zu informieren. 
+#+END_tolearn
+
+** Sprint und Meetings
+
+#+CAPTION: Sprint
+#+NAME: fig:sprint
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/Scrum_Sprint.png]]
+
+*** Was ist ein Sprint?
+Ein Sprint ist ein Entwicklungszyklus in Scrum.
+#+BEGIN_tolearn
+    - Zeitlich Begrenzt: Ein Sprint hat immer eine feste Dauer, meist zwischen einer und vier Wochen.
+    - Unveränderbar: Die Dauer und die Aufgaben im /Sprint Backlog/ können nach Beginn des Sprints nicht mehr geändert werden.
+    - Zielorientiert: Jeder Sprint hat ein Sprint-Ziel, das den Fokus und den Wert des zu liefernden Inkrements definiert.
+    - Inkremente: Ein potenziell auslieferbares Produkt ("Inkrement") sollte am Ende eines jeden Sprints stehen.
+#+END_tolearn
+Zu jedem Sprint gehören eine Reihe von Meetings.
+
+*** Sprint-Planung
+#+BEGIN_tolearn
+    - Wann: Zu Beginn jedes Sprints
+    - Teilnehmer: Product Owner, Scrum Master, Entwicklungsteam, (optional: Stakeholder)
+    - Max. 2 Stunden pro /Sprint Woche/.
+    - Das Team plant die Arbeit, die im kommenden Sprint durchgeführt werden soll.
+#+END_tolearn
+
+*** Daily Stand-up
+#+BEGIN_tolearn
+    - Wann: Täglich zur gleichen Zeit
+    - Teilnehmer: Entwicklungsteam, Scrum Master, (optional: Product Owner)
+    - Max. 15 Minuten.
+    - Ein kurzes Meeting, bei dem die Teammitglieder sich gegenseitig darüber informieren, woran sie gestern gearbeitet haben (Status-Update) und wo es eventuell Probleme gibt.
+    - Es sollen keine Konflikte oder technischen Details diskutiert werden.
+#+END_tolearn
+
+#+BEGIN_NOTES
+Die Daily-Standups stehen in Bezug auf Scrum besonders in der Kritik und werden immer als unnütz und frustrierend erlebt:
+    - Standups können zu einer Show der Produktivität werden, besonders wenn Manager anwesend sind.
+    - Der Zeitplan wird meist nicht eingehalten (Standups von einer Stunde sind in der Praxis keine Seltenheit.)
+    - Im Vordergrund steht oft, das reine Status-Update, das in der Regel auch auf anderem Weg ausgetauscht werden könnte.
+    - Teilweise mischt sich der /Scrum Master/ in die Arbeitsentscheidungen ein, obwohl er das ausdrücklich nicht darf.
+    - Oft ist der /Product Owner/ bei jedem Standup anwesend, weshalb Teammitglieder sich nicht trauen, Probleme anzusprechen oder um Hilfe zu bitte (Hauptzweck des Meeting!).
+
+Damit die Meetings als zielführend empfunden werden, sollten sie so kurz wie möglich gestaltet werden und sich darauf konzentrieren, konkrete Frage und Probleme zu lösen, wobei Details ausgelagert werden sollten.
+Außerdem sollte der /Product Owner/ nur im absoluten Ausnahmefall teilnehmen.
+ #+END_NOTES
+
+*** Sprint Review
+#+BEGIN_tolearn
+    - Wann: Am Ende jedes Sprints
+    - Teilnehmer: Entwicklungsteam, Scrum Master, Product Owner, *Stakeholder*
+    - Max. eine Stunde je Sprintwoche.
+    - Wird am Ende des Sprints abgehalten, um das Inkrement zu inspizieren und das Product Backlog bei Bedarf anzupassen.
+#+END_tolearn
+*** Sprint Retrospektive
+#+BEGIN_tolearn
+    - Wann: Nach dem Sprint Review und vor der nächsten Sprint-Planung
+    - Teilnehmer: Entwicklungsteam, Scrum Master, Product Owner
+    - Max. 45 Minuten je Sprintwoche.
+    - Ein Meeting, bei dem das Team bespricht, was gut gelaufen ist, was nicht, und wie sie sich im nächsten Sprint verbessern können.
+    - Hier soll offen gesprochen und auch Konflikte geklärt werden, um diese aus dem eigentlichen Sprint rauszuhalten.
+#+END_tolearn
+
+** Typische Werkzeuge
+*** User-Story
+#+CAPTION: User Story
+#+NAME: fig:ustory 
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/UserStory.png]]
+
+#+BEGIN_NOTES
+  1. Verständnis für die Bedürfnisse und Anforderungen der Endbenutzer schaffen.
+  2. Einfache und klare Dokumentation dieser Anforderungen ermöglichen.
+  3. Priorisierung und Planung der Entwicklungsarbeit unterstützen.
+  4. Kommunikations- und Kollaborationswerkzeug zwischen allen Beteiligten.
+#+END_NOTES
+
+
+**** INVEST-Kriterien
+
+#+CAPTION: INVEST-Kriterien
+#+NAME: fig:invest
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/Invest.png]]
+
+#+BEGIN_NOTES
+Was ist beim Erstellen einer User-Story zu beachten?
+  1. **Einfachheit**: Die Story sollte einfach und klar formuliert sein.
+  2. **Klarheit**: Keine Mehrdeutigkeiten; klare Verständlichkeit für alle Beteiligten.
+  3. **Benutzerzentriert**: Fokus auf den Nutzen für den Benutzer, nicht auf technische Details.
+  4. **INVEST-Kriterien**: Independent, Negotiable, Valuable, Estimable, Small, Testable.
+  5. **Akzeptanzkriterien**: Klare, messbare Kriterien für die Fertigstellung der Story.
+#+END_NOTES
+**** User Journey zur Erstellung einer Software für Projektrisikomanagement
+***** User-Story 1: Risiken erfassen
+   - Als Projektmanager
+   - möchte ich eine einfache Möglichkeit haben, Projektrisiken zu erfassen
+   - damit ich eine umfassende Risikoliste erstellen kann.
+   #+BEGIN_NOTES
+   - Akzeptanzkriterien: Einfaches UI-Formular, Möglichkeit zur Hinzufügung von Attachments
+   #+END_NOTES
+***** User-Story 2: Risiken priorisieren
+   - Als Projektmanager
+   - möchte ich Risiken bewerten können
+   - damit ich weiß, welche Risiken dringend sind.
+   #+BEGIN_NOTES
+   - Akzeptanzkriterien: Bewertung der Wahrscheinlichkeit, Automatische Sortierung
+   #+END_NOTES
+***** User-Story 3: Risiken überwachen
+   - Als Projektmanager
+   - möchte ich den Status der Risiken verfolgen können
+   - damit ich die Wirksamkeit der Gegenmaßnahmen beurteilen kann.
+   #+BEGIN_NOTES
+   - Akzeptanzkriterien: Möglichkeit zur Aktualisierung des Status, Zeitliche Verlaufsdarstellung
+   #+END_NOTES
+
+**** Definition of Done
+    - Die Kriterien, die erfüllt sein müssen, damit eine User-Story als abgeschlossen gilt.
+*** Story-Points
+
+#+CAPTION: Kriterien zur Vergabe von Story-Points
+#+NAME: fig:StoryPoints
+#+ATTR_HTML: :width 15% :class logo 
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/StoryPoints.png]]
+
+    - Story-Points sind eine abstrakte Einheit zur Schätzung des relativen Aufwands einer Aufgabe.
+    - Aufgaben werden im Verhältnis zueinander bewertet, nicht in absoluten Zeiteinheiten.
+    - Story-Points werden oft unter Berücksichtigung von drei Hauptfaktoren vergeben: Zeitaufwand, Komplexität und Risiko/Unsicherheit.
+      - *Zeitaufwand*: Wie viel Zeit wird benötigt, um die User-Story abzuschließen?
+      - *Komplexität*: Wie komplex ist die User-Story in Bezug auf die Anzahl der zu berücksichtigenden Variablen oder die Schwierigkeit der Implementierung?
+      - *Risiko/Unsicherheit*: Gibt es Unsicherheiten oder Risiken, die die Implementierung der User-Story beeinflussen könnten?
+
+**** User-Story 1: Risiken erfassen
+   - Story-Points: 3
+   - Zeitaufwand: Mittel (UI-Entwicklung und Backend-Integration erforderlich)
+   - Komplexität: Niedrig (Einfaches Formular)
+   - Risiko/Unsicherheit: Niedrig (Keine großen technischen Herausforderungen)
+   - Begründung: Diese Story ist relativ einfach und stellt keine großen technischen Herausforderungen dar.
+
+**** User-Story 2: Risiken priorisieren
+   - Story-Points: 5
+   - Zeitaufwand: Mittel (Bewertungsalgorithmus und UI erforderlich)
+   - Komplexität: Mittel (Bewertungsalgorithmus)
+   - Risiko/Unsicherheit: Mittel (Unklarheit über Bewertungskriterien)
+   - Begründung: Diese Story ist komplexer als die erste, da sie einen Bewertungsalgorithmus und mehr Unsicherheit beinhaltet.
+
+**** User-Story 3: Risiken überwachen
+   - Story-Points: 8
+   - Zeitaufwand: Hoch (Mehrere Features und Datenvisualisierung erforderlich)
+   - Komplexität: Hoch (Zeitliche Verlaufsdarstellung und Statusaktualisierung)
+   - Risiko/Unsicherheit: Hoch (Unklarheit über Datenquellen und Visualisierungsanforderungen)
+   - Begründung: Diese Story ist die komplexeste und zeitaufwendigste von allen und beinhaltet das höchste Risiko und die größte Unsicherheit.
+
+*** Planning Poker
+#+CAPTION: Planning Poker
+#+NAME: fig:poker
+#+ATTR_HTML: :width 20% :class logo
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/PlaningPoker.png]]
+
+    - Eine Technik zur Schätzung der Story-Points, bei der Teammitglieder Karten mit verschiedenen Werten verwenden.
+    - Jedes Teammitglied wählt eine Karte, die Karten werden aufgedeckt, und es wird diskutiert, bis ein Konsens erreicht ist.
+
+**** Beispiel Planning-Poker für User-Story 1: Risiken erfassen
+***** Team-Mitglieder
+   - Erfahrene Entwicklerin
+   - Software-Ingenieur
+   - Entwickler in Ausbildung
+   - Designerin
+***** Schritte des Planning-Pokers
+****** Vorstellung der User-Story
+    - Der Product Owner stellt die User-Story und die Akzeptanzkriterien vor.
+****** Fragen und Diskussion
+    - Klärung von Unklarheiten.
+#+REVEAL: split 
+****** Kartenauswahl
+    - Jedes Mitglied wählt eine Karte:
+      #+ATTR_REVEAL: :frag (appear)
+      - *Erfahrene Entwicklerin*: Wählt 3 Story-Points, da sie ähnliche Features in der Vergangenheit implementiert hat.
+      - *Software-Ingenieur*: Wählt 5 Story-Points, da er Bedenken hinsichtlich der Backend-Integration hat.
+      - *Entwickler in Ausbildung*: Wählt 2 Story-Points, da er die Aufgabe für sehr einfach hält.
+      - *Designerin*: Wählt 3 Story-Points, da sie denkt, dass das UI-Design nicht kompliziert ist.
+****** Karten aufdecken
+    - Karten werden gleichzeitig aufgedeckt.
+#+REVEAL: split
+****** Diskussion und Begründung
+    - Mitglieder erklären ihre Schätzungen.
+      #+ATTR_REVEAL: :frag (appear)
+      - *Erfahrene Entwicklerin*: „Ich habe 3 Story-Points gewählt, weil ich bereits an ähnlichen Features gearbeitet habe. Die Backend-Integration ist ziemlich standardmäßig, und das UI ist auch nicht besonders komplex. Ich denke, das ist eine Aufgabe mittlerer Größe.”
+      - *Software-Ingenieur*: „Ich habe 5 Punkte gewählt, weil ich denke, dass die Backend-Integration einige Herausforderungen mit sich bringen könnte, insbesondere wenn wir an die Skalierbarkeit und die Datenbankperformance denken.”
+      - *Entwickler in Ausbildung*: „Ich habe 2 Punkte gewählt, weil die Aufgabe auf den ersten Blick einfach erscheint. Aber ich habe nicht viel Erfahrung mit solchen Features, daher könnte ich das unterschätzen.”
+      - *Designerin*: „Ich habe ebenfalls 3 Punkte gewählt. Das Design für ein einfaches UI-Formular ist ziemlich unkompliziert, und ich sehe keine großen Herausforderungen bei der Implementierung der UI.”
+
+#+REVEAL: split
+****** Neue Schätzung
+    - Nach der Diskussion wählen alle erneut eine Karte.
+      #+ATTR_REVEAL: :frag (appear)
+      - *Erfahrene Entwicklerin*: Wählt weiterhin 3 Story-Points.
+      - *Software-Ingenieur*: Wählt 3 Story-Points, da die Begründung der Entwicklerin ihn überzeugt hat.
+      - *Entwickler in Ausbildung*: Wählt 3 Story-Points, da ihm bewusst geworden ist, dass er die Aufgabe unterschätzt hat.
+      - *Designerin*: Wählt weiterhin 3 Story-Points.
+****** Konsens finden
+    - Einigung auf 3 Story-Points.
+
+*** Burn-Down-/ Burn-Up-Chart
+
+#+CAPTION: Burn-Down-Chart
+#+NAME: fig:burndownchart
+#+ATTR_HTML: :width 50% 
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700 
+[[file:img/BurnDownChart.png]]
+
+  - Nutzen
+    - Transparenz: Einfache Visualisierung des Fortschritts
+    - Planung: Einschätzung der Zielerreichung
+    - Anpassung: Möglichkeit für frühzeitige Korrekturen
+
+#+BEGIN_NOTES
+- Burn-Down-Charts visualisieren den Projektfortschritt anhand der verbleibenden Arbeit.
+- Dem gegenüber stehen Burn-Up-Charts, die dasselbe anhand der bereits geleistete Arbeit tun.
+- Beide sollte nicht als Werkzeug zur Bewertung der Produktivität missverstanden oder missbraucht werden.
+#+END_NOTES
+
+**** Velocity
+    - Ein Maß für die Menge an Arbeit, die ein Team in einem Sprint abschließen kann.
+    - Wird oft in Story-Points ausgedrückt.
+ 
+* Mögliche Kritikpunkte                                           
+Die folgenden Aussagen sind eine Zusammenfassung eines Blog-Artikels auf [[https://stackoverflow.blog/2020/06/29/does-scrum-ruin-great-engineers-or-are-you-doing-it-wrong/][Stackoverflow]].
+** Kritische Betrachtung von Scrum
+*** Effektivität und Produktivität
+    - Scrum könnte gute Entwickler zu durchschnittlichen machen, da es zu "Ticket-Hochscoren" und oberflächlicher Produktivität führen kann.
+*** Management und Teamdynamik
+    - Schlechtes Management und nicht Scrum selbst ist oft die Ursache für Teamversagen.
+*** Typische Scrum-Fallstricke
+**** Standups sind für Manager
+     - Standups können zu einer Show der Produktivität werden, besonders wenn Manager anwesend sind.
+**** Keine Zeit für den Austausch mit Kollegen
+     - Wenn die Geschwindigkeit die einzige Messgröße ist, hat das Team keine Zeit für Konsultationen oder Zweitmeinungen.
+**** Falsche Priorisierung
+     - Entwickler könnten dazu neigen, einfachere Aufgaben zu wählen, um schnelle Erfolge zu erzielen.
+**** Features über robusten Code
+     - Die Qualität des Codes könnte leiden, wenn Features als wichtigste Lieferergebnisse angesehen werden.
+**** Neue Fehler müssen warten
+     - Fehler, die nach dem Sprint gefunden werden, werden als neue Arbeit betrachtet und könnten daher vernachlässigt werden.
+
