@@ -39,7 +39,7 @@
 - Der Begriff „Wasserfall“ symbolisiert die Einweg-Natur des Prozesses.
 - Jede Phase fließt in die nächste, ohne Möglichkeit zur Rückkehr.
 
-*** Zusätzliche Anmerkungen
+*** Zusätzliche Anmerkungen                                        :noexport:
 #+BEGIN_NOTES
 - Effektiv für gut verstandene Projekte
 - Änderungen sind schwierig und kostspielig
@@ -68,7 +68,7 @@
 - „Iterativ“ bezieht sich auf die wiederholte Durchführung von Zyklen.
 - Jeder Zyklus verbessert das Produkt basierend auf den Erfahrungen des vorherigen.
 
-*** Zusätzliche Anmerkungen
+*** Zusätzliche Anmerkungen                                        :noexport:
 #+BEGIN_NOTES
 - Gut für unklare oder variable Anforderungen
 - Änderungen können leicht integriert werden
