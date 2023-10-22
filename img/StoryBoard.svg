@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="263.577"
+   width="658.31146"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="StoryBoard.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14">
+    <marker
+       style="overflow:visible"
+       id="marker61"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path61" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <!-- Draw horizontal line -->
+  <!-- Draw vertical lines -->
+  <!-- Add text for Activities -->
+  <!-- Add circles for User Stories -->
+  <!-- Add text for User Stories -->
+  <g
+     id="g62"
+     transform="translate(-6.68151,-23.385475)">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#800000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;marker-end:url(#Triangle)"
+       d="M 30.138356,89.858264 637.03091,88.253652 c 33.30569,-0.730497 35.07494,63.780338 0,64.184478 H 49.32452 c -30.569477,0.79999 -31.608349,58.06824 0,57.76602 h 550.80031"
+       id="path59"
+       sodipodi:nodetypes="cccccc" />
+    <g
+       id="g23">
+      <rect
+         style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect14"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="36.630665"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="56.251781"
+         id="text16"><tspan
+           sodipodi:role="line"
+           id="tspan16"
+           x="79.127083"
+           y="56.251781"
+           style="stroke-width:0.674288">Epic 1</tspan></text>
+    </g>
+    <g
+       id="g21"
+       transform="translate(12)">
+      <rect
+         style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect15"
+         width="60"
+         height="30"
+         x="169.3732"
+         y="36.630665"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="199.13046"
+         y="56.251781"
+         id="text17"><tspan
+           sodipodi:role="line"
+           id="tspan17"
+           x="199.12709"
+           y="56.251781"
+           style="stroke-width:0.674288">Epic 2</tspan></text>
+    </g>
+    <g
+       id="g22"
+       transform="translate(28)">
+      <rect
+         style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect16"
+         width="60"
+         height="30"
+         x="349.3732"
+         y="36.630665"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="379.03156"
+         y="56.251781"
+         id="text18"><tspan
+           sodipodi:role="line"
+           id="tspan18"
+           x="379.0282"
+           y="56.251781"
+           style="stroke-width:0.674288">Epic 3</tspan></text>
+    </g>
+    <g
+       id="g19"
+       transform="translate(0,-2)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect18"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text19"><tspan
+           sodipodi:role="line"
+           id="tspan19"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g20"
+       transform="translate(66,-2)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect19"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text20"><tspan
+           sodipodi:role="line"
+           id="tspan20"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g24"
+       transform="translate(132.00001,-2)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect23"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text23"><tspan
+           sodipodi:role="line"
+           id="tspan23"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g25"
+       transform="translate(198.00001,-2)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect24"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text24"><tspan
+           sodipodi:role="line"
+           id="tspan24"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g26"
+       transform="translate(262.00001,-2)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect25"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text25"><tspan
+           sodipodi:role="line"
+           id="tspan25"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g29"
+       transform="translate(-4.0000024,-2)">
+      <g
+         id="g27"
+         transform="translate(332.00001)">
+        <rect
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect26"
+           width="60"
+           height="30"
+           x="49.373192"
+           y="76.630661"
+           rx="1.8643231e-15"
+           ry="1.8643231e-15" />
+        <text
+           xml:space="preserve"
+           style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+           x="79.130455"
+           y="96.251778"
+           id="text26"><tspan
+             sodipodi:role="line"
+             id="tspan26"
+             x="79.127083"
+             y="96.251778"
+             style="stroke-width:0.674288">Story</tspan></text>
+      </g>
+      <g
+         id="g28"
+         transform="translate(398.00001)">
+        <rect
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect27"
+           width="60"
+           height="30"
+           x="49.373192"
+           y="76.630661"
+           rx="1.8643231e-15"
+           ry="1.8643231e-15" />
+        <text
+           xml:space="preserve"
+           style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+           x="79.130455"
+           y="96.251778"
+           id="text27"><tspan
+             sodipodi:role="line"
+             id="tspan27"
+             x="79.127083"
+             y="96.251778"
+             style="stroke-width:0.674288">Story</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g32"
+       transform="translate(128,-2)">
+      <g
+         id="g30"
+         transform="translate(332.00001)">
+        <rect
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect29"
+           width="60"
+           height="30"
+           x="49.373192"
+           y="76.630661"
+           rx="1.8643231e-15"
+           ry="1.8643231e-15" />
+        <text
+           xml:space="preserve"
+           style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+           x="79.130455"
+           y="96.251778"
+           id="text29"><tspan
+             sodipodi:role="line"
+             id="tspan29"
+             x="79.127083"
+             y="96.251778"
+             style="stroke-width:0.674288">Story</tspan></text>
+      </g>
+      <g
+         id="g31"
+         transform="translate(398.00001)">
+        <rect
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect30"
+           width="60"
+           height="30"
+           x="49.373192"
+           y="76.630661"
+           rx="1.8643231e-15"
+           ry="1.8643231e-15" />
+        <text
+           xml:space="preserve"
+           style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+           x="79.130455"
+           y="96.251778"
+           id="text30"><tspan
+             sodipodi:role="line"
+             id="tspan30"
+             x="79.127083"
+             y="96.251778"
+             style="stroke-width:0.674288">Story</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g33">
+      <path
+         style="fill:#ff6600;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="M 48.601736,122.34716 H 634.90839"
+         id="path32" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:26.6667px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.01px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000080;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="341.39508"
+         y="128.44331"
+         id="text32"><tspan
+           sodipodi:role="line"
+           id="tspan32"
+           x="341.39008"
+           y="128.44331">Release 1</tspan></text>
+    </g>
+    <g
+       id="g34"
+       transform="translate(0,60)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect33"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text33"><tspan
+           sodipodi:role="line"
+           id="tspan33"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g36"
+       transform="translate(132.00001,60)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect35"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text35"><tspan
+           sodipodi:role="line"
+           id="tspan35"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g37"
+       transform="translate(198.00001,60)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect36"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text36"><tspan
+           sodipodi:role="line"
+           id="tspan36"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g44"
+       transform="translate(128,60)">
+      <g
+         id="g42"
+         transform="translate(332.00001)">
+        <rect
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect41"
+           width="60"
+           height="30"
+           x="49.373192"
+           y="76.630661"
+           rx="1.8643231e-15"
+           ry="1.8643231e-15" />
+        <text
+           xml:space="preserve"
+           style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+           x="79.130455"
+           y="96.251778"
+           id="text41"><tspan
+             sodipodi:role="line"
+             id="tspan41"
+             x="79.127083"
+             y="96.251778"
+             style="stroke-width:0.674288">Story</tspan></text>
+      </g>
+      <g
+         id="g43"
+         transform="translate(398.00001)">
+        <rect
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+           id="rect42"
+           width="60"
+           height="30"
+           x="49.373192"
+           y="76.630661"
+           rx="1.8643231e-15"
+           ry="1.8643231e-15" />
+        <text
+           xml:space="preserve"
+           style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+           x="79.130455"
+           y="96.251778"
+           id="text42"><tspan
+             sodipodi:role="line"
+             id="tspan42"
+             x="79.127083"
+             y="96.251778"
+             style="stroke-width:0.674288">Story</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g45"
+       transform="translate(0,62)">
+      <path
+         style="fill:#ff6600;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="M 48.601736,122.34716 H 634.90839"
+         id="path45" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:26.6667px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.01px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000080;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="341.39508"
+         y="128.44331"
+         id="text45"><tspan
+           sodipodi:role="line"
+           id="tspan45"
+           x="341.39008"
+           y="128.44331">Release 2</tspan></text>
+    </g>
+    <g
+       id="g46"
+       transform="translate(0,120)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect45"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text46"><tspan
+           sodipodi:role="line"
+           id="tspan46"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g56"
+       transform="translate(198.00001,120)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect56"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text56"><tspan
+           sodipodi:role="line"
+           id="tspan56"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g57"
+       transform="translate(394.00001,120)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect57"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text57"><tspan
+           sodipodi:role="line"
+           id="tspan57"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g58"
+       transform="translate(460.00001,120)">
+      <rect
+         style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.883807;stroke-linecap:round;stroke-linejoin:bevel"
+         id="rect58"
+         width="60"
+         height="30"
+         x="49.373192"
+         y="76.630661"
+         rx="1.8643231e-15"
+         ry="1.8643231e-15" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:17.981px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00674288px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.674288;stroke-linecap:round;stroke-linejoin:bevel"
+         x="79.130455"
+         y="96.251778"
+         id="text58"><tspan
+           sodipodi:role="line"
+           id="tspan58"
+           x="79.127083"
+           y="96.251778"
+           style="stroke-width:0.674288">Story</tspan></text>
+    </g>
+    <g
+       id="g59"
+       transform="translate(0,122)">
+      <path
+         style="fill:#ff6600;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="M 48.601736,122.34716 H 634.90839"
+         id="path58" />
+      <text
+         xml:space="preserve"
+         style="font-weight:600;font-size:26.6667px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.01px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000080;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         x="341.39508"
+         y="128.44331"
+         id="text59"><tspan
+           sodipodi:role="line"
+           id="tspan59"
+           x="341.39008"
+           y="128.44331">Release 3</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#800000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;marker-start:url(#marker61);marker-end:url(#marker61)"
+       d="M 12.836895,30.487625 V 280.80708 H 657.89086"
+       id="path60" />
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:20.4282px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00766057px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#800000;stroke-width:1.032;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="335.58191"
+       y="285.48706"
+       id="text61"><tspan
+         sodipodi:role="line"
+         id="tspan61"
+         x="335.57806"
+         y="285.48706"
+         style="fill:#ffffff;stroke-width:1.032;stroke-dasharray:none">Zeit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:16.2632px;line-height:1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;letter-spacing:-0.00609869px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#800000;stroke-width:0.82159;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+       x="-155.72691"
+       y="20.024925"
+       id="text62"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan62"
+         x="-155.72997"
+         y="20.024925"
+         style="fill:#ffffff;stroke-width:0.82159;stroke-dasharray:none">Priorität</tspan></text>
+  </g>
+</svg>
