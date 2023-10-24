@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="208.31531mm"
-   height="133.96011mm"
-   viewBox="0 0 208.31531 133.96012"
+   width="208.5799mm"
+   height="128.33208mm"
+   viewBox="0 0 208.5799 128.33208"
    version="1.1"
    id="svg1"
    inkscape:export-filename="Scrum_Artefakte.png"
@@ -37,7 +37,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <sodipodi:guide
-       position="38.311875,126.47384"
+       position="38.444166,132.23419"
        orientation="0,-1"
        id="guide1"
        inkscape:locked="false" />
@@ -48,7 +48,7 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-37.229961,-82.492836)">
+     transform="translate(-37.09767,-88.253187)">
     <g
        id="g29"
        transform="translate(-26.222494,-59.414771)">
@@ -81,15 +81,15 @@
        sodipodi:nodetypes="ccccccc" />
     <g
        id="g1"
-       style="opacity:0.5;fill:#999999;fill-opacity:0.50196081;stroke:none"
+       style="opacity:0.5;fill:#999999;fill-opacity:0.501961;stroke:none"
        transform="translate(-5.2916667)">
       <path
          id="rect1"
-         style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
+         style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
          d="m 60.738488,100.46125 c 3.008389,1.8888 5.915946,1.61886 8.778288,0 0,0 1.11406,-0.047 2.645834,5.08055 1.531774,5.1275 2.645833,26.24721 2.645833,26.24721 v 0 H 55.446821 v 0 c 0,0 1.11406,-21.11971 2.645834,-26.24721 1.531774,-5.1275 2.645833,-5.08055 2.645833,-5.08055 z"
          sodipodi:nodetypes="cczcccczc" />
       <circle
-         style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+         style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
          id="path1"
          cx="65.127632"
          cy="94.349579"
@@ -97,41 +97,41 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-weight:600;font-size:7.05556px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;text-anchor:middle;opacity:0.588235;fill:#999999;fill-opacity:0.50196081;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+       style="font-weight:600;font-size:7.05556px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;text-anchor:middle;opacity:1;fill:#999999;fill-opacity:0.501961;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
        x="107.40453"
        y="214.99951"
        id="text7"><tspan
          sodipodi:role="line"
          id="tspan7"
-         style="fill:#999999;fill-opacity:0.50196081;stroke:#000000;stroke-width:0.264583"
+         style="fill:#999999;fill-opacity:0.501961;stroke:#000000;stroke-width:0.264583"
          x="107.40453"
          y="214.99951">Projektteam</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:600;font-size:7.05556px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;text-anchor:middle;fill:#999999;fill-opacity:0.50196081;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+       style="font-weight:600;font-size:7.05556px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;text-anchor:middle;fill:#999999;fill-opacity:0.501961;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
        x="59.536102"
        y="142.44305"
        id="text8"><tspan
          sodipodi:role="line"
          id="tspan8"
-         style="fill:#999999;fill-opacity:0.50196081;stroke:#000000;stroke-width:0.264583"
+         style="fill:#999999;fill-opacity:0.501961;stroke:#000000;stroke-width:0.264583"
          x="59.536102"
          y="142.44305">Product Owner</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:600;font-size:7.05556px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
        x="75.333923"
-       y="92.164894"
+       y="100.81863"
        id="text23"><tspan
          sodipodi:role="line"
          id="tspan23"
          style="fill:#ffffff;stroke-width:1.32292"
          x="75.333923"
-         y="92.164894">Product-</tspan><tspan
+         y="100.81863">Product-</tspan><tspan
          sodipodi:role="line"
          style="fill:#ffffff;stroke-width:1.32292"
          x="75.333923"
-         y="100.98434"
+         y="109.63808"
          id="tspan24">Backlog</tspan></text>
     <path
        id="path24"
@@ -148,7 +148,7 @@
          id="tspan25"
          style="fill:#ffffff;stroke-width:1.32292"
          x="107.0839"
-         y="160.95657">Product-</tspan><tspan
+         y="160.95657">Sprint-</tspan><tspan
          sodipodi:role="line"
          style="fill:#ffffff;stroke-width:1.32292"
          x="107.0839"
@@ -157,18 +157,18 @@
     <g
        id="g17"
        transform="translate(0.52917499)"
-       style="opacity:0.5;fill:#999999;fill-opacity:0.50196081">
+       style="opacity:0.5;fill:#999999;fill-opacity:0.501961">
       <g
          id="g3"
-         style="fill:#999999;fill-opacity:0.50196081;stroke:none"
+         style="fill:#999999;fill-opacity:0.501961;stroke:none"
          transform="translate(21.431252,74.083337)">
         <path
            id="path3"
-           style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
+           style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
            d="m 60.738488,100.46125 c 3.008389,1.8888 5.915946,1.61886 8.778288,0 0,0 1.11406,-0.047 2.645834,5.08055 1.531774,5.1275 2.645833,26.24721 2.645833,26.24721 v 0 H 55.446821 v 0 c 0,0 1.11406,-21.11971 2.645834,-26.24721 1.531774,-5.1275 2.645833,-5.08055 2.645833,-5.08055 z"
            sodipodi:nodetypes="cczcccczc" />
         <circle
-           style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+           style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
            id="circle3"
            cx="65.127632"
            cy="94.349579"
@@ -176,15 +176,15 @@
       </g>
       <g
          id="g4"
-         style="fill:#999999;fill-opacity:0.50196081;stroke:none"
+         style="fill:#999999;fill-opacity:0.501961;stroke:none"
          transform="translate(35.013197,74.083337)">
         <path
            id="path4"
-           style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
+           style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
            d="m 60.738488,100.46125 c 3.008389,1.8888 5.915946,1.61886 8.778288,0 0,0 1.11406,-0.047 2.645834,5.08055 1.531774,5.1275 2.645833,26.24721 2.645833,26.24721 v 0 H 55.446821 v 0 c 0,0 1.11406,-21.11971 2.645834,-26.24721 1.531774,-5.1275 2.645833,-5.08055 2.645833,-5.08055 z"
            sodipodi:nodetypes="cczcccczc" />
         <circle
-           style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+           style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
            id="circle4"
            cx="65.127632"
            cy="94.349579"
@@ -192,15 +192,15 @@
       </g>
       <g
          id="g15"
-         style="fill:#999999;fill-opacity:0.50196081;stroke:none"
+         style="fill:#999999;fill-opacity:0.501961;stroke:none"
          transform="translate(48.595142,74.083337)">
         <path
            id="path15"
-           style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
+           style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
            d="m 60.738488,100.46125 c 3.008389,1.8888 5.915946,1.61886 8.778288,0 0,0 1.11406,-0.047 2.645834,5.08055 1.531774,5.1275 2.645833,26.24721 2.645833,26.24721 v 0 H 55.446821 v 0 c 0,0 1.11406,-21.11971 2.645834,-26.24721 1.531774,-5.1275 2.645833,-5.08055 2.645833,-5.08055 z"
            sodipodi:nodetypes="cczcccczc" />
         <circle
-           style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+           style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
            id="circle15"
            cx="65.127632"
            cy="94.349579"
@@ -208,15 +208,15 @@
       </g>
       <g
          id="g16"
-         style="fill:#999999;fill-opacity:0.50196081;stroke:none"
+         style="fill:#999999;fill-opacity:0.501961;stroke:none"
          transform="translate(62.177087,74.083337)">
         <path
            id="path16"
-           style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
+           style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel"
            d="m 60.738488,100.46125 c 3.008389,1.8888 5.915946,1.61886 8.778288,0 0,0 1.11406,-0.047 2.645834,5.08055 1.531774,5.1275 2.645833,26.24721 2.645833,26.24721 v 0 H 55.446821 v 0 c 0,0 1.11406,-21.11971 2.645834,-26.24721 1.531774,-5.1275 2.645833,-5.08055 2.645833,-5.08055 z"
            sodipodi:nodetypes="cczcccczc" />
         <circle
-           style="fill:#999999;fill-opacity:0.50196081;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
+           style="fill:#999999;fill-opacity:0.501961;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
            id="circle16"
            cx="65.127632"
            cy="94.349579"
@@ -260,19 +260,15 @@
            r="6.0963922" />
       </g>
     </g>
-    <g
-       id="g2"
-       style="opacity:0.5;fill:#444444;fill-opacity:0.501961;stroke:none"
-       transform="translate(116.41667)" />
     <text
        xml:space="preserve"
-       style="font-weight:600;font-size:7.05556px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.26458333;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       style="font-weight:600;font-size:7.05556px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
        x="227.17612"
        y="142.44305"
        id="text14"><tspan
          sodipodi:role="line"
          id="tspan14"
-         style="stroke-width:0.26458333;stroke:#000000;stroke-dasharray:none"
+         style="stroke:#000000;stroke-width:0.264583;stroke-dasharray:none"
          x="227.17612"
          y="142.44305">Stakeholder</tspan></text>
   </g>
