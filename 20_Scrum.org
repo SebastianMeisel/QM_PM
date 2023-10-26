@@ -35,7 +35,7 @@
 #+ATTR_ORG: :width 700
 [[file:img/Scrum_Rollen.png]]
 
-*** Product Owner
+**** Product Owner
 #+BEGIN_tolearn
     - Der Product Owner ist verantwortlich für die Definition der Produktanforderungen und deren Priorisierung im /Product Backlog/.
     - Er ist für die Kommunikation mit den Stakeholdern verantwortlich.
@@ -70,7 +70,7 @@
   -  Das Product Backlog ist eine dynamische Liste von Funktionen, Erweiterungen, Fehlerbehebungen und technischen Aanforderungen für das *gesamte* Projekt.
   - Für das Product Backlog ist der Product Owner verantwortlich. 
 #+END_tolearn
-*** Sprint Backlog
+ * Sprint Backlog
 #+BEGIN_tolearn
   - Das Sprint Backlog enthält die Aufgaben, die das Entwicklungsteam beschließt, während eines einzelnen Sprints zu bearbeiten.
 #+END_tolearn
@@ -148,7 +148,7 @@ Außerdem sollte der /Product Owner/ nur im absoluten Ausnahmefall teilnehmen.
 ** Typische Werkzeuge
 *** User-Story
 #+CAPTION: User Story
-#+NAME: fig:ustory 
+#+NAME: fig:ustory
 #+ATTR_HTML: :width 50%
 #+ATTR_LATEX: :width .65\linewidth
 #+ATTR_ORG: :width 700
