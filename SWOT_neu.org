@@ -1,0 +1,143 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: SWOT Analyse
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+
+
+* Einführung in die SWOT-Analyse
+
+Die SWOT-Analyse ist ein nützliches Werkzeug, um
+#+ATTR_REVEAL: :frag (appear)
+1) die *internen* /Stärken/ und /Schwächen/ eines Unternehmens zu identifizieren und
+2) die *externen* /Chancen/ und /Risiken/, denen es sich aktuell stellen muss.
+
+Sie ermöglicht es, eine fundierte Entscheidung über die /strategische/ Ausrichtung zu treffen und potenzielle Problembereiche zu erkennen.
+
+** Vor- und Nachteile der SWOT-Analyse
+*** Vorteile:
+- Einfachheit: Die SWOT-Analyse ist einfach zu verstehen und umzusetzen.
+- Klarheit: Sie bietet eine klare Struktur für die Bewertung interner und externer Faktoren.
+- Flexibilität: Die Methode kann an verschiedene Branchen und Situationen angepasst werden.
+
+*** Nachteile:
+- Subjektivität: Die Ergebnisse können durch persönliche Einschätzungen beeinflusst werden.
+- Oberflächlichkeit: Es besteht die Gefahr, dass wichtige Faktoren übersehen werden.
+- Statische Analyse: Die SWOT-Analyse betrachtet die Faktoren in einem bestimmten Moment und berücksichtigt nicht deren Veränderung im Laufe der Zeit.
+
+** Interne Faktoren:
+
+#+BEGIN_tolearn
+#+ATTR_REVEAL: :frag (appear)
+- Stärken :: Eigenschaften oder Ressourcen, die dem Unternehmen einen Wettbewerbsvorteil verschaffen.
+- Schwächen :: Mangelnde Ressourcen oder Fähigkeiten, die das Unternehmen behindern oder einschränken.
+#+END_tolearn
+
+** Externe Faktoren:
+
+#+BEGIN_tolearn
+#+ATTR_REVEAL: :frag (appear)
+- Chancen :: Externe Gegebenheiten, die das Unternehmen nutzen kann, um seine Ziele zu erreichen.
+- Risiken :: Externe Bedrohungen oder Hindernisse, die das Unternehmen beeinträchtigen könnten.
+#+END_tolearn
+
+** Schritte:
+#+ATTR_REVEAL: :frag (appear)
+1. Datensammlung: Erfassung von Informationen zu internen und externen Faktoren.
+2. Bewertung: Bewertung der eigenen Stärken, Schwächen
+3. Analyse: Identifizierung aktueller Chancen und Risiken.
+4. Strategieentwicklung: Ableitung von Strategien basierend auf den Ergebnissen der Analyse.
+5. Umsetzung: Implementierung der ausgewählten Strategien.
+6. Überwachung und Anpassung: Kontinuierliche Überwachung der Umgebung und Anpassung der Strategien bei Bedarf.
+
+** Fallen:
+#+ATTR_REVEAL: :frag (appear)
+- Mangelnde Datenqualität: Unvollständige oder ungenaue Informationen können zu fehlerhaften Ergebnissen führen.
+- Fehlinterpretation: Eine falsche Interpretation der Daten kann zu falschen Schlussfolgerungen führen.
+- Vernachlässigung von Veränderungen: Veränderungen in der Umgebung müssen kontinuierlich überwacht werden, um die Wirksamkeit der Strategien sicherzustellen.
+
+** Entwicklung der Strategien (SO/ST/WO/WT)
+
+#+ATTR_REVEAL: :frag (appear)
+- SO-Strategien (Stärken-Chancen) :: Nutzung der Stärken des Unternehmens, um die Chancen in der Umgebung zu nutzen.
+- ST-Strategien (Stärken-Bedrohungen) :: Einsatz der Stärken, um potenzielle Bedrohungen abzuwehren oder zu minimieren.
+- WO-Strategien (Schwächen-Chancen) :: Maßnahmen zur Behebung von Schwächen, um Chancen in der Umgebung zu nutzen.
+- WT-Strategien (Schwächen-Bedrohungen) :: Versuch, Schwächen zu minimieren, um potenzielle Bedrohungen zu bewältigen.
+
+* SWOT-Portfolio
+
+#+CAPTION: SWOT-Portfolio
+#+NAME: fig:swot
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/SWOT.png]]
+
+
+** Beispiel
+
+Beispiel: Die Max & Moritz GmbH bietet seit vielen Jahren IT- Support für kleine lokale Unternehmen an: Einrichtung von Servern, Arbeitsplatzrechnern, Netzwerkeinrichtung, Datensicherung.
+
+#+CAPTION: Beispiel SWOT-Portfolio
+#+NAME: fig:Bsp
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/SWOT_Bsp.png]]
+
+
+* Aufgabe
+
+Erstellt eine SWOT-Analyse zu folgendem Szenario:
+
+Ein fiktives Unternehmen namens "TechSprint",  hat eine neue App namens "FitTrack" entwickelt. Diese App soll Nutzern helfen, ihre Fitnessziele zu verfolgen und zu erreichen. Hier ist das Szenario:
+
+** Stärken:
+
+- Innovative Technologie :: TechSprint verfügt über ein hochqualifiziertes Team von Entwicklern, das in der Lage ist, innovative Technologien wie KI und maschinelles Lernen in die FitTrack-App zu integrieren.
+
+- Benutzerfreundliche Oberfläche :: Die FitTrack-App bietet eine intuitive und benutzerfreundliche Oberfläche, die es den Nutzern erleichtert, ihre Fitnessziele festzulegen, zu verfolgen und anzupassen.
+
+- Schnelle Markteinführung :: Durch agile Entwicklungsmethoden und effiziente Prozesse kann TechSprint die FitTrack-App schnell auf den Markt bringen und auf Änderungen und Feedback der Nutzer reagieren.
+
+- Starke Markenbekanntheit :: Das Unternehmen hat bereits eine solide Basis an Followern und Abonnenten in den sozialen Medien aufgebaut, was die Vermarktung der FitTrack-App erleichtern könnte.
+
+** Schwächen 
+
+- Begrenztes Budget :: Als Startup verfügt TechSprint über begrenzte finanzielle Ressourcen, was die Fähigkeit des Unternehmens einschränken könnte, in Marketing, Forschung und Entwicklung zu investieren.
+
+- Geringe Nutzerbasis :: Da die FitTrack-App neu auf dem Markt ist, fehlt es TechSprint möglicherweise an einer etablierten Nutzerbasis, was die anfängliche Vermarktung und Akzeptanz erschweren könnte.
+
+- Abhängigkeit von Technologiepartnern :: TechSprint ist möglicherweise auf Technologiepartner angewiesen, um bestimmte Funktionen oder Dienste in der FitTrack-App bereitzustellen, was das Unternehmen anfällig für Unterbrechungen oder Abhängigkeiten macht.
+
+** Chancen
+
+- Wachsender Markt für Gesundheits- und Fitness-Apps :: Mit dem zunehmenden Gesundheitsbewusstsein der Verbraucher und dem wachsenden Interesse an Fitness-Apps besteht die Möglichkeit, dass die FitTrack-App von einer breiten Zielgruppe angenommen wird.
+
+- Partnerschaften mit Fitness- und Gesundheitsunternehmen :: TechSprint könnte strategische Partnerschaften mit Fitnessstudios, Sportartikelherstellern oder Gesundheitsorganisationen eingehen, um die Verbreitung und Akzeptanz der FitTrack-App zu fördern.
+
+- Globaler Markt :: Durch die digitale Natur der FitTrack-App könnte TechSprint den globalen Markt erreichen und potenziell Millionen von Nutzern ansprechen.
+
+** Bedrohungen
+
+- Wettbewerb von etablierten Unternehmen :: Es gibt bereits eine Vielzahl von etablierten Fitness-Apps auf dem Markt, die eine starke Konkurrenz für TechSprint darstellen könnten.
+
+- Datenschutz- und Sicherheitsbedenken :: Da die FitTrack-App möglicherweise persönliche Gesundheitsdaten der Nutzer sammelt, besteht die Gefahr von Datenschutzverletzungen oder Sicherheitslücken, die das Vertrauen der Nutzer beeinträchtigen könnten.
+
+- Schnelle Technologieentwicklung :: Die Technologiebranche entwickelt sich schnell weiter, und neue Innovationen könnten dazu führen, dass die FitTrack-App veraltet oder überholt wird, wenn TechSprint nicht in Forschung und Entwicklung investiert.
