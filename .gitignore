@@ -8,3 +8,6 @@ Methode_vs_Prozess.odp
 /*.log
 *.out
 *.tex
+*.fdb_latexmk
+*.fls
+*.xdv
