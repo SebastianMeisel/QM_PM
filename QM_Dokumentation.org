@@ -1,0 +1,105 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: QM-Dokumentation nach ISO 9000ff
+#+SUBTITLE: Untertitel
+#+AUTHOR: Sebastian Meisel
+
+* Einleitung
+   *ISO 9000ff*, insbesondere der *ISO 9001* beschreiben die Anforderungen der QM-Dokumentation.
+
+#+ATTR_HTML: :width 75% :alt Büroangestellt ertrinken in einer Flut aus Dokumenten
+#+ATTR_ORG: :width 700
+[[file:img/ISO9000_stress.png]]
+
+* Unterschiede zwischen Vorgabe- und Nachweisdokumentation
+ Die Vorgabe- und Nachweisdokumentation sind zwei wichtige Komponenten der QM-Dokumentation nach ISO 9001. Die Vorgabe- und Nachweisdokumentation erfüllen unterschiedliche Zwecke und werden zu verschiedenen Zeitpunkten im Qualitätsmanagementprozess eingesetzt.
+
+** Vorgabedokumentation
+#+BEGIN_tolearn
+Die Vorgabedokumentation legt die Anforderungen, Verfahren und Prozesse fest, die *zur Erfüllung* der Qualitätsstandards erforderlich sind.
+#+END_tolearn
+Sie dient als Leitfaden für die Durchführung von Aktivitäten im Rahmen des Qualitätsmanagementsystems. Ein Beispiel aus dem Bereich der Systemadministration wäre ein Dokument, das die Konfigurationsstandards für die Einrichtung von Servern festlegt.
+
+#+BEGIN_tolearn
+Seit ISO 9001:2015 ist *keine schriftliche* Vorgabedokumentation mehr vorgeschrieben.
+#+END_tolearn
+
+#+BEGIN_NOTES
+Die Tatsache, dass ISO 9001:2015 keine explizite Anforderung an schriftliche Vorgabedokumentation stellt, bedeutet nicht, dass die Erstellung solcher Dokumente nicht sinnvoll ist. Im Gegenteil, auch wenn die Norm mehr Flexibilität hinsichtlich der Dokumentation ermöglicht, kann die Erstellung bestimmter Dokumente weiterhin von Vorteil sein.
+
+Dies gilt vor allem für Vorgaben, die während eines Audits nicht zum Beispiel durch direkte Befragung von Mitarbeitern nachgewiesen werden können, wie Vorgaben an Zulieferer und externe Dienstleister und deren Überprüfung. Eine systematische Dokumentation von Prozessen, Arbeitsanweisungen und Risiken bildet die Grundlage für eine konsequentere Umsetzung der Vorgaben und erleichtert die Identifizierung von Verbesserungsmöglichkeiten im Qualitätsmanagementsystem. Ohne Vorgabedokumentation ist es deutlich erschwert, Prozesse zu verbessern und die Effektivität des Qualitätsmanagementsystems kontinuierlich zu steigern.
+#+END_NOTES
+
+** Nachweisdokumentation
+#+BEGIN_tolearn
+Die Nachweisdokumentation dient dazu, die *Erfüllung der* in der Vorgabedokumentation festgelegten *Anforderungen* *nachzuweisen*.
+#+END_tolearn
+Sie belegt, dass die definierten Prozesse und Verfahren tatsächlich eingehalten und umgesetzt wurden. Ein Beispiel aus dem Bereich der Anwendungsentwicklung wäre ein Testprotokoll, das dokumentiert, dass alle Funktionen einer Software gemäß den Spezifikationen getestet und validiert wurden.
+
+Sie wird für viele Bereiche schriftlich gefordert.
+
+*** Beispiele:
+#+ATTR_REVEAL: :frag (appear)
+- Testprotokolle und Testberichte :: Diese dokumentieren die durchgeführten Tests etwa von Softwareanwendungen oder Systemen, um deren Funktionalität, Leistung und Sicherheit zu überprüfen.
+- Änderungs- und Konfigurationsnachweise :: Diese dokumentieren alle Änderungen beispielweise an Softwarecode, Konfigurationseinstellungen oder Systemarchitektur. 
+- Schulungs- und Qualifikationsnachweise :: Diese dokumentieren die Schulungen, Zertifizierungen und Qualifikationen der Mitarbeiter, insbesondere im Hinblick auf ihre Rolle und Verantwortlichkeiten im IT-Unternehmen 
+
+* Das QM-Handbuch als Vorgabedokumentation
+
+Das QM-Handbuch spielt eine zentrale Rolle als *Vorgabedokumentation* im Qualitätsmanagementsystem nach ISO 9001.
+
+#+BEGIN_tolearn
+Es ist wie andere Vorgabedokumentation *nicht mehr vorgeschrieben* (bis 2015 ab 50 Mitarbeitern), aber oft weiterhin sinnvoll.
+#+END_tolearn
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Es enthält eine Zusammenfassung der Qualitätsziele, -prozesse, -verfahren und -richtlinien eines Unternehmens.
+- Das QM-Handbuch dient als Referenzdokument für Mitarbeiter und andere interessierte Parteien, um die Anforderungen und Prozesse des Qualitätsmanagementsystems zu verstehen und umzusetzen.
+- Für verschiedene Bereiche eines Unternehmens kann es eigene QM-Handbücher geben.
+
+* Unterschied zwischen interner und externer Dokumentation
+Die interne und externe Dokumentation unterscheiden sich hinsichtlich ihrer Zielgruppe und Verwendungszwecke.
+
+** Interne Dokumentation
+Die interne Dokumentation richtet sich an Mitarbeiter und andere interne Parteien eines Unternehmens. Sie umfasst alle Dokumente, die für die interne Verwaltung und Umsetzung des Qualitätsmanagementsystems benötigt werden.
+
+Ein Beispiel aus dem Bereich der Systemadministration wäre ein internes Dokument, das die Konfigurationseinstellungen für das Netzwerk eines Unternehmens beschreibt.
+
+** Externe Dokumentation
+Die externe Dokumentation hingegen richtet sich an externe Parteien wie Kunden, Lieferanten und Zertifizierungsstellen. Sie dient dazu, die Konformität des Qualitätsmanagementsystems mit den geltenden Normen und Standards nachzuweisen.
+
+Ein Beispiel aus dem Bereich der Anwendungsentwicklung wäre ein Zertifikat, das belegt, dass eine Software gemäß den Qualitätsstandards entwickelt wurde und den Anforderungen der ISO 25010 entspricht.
+
+* Nutzen und Akzeptanz
+
+In der Praxis wird die Bedeutung der Dokumentation oft auf die Erfüllung der ISO 9001 Zertifizierung reduziert. Dadurch leidet nicht nur die Akzeptanz bei den Mitarbeitern, sondern es werden auch wertvolle Chancen verpasst:
+#+ATTR_REVEAL: :frag (appear)
+Hier ist eine überarbeitete Version der Zusammenfassung mit Anpassungen und Korrekturen:
+- Nutzung als Grundlage für kontinuierliche Verbesserung.
+- Unterstützung bei der Fehlererkennung und Identifizierung von Schwachstellen.
+- Motivation durch die Dokumentation und Sichtbarmachung von Fortschritten.
+
+** Aufwand Reduzieren
+
+Um die Akzeptanz zu steigern und effektiver zu arbeiten, ist es entscheidend, den Aufwand für die Dokumentation zu reduzieren. Dies kann durch folgende Maßnahmen erreicht werden:
+#+ATTR_REVEAL: :frag (appear)
+- Verwendung standardisierter Vorlagen.
+- Automatisierung von Prozessen.
+- Implementierung einer zentralisierten Dokumentenverwaltung.
+- Schulung und Sensibilisierung der Mitarbeiter.
