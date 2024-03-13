@@ -1,0 +1,80 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 1
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Diagramme in der Qualitätsanalyse
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+* Ishikawa-Diagramm (Fischgrätendiagramm)
+Ein Ishikawa-Diagramm, auch bekannt als *Fischgrätendiagramm* oder *Ursache-Wirkungs-Diagramm*, ist ein Werkzeug zur Analyse von Ursachen und Wirkungen von Problemen oder Qualitätsabweichungen. Es visualisiert potenzielle Ursachen eines Problems in verschiedenen Kategorien.
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .55\linewidth :float nil
+#+ATTR_ORG: :width 700
+[[file:img/Ishikawa.png]]
+
+
+#+BEGIN_NOTES
+Das Ishikawa-Diagramm identifiziert und analysiert Ursachen von Problemen oder Qualitätsabweichungen. Es fördert Teamarbeit, indem es Brainstorming-Sitzungen erleichtert. Durch die visuelle Darstellung der Ursachen-Wirkungs-Beziehungen können gezielte Maßnahmen ergriffen werden, um den Prozess zu verbessern.
+#+END_NOTES
+
+** Beispiel
+
+Ursachen für Verzögerungen bei Softwareänderungen.
+
+#+ATTR_HTML: :width 80%
+#+ATTR_LATEX: :width .55\linewidth :float nil
+#+ATTR_ORG: :width 700
+[[file:img/Ishikawa_Beispiel.png]]
+
+* Turtle-Diagramm
+Ein Turtle-Diagramm, auch als Prozessbeschreibungsdiagramm bekannt, dient zur detaillierten Beschreibung eines Prozesses oder einer Funktion. Es visualisiert verschiedene Aspekte eines Prozesses, einschließlich Inputs, Outputs, Prozessschritte, Standards und Maßnahmen.
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .55\linewidth :float nil
+#+ATTR_ORG: :width 700
+[[file:img/Turtle.png]]
+
+#+BEGIN_NOTES
+Das Turtle-Diagramm beschreibt detailliert einen Prozess und visualisiert seine verschiedenen Aspekte. Es ermöglicht eine ganzheitliche Betrachtung und fördert die Standardisierung von Prozessen. Organisationen können potenzielle Schwachstellen identifizieren und kontinuierlich Verbesserungen planen und umsetzen.
+#+END_NOTES
+
+** Beispiel
+
+Anlegen eines neues Benutzers im Active Directory.
+
+#+ATTR_HTML: :width 80%
+#+ATTR_LATEX: :width .55\linewidth :float nil
+#+ATTR_ORG: :width 700
+[[file:img/Turtle_Beispiel.png]]
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+* Pareto-Chart
+Ein Pareto-Chart ist ein Diagramm, das die relativen Häufigkeiten von Problemen oder Ursachen in absteigender Reihenfolge darstellt. Es basiert auf dem Pareto-Prinzip, das besagt, dass etwa 80% der Probleme durch 20% der Ursachen verursacht werden.
+
+#+BEGIN_NOTES
+Der Pareto-Chart priorisiert Probleme oder Ursachen basierend auf ihrer Auswirkung. Er hilft, Ressourcen und Aufmerksamkeit gezielt auf die kritischsten Bereiche zu lenken. Organisationen können datengesteuerte Entscheidungen treffen und den Erfolg von Verbesserungsmaßnahmen überwachen und verfolgen.
+#+END_NOTES
+
+** Beispiel
+
+#+ATTR_HTML: :width 80%
+#+ATTR_LATEX: :width .65\linewidth :float nil
+#+ATTR_ORG: :width 700
+[[file:img/ParetoChart_Beispiel.png]]
