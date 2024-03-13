@@ -90,7 +90,7 @@ Ein Beispiel aus dem Bereich der Anwendungsentwicklung wäre ein Zertifikat, das
 
 In der Praxis wird die Bedeutung der Dokumentation oft auf die Erfüllung der ISO 9001 Zertifizierung reduziert. Dadurch leidet nicht nur die Akzeptanz bei den Mitarbeitern, sondern es werden auch wertvolle Chancen verpasst:
 #+ATTR_REVEAL: :frag (appear)
-Hier ist eine überarbeitete Version der Zusammenfassung mit Anpassungen und Korrekturen:
+Korrekturen:
 - Nutzung als Grundlage für kontinuierliche Verbesserung.
 - Unterstützung bei der Fehlererkennung und Identifizierung von Schwachstellen.
 - Motivation durch die Dokumentation und Sichtbarmachung von Fortschritten.
