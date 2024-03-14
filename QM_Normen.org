@@ -21,24 +21,28 @@
 
 * Unterschiede zwischen ISO, IEC und DIN
 ** ISO (International Organization for Standardization)
+#+ATTR_REVEAL: :frag (appear)
    - **Zweck**: ISO ist eine unabhängige, nichtstaatliche internationale Organisation, die internationale Standards entwickelt.
    - **Gründung**: 1947
    - **Sitz**: Genf, Schweiz
    - **Bereich**: ISO deckt eine Vielzahl von Standards ab, von Technologie und Lebensmittelsicherheit bis hin zu Landwirtschaft und Gesundheitswesen.
 
 ** IEC (International Electrotechnical Commission)
+#+ATTR_REVEAL: :frag (appear)
    - **Zweck**: IEC ist die weltweit führende Organisation, die internationale Standards für alle elektrischen, elektronischen und verwandten Technologien entwickelt.
    - **Gründung**: 1906
    - **Sitz**: Genf, Schweiz
    - **Bereich**: Elektrotechnik und Elektronik.
 
 ** DIN (Deutsches Institut für Normung)
+#+ATTR_REVEAL: :frag (appear)
    - **Zweck**: DIN ist die nationale Normungsorganisation Deutschlands und vertritt deutsche Interessen auf internationaler und europäischer Ebene.
    - **Gründung**: 1917
    - **Sitz**: Berlin, Deutschland
    - **Bereich**: DIN entwickelt sowohl nationale als auch internationale Standards in verschiedenen Bereichen.
 
 ** Kombination von ISO, IEC und DIN
+#+ATTR_REVEAL: :frag (appear)
    - **Zusammenarbeit**: ISO und IEC arbeiten oft zusammen, um Standards in Bereichen zu entwickeln, die sowohl technologische als auch elektrotechnische Aspekte umfassen. Wenn sie zusammenarbeiten, wird der Standard oft als "ISO/IEC" bezeichnet.
    - **Adoption**: Nationale Normungsorganisationen, wie DIN, können internationale Standards übernehmen und sie als nationale Standards veröffentlichen. Wenn DIN beispielsweise einen ISO-Standard übernimmt, könnte er als "DIN EN ISO" bezeichnet werden, wobei "EN" für "Europäische Norm" steht.
    - **Einheitlichkeit**: Die Kombination von Organisationen in einem Standardtitel zeigt, dass der Standard sowohl auf internationaler als auch auf nationaler Ebene anerkannt ist. Dies fördert die Einheitlichkeit und Akzeptanz von Standards weltweit.
@@ -47,20 +51,17 @@
 *** ISO 9000 - Qualitätsmanagementsysteme - Grundlagen und Begriffe
 - Definiert die Grundlagen und Begriffe für Qualitätsmanagementsysteme.
 - Dient als Einführung und Leitfaden für die anderen Normen der ISO 9000 Familie.
-- [[https://www.iso.org/standard/45481.html][Weiterführender Link]]
 
 *** ISO 9001 - Qualitätsmanagementsysteme - Anforderungen
 #+BEGIN_tolearn
 - **ISO 9001** legt die Kriterien für ein Qualitätsmanagementsystem fest.
 - Kann von jeder Organisation verwendet werden, unabhängig von ihrer Größe oder dem, was sie tut.
 - Erfordert, dass Organisationen ihre Prozesse verbessern und Kundenzufriedenheit sicherstellen.
-- [[https://www.iso.org/standard/62085.html][Weiterführender Link]]
 #+END_tolearn
 
 *** ISO 9004 - Leitfaden zur Erzielung nachhaltigen Erfolgs durch Qualitätsmanagement
 - Bietet Leitlinien zur Erzielung nachhaltigen Erfolgs für jede Organisation.
 - Betont die Bedeutung des Engagements der Führungskräfte und die Einbindung der Geschäftsstrategie in das QMS.
-- [[https://www.iso.org/standard/65694.html][Weiterführender Link]]
 
 **** ISO 9002 und ISO 9003
 #+BEGIN_NOTES
@@ -68,7 +69,6 @@
 - Wurden durch ISO 9001:2000 ersetzt, welches die Anforderungen für alle drei Standards kombiniert.
 - ISO 9002 befasste sich mit Produktions- und Installationsprozessen.
 - ISO 9003 befasste sich mit Endproduktprüfungen und -tests.
-- [[https://www.iso.org/standard/29252.html][Weiterführender Link]]
 #+END_NOTES
 
 ** IT-spezifische QM-Normen
@@ -78,31 +78,43 @@
 - **ISO/IEC 25010** ersetzt ISO/IEC 9126.
 - Bietet ein Modell für Softwarequalität, das sowohl interne als auch externe Qualitätsmerkmale umfasst.
 - Hauptmerkmale: Funktionalität, Zuverlässigkeit, Benutzbarkeit, Effizienz, Wartbarkeit und Portabilität.
-- [[https://www.iso.org/standard/35733.html][Weiterführender Link]]
 #+END_tolearn
-
+#+REVEAL: split
+#+ATTR_HTML: :width 80%
+#+ATTR_LATEX: :width .55\linewidth :float nil
+#+ATTR_ORG: :width 700
+[[file:img/ISO25010.png]]
 
 #+BEGIN_NOTES
 - **ISO/IEC 9126** ist oder war ein internationaler Standard für die Bewertung von Softwarequalität.
 - Bietet ein Modell für Softwarequalität, das sowohl interne als auch externe Qualitätsmerkmale umfasst.
 - Wurde durch ISO/IEC 25010 ersetzt.
-- [[https://en.wikipedia.org/wiki/ISO/IEC_9126][Weiterführender Link]]
 #+END_NOTES
 
 *** Systemadministration
 - ISO/IEC 20000 - IT-Service-Management
 - Legt einen Standard für das IT-Service-Management fest.
 - Hilft Organisationen, ihre IT-Dienstleistungen zu optimieren.
-- [[https://www.iso.org/standard/70400.html][Weiterführender Link]]
 
-*** Service Management
-- ISO/IEC 27013 - Leitfaden zur Integration von ISO/IEC 27001 und ISO/IEC 20000-1
-- Bietet Anleitung zur Integration von Informationssicherheitsmanagement und IT-Service-Management.
-- [[https://www.iso.org/standard/75281.html][Weiterführender Link]]
+[[https://de.wikipedia.org/wiki/ISO/IEC_20000][- Wikipedia:ISO/IEC 20000]]
+
 
 *** Sicherheit
 - ISO/IEC 27001 - Informationssicherheitsmanagementsysteme
 - Legt die Anforderungen für ein Informationssicherheitsmanagementsystem fest.
 - Hilft Organisationen, ihre Informationen sicher zu verwalten.
-- [[https://www.iso.org/standard/54534.html][Weiterführender Link]]
 
+#+REVEAL: split
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .55\linewidth  :float nil
+#+ATTR_ORG: :width 700
+[[file:img/ISO27001.png]]
+
+- [[https://de.wikipedia.org/wiki/ISO/IEC_27001][Wikipedia: ISO/IEC 27001]]
+- [[https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/Kompendium/IT_Grundschutz_Kompendium_Edition2023.pdf?__blob=publicationFile&v=4#download=1][BSI-Grundschutz-Kompendium]]
+
+*** Service Management
+- ISO/IEC 27013 - Leitfaden zur Integration von ISO/IEC 27001 und ISO/IEC 20000-1
+- Bietet Anleitung zur Integration von Informationssicherheitsmanagement und IT-Service-Management.
+
+[[https://de.isms.online/iso-27013/][- ISMS.online: ISO 27013]]
