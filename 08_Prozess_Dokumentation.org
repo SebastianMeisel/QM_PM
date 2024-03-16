@@ -1,3 +1,4 @@
+
 :LaTeX_PROPERTIES:
 #+LANGUAGE: de
 #+OPTIONS: d:nil todo:nil pri:nil tags:nil
@@ -125,53 +126,18 @@ Der Programmablaufplan nach DIN 66001 folgt bestimmten Regeln und Standards, die
 
 #+END_NOTES
 
-#+REVEAL: split
-#+BEGIN_SRC mermaid :file img/PAP.png
-%%{ init: { 'flowchart': { 'curve': 'linear' } } }%% 
-flowchart TB
-    A(Start: Change Request Initiiert) --> B{Automatische Tests durchführen?}
-    B -->|Ja| C[Tests ausführen]
-    C --> D{Tests erfolgreich?}
-    D -- Ja --> E[Change Request in Produktionsumgebung ausrollen]
-    D -- Nein --> F[Feedback an Entwickler senden]
-    E --> G(Ende: Change Request abgeschlossen)
-    F --> G
-    B -- Nein --> H[Manuelle Überprüfung erforderlich]
-    H --> I{Manuelle Überprüfung erfolgreich?}
-    I -- Ja --> E
-    I -- Nein --> F
-#+END_SRC
 
 #+ATTR_HTML: :width 50%
 #+ATTR_LATEX: :width .45\linewidth :float nil
-#+ATTR_ORG: :width 700
-#+RESULTS:
+#+ATTR_ORG: :width 70
 [[file:img/PAP.png]]
 
 *** Symbole
 
-#+BEGIN_SRC mermaid :result file :file img/PAP_Symbole.png
-flowchart LR
- 1(Start- und Endpunkte des Programms oder Prozesses)
-
- A -- Verbindung --> B
-
- 2[Tätigkeit/Operation]
-
- 3[[ Unterprogramm]]
-
- 4{Verzweigung}
- 4 -- Nein --> 5
- 4 -- Ja --> 6
-
- 7[/Ein- & Ausgabe/] 
-
-#+END_SRC
 
 #+ATTR_HTML: :width 50%
 #+ATTR_LATEX: :width .3\linewidth :float nil
 #+ATTR_ORG: :width 700
-#+RESULTS:
 [[file:img/PAP_Symbole.png]]
 
 ** UML
@@ -424,8 +390,8 @@ BPMN ist eine standardisierte grafische Notation zur Darstellung von Geschäftsp
 Es bietet viele Symbole, was es komplex beim Erlernen macht, dafür lassen sich viele Prozesse so eindeutiger darstellen, als mit anderen Methode.
 
 #+BEGIN_NOTES
-[[http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf][BPMN2_0_Poster_DE.pdf]]
-[[https://seblog.cs.uni-kassel.de/wp-content/uploads/2021/01/BPMN-Leitfaden-1.pdf][BPMN-Leitfaden-1.pdf]]
+- [[http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf][BPMN2.0PosterDE.pdf]]
+- [[https://seblog.cs.uni-kassel.de/wp-content/uploads/2021/01/BPMN-Leitfaden-1.pdf][BPMNLeitfaden.pdf]]
 #+END_NOTES
 
 #+REVEAL: split
