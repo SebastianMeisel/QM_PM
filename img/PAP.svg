@@ -1,0 +1,29 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Start symbol -->
+  <rect x="50" y="50" width="80" height="40" fill="white" stroke="black"/>
+  <text x="70" y="75" font-family="Arial" font-size="12" fill="black">Start</text>
+
+  <!-- Software-Change-Request symbol -->
+  <rect x="200" y="50" width="160" height="40" fill="white" stroke="black"/>
+  <text x="220" y="75" font-family="Arial" font-size="12" fill="black">Software-Change-Request</text>
+
+  <!-- Decision symbol -->
+  <polygon points="130,100 170,120 130,140 130,100" fill="white" stroke="black"/>
+  <text x="138" y="125" font-family="Arial" font-size="12" fill="black">Approved?</text>
+
+  <!-- Process symbol -->
+  <rect x="50" y="180" width="80" height="40" fill="white" stroke="black"/>
+  <text x="70" y="205" font-family="Arial" font-size="12" fill="black">Implement</text>
+
+  <!-- End symbol -->
+  <rect x="200" y="180" width="80" height="40" fill="white" stroke="black"/>
+  <text x="220" y="205" font-family="Arial" font-size="12" fill="black">End</text>
+
+  <!-- Arrows -->
+  <polyline points="130,140 130,160 200,160" fill="none" stroke="black"/>
+  <line x1="200" y1="60" x2="170" y2="100" fill="none" stroke="black"/>
+  <line x1="90" y1="60" x2="130" y2="100" fill="none" stroke="black"/>
+  <line x1="130" y1="180" x2="130" y2="140" fill="none" stroke="black"/>
+  <line x1="170" y1="120" x2="200" y2="180" fill="none" stroke="black"/>
+</svg>

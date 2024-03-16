@@ -1,0 +1,435 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Prozessdokumentation
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+* Einführung
+
+Die effiziente Dokumentation und Analyse von Geschäftsprozessen ist entscheidend für die Organisationen.
+
+#+BEGIN_NOTES
+Sie gehört zur Vorgabedokumentation und ist damit theoretisch nicht schriftlich vorgeschrieben. Eine kontinuierliche Verbesserung der Prozesse ist aber ohne Dokumentation nicht möglich.
+#+END_NOTES
+
+Besonders grafische Werkzeuge, wie in diesem Dokument beschrieben, eignen sich dazu.
+
+#+REVEAL: split
+#+BEGIN_SRC plantuml :file img/UML_Glühbirne.png
+@startuml
+actor User
+participant "Haus" as House
+participant "Lampe" as Lamp
+participant "Glühbirne" as Bulb
+participant "Internet" as Internet
+participant "Lieferdienst" as DeliveryService
+
+User -> House: Betritt das Haus
+User -> Lamp: Dreht den Lichtschalter
+Lamp -> Bulb: Schaltet Glühbirne ein
+
+alt Glühbirne defekt
+    Bulb -> Internet: Sendet Fehlermeldung
+    Internet -> DeliveryService: Sendet Bestellung für Glühbirne
+    DeliveryService --> User: Liefert Glühbirne
+    User -> Bulb: Ersetzt Glühbirne
+    User -> Lamp: Dreht den Lichtschalter
+    Lamp -> Bulb: Schaltet neue Glühbirne ein
+end
+
+alt Glühbirne funktioniert
+    User -> Bulb: Erschreckt sich vor der Geisterglühbirne
+end
+
+alt Glühbirne hat Geister
+    User -> Bulb: Erschreckt sich vor der Geisterglühbirne
+end
+
+alt Glühbirne ist schon kaputt
+    Bulb -> Internet: Sendet bereits bekannten Fehler
+end
+
+@enduml
+
+#+END_SRC
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .9\linewidth
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/uml_class.png]]
+
+
+
+
+** EPK
+
+#+BEGIN_tolearn
+Ein *Ereignisgesteuertes Prozesskettendiagramm (EPK)* ist eine grafische Darstellungsmethode, die in der Prozessmodellierung und -analyse verwendet wird.
+#+END_tolearn
+
+EPKs werden hauptsächlich für die Visualisierung von Geschäftsprozessen eingesetzt und dienen dazu, die logische Abfolge von Ereignissen, Funktionen und Kontrollflüssen in einem Prozess zu veranschaulichen.
+
+#+BEGIN_NOTES
+Ein Ereignisgesteuertes Prozesskettendiagramm (EPK) ist eine grafische Darstellungsmethode, die in der Prozessmodellierung und -analyse verwendet wird. EPKs werden hauptsächlich für die Visualisierung von Geschäftsprozessen eingesetzt und dienen dazu, die logische Abfolge von Ereignissen, Funktionen und Kontrollflüssen in einem Prozess zu veranschaulichen.
+
+In einem EPK werden Prozesse durch eine Kette von Ereignissen und Funktionen beschrieben. Ereignisse markieren den Beginn oder das Ende eines Prozesses oder einer Teilaufgabe, während Funktionen die verschiedenen Aktivitäten oder Handlungen repräsentieren, die im Rahmen des Prozesses durchgeführt werden.
+
+EPKs verwenden standardisierte Symbole, um die verschiedenen Elemente eines Prozesses darzustellen.
+
+Im Qualitätsmanagement (QM) werden EPKs häufig zur Prozessdokumentation und -verbesserung eingesetzt. Sie ermöglichen es, komplexe Prozesse visuell darzustellen und zu analysieren, was eine bessere Transparenz und Verständnis der Abläufe im Unternehmen schafft. Durch die Verwendung von EPKs können ineffiziente Prozesse identifiziert, Engpässe erkannt und Verbesserungsmöglichkeiten aufgezeigt werden.
+
+Darüber hinaus dienen EPKs im QM als Grundlage für die Erstellung von Prozessbeschreibungen, Arbeitsanweisungen und Qualitätsmanagementdokumenten. Sie helfen dabei, die verschiedenen Schritte und Zuständigkeiten in einem Prozess klar zu definieren und zu kommunizieren, was zur Einhaltung von Qualitätsstandards und zur Steigerung der Prozesseffizienz beiträgt.
+
+[[https://www.kvp.de/wp-content/uploads/2017/07/methodenblatt-epk-ereignisgesteuerte-prozesskette.pdf][kvp.de: Methodenblatt EPK]]
+#+END_NOTES
+
+*** Elemente
+
+[[file:img/EPK-Elemente.png]]
+
+*** Beispiel
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .9\linewidth :float nil
+[[file:img/EPK_Beispiel.png]]
+
+Links: Informationsfluss zwischen Informationsobjekten einer Funktion.
+
+Rechts: Zwei Ergeinisse stoßen eine Funktion an, eine Funktion führt zu zwei Ereignissen.
+
+
+** Programm-Ablauf-Plan (PAP)
+
+#+BEGIN_tolearn
+Der Programmablaufplan (PAP) ist eine grafische Darstellungsmethode, die häufig in der Prozessdokumentation im Qualitätsmanagement (QM) verwendet wird.
+Er dient dazu, den Ablauf eines Programms, Prozesses oder einer Sequenz von Operationen darzustellen. 
+#+END_tolearn
+
+#+BEGIN_NOTES
+Der Programmablaufplan nach DIN 66001 folgt bestimmten Regeln und Standards, die sicherstellen, dass die darin enthaltenen Informationen klar und eindeutig sind. Er besteht aus verschiedenen Symbolen, die die einzelnen Schritte oder Operationen repräsentieren. Diese Symbole werden durch Linien verbunden, um den Fluss des Programms oder Prozesses darzustellen.
+
+#+END_NOTES
+
+#+REVEAL: split
+#+BEGIN_SRC mermaid :file img/PAP.png
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%% 
+flowchart TB
+    A(Start: Change Request Initiiert) --> B{Automatische Tests durchführen?}
+    B -->|Ja| C[Tests ausführen]
+    C --> D{Tests erfolgreich?}
+    D -- Ja --> E[Change Request in Produktionsumgebung ausrollen]
+    D -- Nein --> F[Feedback an Entwickler senden]
+    E --> G(Ende: Change Request abgeschlossen)
+    F --> G
+    B -- Nein --> H[Manuelle Überprüfung erforderlich]
+    H --> I{Manuelle Überprüfung erfolgreich?}
+    I -- Ja --> E
+    I -- Nein --> F
+#+END_SRC
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .45\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/PAP.png]]
+
+*** Symbole
+
+#+BEGIN_SRC mermaid :result file :file img/PAP_Symbole.png
+flowchart LR
+ 1(Start- und Endpunkte des Programms oder Prozesses)
+
+ A -- Verbindung --> B
+
+ 2[Tätigkeit/Operation]
+
+ 3[[ Unterprogramm]]
+
+ 4{Verzweigung}
+ 4 -- Nein --> 5
+ 4 -- Ja --> 6
+
+ 7[/Ein- & Ausgabe/] 
+
+#+END_SRC
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .3\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/PAP_Symbole.png]]
+
+** UML
+
+#+BEGIN_tolearn
+Unified Modeling Language (UML) ist eine standardisierte Modellierungssprache, die zur Visualisierung, Spezifikation, Konstruktion und Dokumentation von Software- und anderen Systemen verwendet wird.
+#+END_tolearn
+
+Sie bietet eine Reihe von Diagrammtypen, die verschiedene Aspekte eines Systems darstellen können, von seiner Struktur bis hin zu seinem Verhalten.
+
+*** Diagramm-Typen
+
+#+BEGIN_tolearn
+Im Qualitätsmanagement sind vor allem das Aktivitätsdiagramm und das Statusdiagramm von großer Bedeutung. Auch Sequenzdiagramm und Use-Case-Diagramm können in diesem Bereich genutzt werden. (Prüfungsrelevant sind auch Klassen- und Objektdiagramm.)
+#+END_tolearn
+
+Das Aktivitätsdiagramm ermöglicht es, Prozesse und Abläufe im Detail zu modellieren, wodurch Verbesserungspotenziale identifiziert und effizientere Arbeitsweisen entwickelt werden können.
+
+#+BEGIN_NOTES
+Das Statusdiagramm hingegen bietet eine klare Darstellung der verschiedenen Zustände eines Systems oder Prozesses, was besonders wichtig ist, um den aktuellen Stand eines Projekts oder einer Qualitätssicherungsmaßnahme zu verfolgen und zu kommunizieren. 
+#+END_NOTES
+
+**** Aktivitätsdiagramm
+
+Aktivitätsdiagramme beschreiben den Ablauf von Aktivitäten oder Prozessen innerhalb eines Systems. Sie zeigen den Fluss von Aktionen und Entscheidungen, beginnend mit dem Startpunkt bis zum Endpunkt, wobei Verzweigungen und parallele Abläufe dargestellt werden können.
+
+#+BEGIN_SRC plantuml :file img/uml_activity.png
+@startuml
+start
+:initialize();
+
+if (condition) then (yes)
+  :process A;
+else (no)
+  :process B;
+endif
+
+stop
+@enduml
+#+END_SRC
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .3\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/uml_activity.png]]
+
+**** Statusdiagramm
+
+Statusdiagramme, auch Zustandsdiagramme genannt, visualisieren die verschiedenen Zustände, in denen ein Objekt während seines Lebenszyklus existieren kann, sowie die Übergänge zwischen diesen Zuständen. Sie helfen, das Verhalten eines Systems in Abhängigkeit von seinem aktuellen Zustand zu verstehen.
+
+#+BEGIN_SRC plantuml :file img/uml_state.png
+@startuml
+[*] --> NotStarted
+NotStarted --> Running : start
+Running --> [*] : finish
+@enduml
+#+END_SRC
+
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .1\linewidth :float nil
+#+RESULTS:
+[[file:img/uml_state.png]]
+
+**** Sequenzdiagramm
+
+Sequenzdiagramme visualisieren den zeitlichen Ablauf von Interaktionen zwischen Objekten in einem System. Sie zeigen die Reihenfolge von Nachrichten, die zwischen den Objekten ausgetauscht werden, um eine bestimmte Funktionalität zu erreichen, und helfen bei der Analyse des Systemverhaltens.
+
+#+BEGIN_SRC plantuml  :file img/uml_sequence.png 
+@startuml
+actor User
+participant "A: System" as A
+participant "B: Subsystem" as B
+
+User -> A: request()
+A -> B: call()
+B -> A: response()
+A -> User: result()
+@enduml
+#+END_SRC
+
+
+#+ATTR_HTML: :width 50% :class right
+#+ATTR_LATEX: :width .3\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/uml_sequence.png]]
+
+**** Use-Case-Diagramm
+
+Das Use-Case-Diagramm modelliert die Interaktionen zwischen einem System und seinen Akteuren, indem es die verschiedenen Nutzungsszenarien oder -fälle darstellt. Es zeigt die Funktionalitäten eines Systems aus der Perspektive der Benutzer und wie diese miteinander interagieren.
+
+#+BEGIN_SRC plantuml :file img/uml_use_case_.png
+@startuml
+left to right direction
+actor User as user
+rectangle System {
+  usecase "Make Order" as UC1
+  usecase "Check Order" as UC2
+}
+
+user --> UC1
+user --> UC2
+@enduml
+#+END_SRC
+
+#+ATTR_HTML: :width 50% :class right
+#+ATTR_LATEX: :width .3\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/uml_use_case_.png]]
+
+**** Klassendiagramm
+
+Klassendiagramme repräsentieren die statische Struktur eines Systems durch die Darstellung von Klassen, Attributen, Methoden und ihren Beziehungen zueinander. Sie zeigen die Bausteine eines Systems sowie deren Eigenschaften und Verbindungen auf abstrakter Ebene.
+
+#+BEGIN_SRC plantuml :file img/uml_class.png
+@startuml
+class Car {
+  -engine: Engine
+  +start(): Void
+  +stop(): Void
+}
+
+class Engine {
+  -rpm: Integer
+  +increaseRpm(): Void
+  +decreaseRpm(): Void
+}
+Car "1" -- "1" Engine
+@enduml
+#+END_SRC
+
+#+ATTR_HTML: :width 50% :class right
+#+ATTR_LATEX: :width .3\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/uml_class.png]]
+
+**** Objektdiagramm
+
+Objektdiagramme zeigen eine Momentaufnahme von Objekten und ihren Beziehungen zu einem bestimmten Zeitpunkt im Systemablauf. Sie helfen dabei, die Struktur und den Zustand eines Systems zu verstehen und können zur Fehleranalyse und Testplanung eingesetzt werden.
+
+#+BEGIN_SRC plantuml :file img/uml_object.png
+@startuml
+object User {
+  name = "John"
+  age = 26
+}
+object Account {
+  type = "Checking"
+  balance = 1000
+}
+User --> Account : owns
+@enduml
+#+END_SRC
+
+#+ATTR_HTML: :width 50% :class right
+#+ATTR_LATEX: :width .3\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/uml_object.png]]
+
+**** Weitere Diagrammtypen
+***** Komponentendiagramm
+
+Komponentendiagramme modellieren die physische Struktur eines Systems und zeigen die verschiedenen Komponenten sowie ihre Abhängigkeiten und Beziehungen zueinander. Sie unterstützen die Planung und Implementierung von Softwarearchitekturen durch die Visualisierung von Modulen und deren Zusammenspiel.
+
+#+BEGIN_SRC plantuml :file img/uml_component.png
+@startuml
+package "Component 1" {
+  [Component A]
+  [Component B]
+}
+
+package "Component 2" {
+  [Component C]
+}
+
+[Component A] --> [Component C] : Uses
+[Component B] --> [Component C] : Uses
+@enduml
+#+END_SRC
+
+#+ATTR_HTML: :width 50% :class right
+#+ATTR_LATEX: :width .3\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/uml_component.png]]
+
+***** Verteilungsdiagramm
+
+Verteilungsdiagramme modellieren die physische Verteilung von Systemkomponenten und zeigen die Beziehungen zwischen Hardwarekomponenten, Softwarekomponenten und Netzwerken. Sie unterstützen die Planung und Analyse von verteilten Systemarchitekturen.
+
+#+BEGIN_SRC plantuml :file img/uml_deploy.png
+@startuml
+node WebServer {
+  artifact WebApp
+}
+node DatabaseServer {
+  artifact Database
+}
+WebApp --> Database : JDBC
+@enduml
+
+#+END_SRC
+
+#+ATTR_HTML: :width 50% :class right
+#+ATTR_LATEX: :width .3\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/uml_deploy.png]]
+
+***** Timingdiagramm
+
+Timingdiagramme zeigen den zeitlichen Verlauf von Signalen und Ereignissen innerhalb eines Systems. Sie visualisieren die Reaktionszeiten und Latenzen von Komponenten und helfen bei der Analyse und Optimierung der Systemleistung.
+
+
+#+BEGIN_SRC plantuml :file img/uml_timing.png
+@startuml
+robust "Web Server" as WS
+concise "Database" as DB
+
+@0
+WS is idle
+DB is waiting
+
+@100
+WS is querying
+DB is querieed
+
+@200
+WS is waiting
+DB is answering
+@enduml
+#+END_SRC
+
+#+ATTR_HTML: :width 50% :class right
+#+ATTR_LATEX: :width .3\linewidth :float nil
+#+ATTR_ORG: :width 700
+#+RESULTS:
+[[file:img/uml_timing.png]]
+
+
+** Business Process Modelling and Notation (BPMN)
+
+BPMN ist eine standardisierte grafische Notation zur Darstellung von Geschäftsprozessen in Form von Diagrammen. Es bietet eine gemeinsame Sprache, um Geschäftsprozesse visuell zu modellieren und zu dokumentieren.
+
+Es bietet viele Symbole, was es komplex beim Erlernen macht, dafür lassen sich viele Prozesse so eindeutiger darstellen, als mit anderen Methode.
+
+#+BEGIN_NOTES
+[[http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf][BPMN2_0_Poster_DE.pdf]]
+[[https://seblog.cs.uni-kassel.de/wp-content/uploads/2021/01/BPMN-Leitfaden-1.pdf][BPMN-Leitfaden-1.pdf]]
+#+END_NOTES
+
+#+REVEAL: split
+#+ATTR_HTML: :width 100%
+#+ATTR_LATEX: :width .65\linewidth :float nil
+#+ATTR_ORG: :width 700
+[[file:img/BPMN_Beispiel.png]]

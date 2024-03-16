@@ -149,6 +149,11 @@ img .logo {
   right: -20 px;
 }
 
+img .right {
+    align: right;
+}
+
+
 .column {
   height: 200px;
   position: relative;
