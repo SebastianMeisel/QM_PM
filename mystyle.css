@@ -170,3 +170,29 @@ img .right {
   border-radius: 12px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
+
+
+.full {
+    width: 100%; /* Set the width to 33% */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    
+}
+
+.right {
+    padding-top: 5%;
+    width: 50%; /* Set the width to 33% */
+    float: right; /* Float the element to the right */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    height: 500px;
+    font-size: 60%;
+}
+
+.left {
+    padding-top: 5%;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    height: 500px;
+    font-size: 60%;
+}
+
