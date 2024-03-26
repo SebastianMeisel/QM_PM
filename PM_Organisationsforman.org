@@ -1,0 +1,218 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Aufbauorganisationen
+#+SUBTITLE: KOM-ITIL 
+#+AUTHOR: Sebastian Meisel
+
+* Linienorganisation
+#+BEGIN_tolearn
+#+HTML: <div class="full">
+#+ATTR_REVEAL: :frag (appear)
+- Einzelne Linie der Autorität
+- Klare Befehlskette
+- Funktionale Abteilungen
+#+HTML: </div>
+#+END_tolearn
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Vorteile ::
+  - Klare Hierarchie
+  - Schnelle Entscheidungsfindung
+  - Einfache Kommunikation
+#+HTML: </div>
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Nachteile ::
+  - Eingeschränkte Spezialisierung
+  - Überlastung von Führungskräften
+  - Schwierigkeiten bei der Anpassung
+#+HTML: </div>
+#+REVEAL: split
+#+BEGIN_tolearn
+#+ATTR_HTML: :width 45%
+#+ATTR_LATEX: :width .5\linewidth
+[[file:img/linienorganisation.png]]
+#+END_tolearn
+
+* Stablinienorganisation
+#+BEGIN_tolearn
+#+HTML: <div class="full">
+#+ATTR_REVEAL: :frag (appear)
+- Einzelne Linie der Autorität
+- Klare Befehlskette
+- Funktionale Abteilungen
+- Stabstellen zur Unterstützung der Linienmanager
+#+HTML: </div>
+#+END_tolearn
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Vorteile ::
+  - Klare Hierarchie
+  - Schnelle Entscheidungsfindung
+  - Einfache Kommunikation
+  - Spezialisierung und Expertise der Stabstellen
+  - Entlastung der Linienmanager
+  - Flexibilität und Anpassungsfähigkeit
+#+HTML: </div>
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Nachteile ::
+  - Eingeschränkte Spezialisierung
+  - Keine direkte Weisungsbefugniss der Stabstelle gegenüber Mitarbeitern
+  - Schwierigkeiten bei der Anpassung
+#+HTML: </div>
+#+REVEAL: split
+#+BEGIN_tolearn
+#+ATTR_HTML: :width 45%
+#+ATTR_LATEX: :width .5\linewidth
+[[file:img/stablinienorganisation.png]]
+#+END_tolearn
+
+* Mehrlinienorganisation
+#+BEGIN_tolearn
+#+HTML: <div class="full">
+#+ATTR_REVEAL: :frag (appear)
+- Mehrere Linien der Autorität
+- Parallele Befehlsketten
+- Funktionale Abteilungen mit eigenen Linien der Autorität
+#+HTML: </div>
+#+END_tolearn
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Vorteile ::
+  - Mehr Flexibilität
+  - Bessere Spezialisierung
+  - Effektive Nutzung von Ressourcen
+#+HTML: </div>
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Nachteile ::
+  - Komplexität
+  - Koordinationsprobleme
+  - Mögliche Konflikte
+#+HTML: </div>
+
+#+REVEAL: split
+#+BEGIN_tolearn
+#+ATTR_HTML: :width 45%
+#+ATTR_LATEX: :width .5\linewidth
+[[file:img/mehrlinienorganisation.png]]
+#+END_tolearn
+
+* Matrixorganisation
+#+BEGIN_tolearn
+#+HTML: <div class="full">
+#+ATTR_REVEAL: :frag (appear)
+- Mitarbeiter in funktionalen Abteilungen und Projektteams
+- Horizontale und vertikale Kette der Autorität
+- Mehrere Vorgesetzte, einschließlich funktionaler Vorgesetzter und Projektmanagern
+#+HTML: </div>
+#+END_tolearn
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Vorteile ::
+  - Mehr Flexibilität
+  - Effiziente Ressourcennutzung
+  - Bessere Kommunikation und Zusammenarbeit
+#+HTML: </div>
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Nachteile ::
+  - Komplexität
+  - Konflikte
+  - Schwierige Entscheidungsfindung
+#+HTML: </div>
+
+#+REVEAL: split
+#+BEGIN_tolearn
+#+ATTR_HTML: :width 45%
+#+ATTR_LATEX: :width .5\linewidth
+[[file:img/matrixorganisation.png]]
+#+END_tolearn
+
+* Stab-Projektorganisation / Projektkoordination
+#+BEGIN_tolearn
+#+HTML: <div class="full">
+#+ATTR_REVEAL: :frag (appear)
+- Einzelne Linie der Autorität für das Projektmanagement
+- Zusätzliche Stabstellen zur Unterstützung des Projektmanagers
+- Projektteams arbeiten unter der Leitung des Projektmanagers
+#+HTML: </div>
+#+END_tolearn
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Vorteile ::
+  - Klare Verantwortlichkeiten
+  - Spezialisierung und Expertise
+  - Effektive Ressourcennutzung
+#+HTML: </div>
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Nachteile ::
+  - Kommunikationsherausforderungen
+  - Potenzielle Konflikte
+  - Zeit- und Arbeitsaufwand
+#+HTML: </div>
+
+#+REVEAL: split
+#+BEGIN_tolearn
+#+ATTR_HTML: :width 45%
+#+ATTR_LATEX: :width .5\linewidth
+[[file:img/stabprojektorganisation.png]]
+#+END_tolearn
+
+* Reine Projektorganisation
+#+BEGIN_tolearn
+#+HTML: <div class="full">
+#+ATTR_REVEAL: :frag (appear)
+- Keine permanente funktionale Struktur
+- Organisation in Projektteams
+- Jedes Projektteam hat einen eigenen Projektmanager
+#+HTML: </div>
+#+END_tolearn
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Vorteile ::
+  - Fokussierte Expertise
+  - Effiziente Ressourcennutzung
+#+HTML: </div>
+
+#+HTML: <div class="left">
+#+ATTR_REVEAL: :frag (appear)
+- Nachteile ::
+  - Mangelnde Flexibilität
+#+HTML: </div>
+
+#+REVEAL: split
+#+BEGIN_tolearn
+#+ATTR_HTML: :width 45%
+#+ATTR_LATEX: :width .5\linewidth
+[[file:img/reineprojektorganisation.png]]
+#+END_tolearn
