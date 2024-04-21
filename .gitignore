@@ -11,3 +11,5 @@ Methode_vs_Prozess.odp
 *.fdb_latexmk
 *.fls
 *.xdv
+*.txt
+*.dat
