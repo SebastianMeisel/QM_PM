@@ -11,3 +11,4 @@ Methode_vs_Prozess.odp
 *.fdb_latexmk
 *.fls
 *.xdv
+/tesseract_opencl_profile_devices.dat

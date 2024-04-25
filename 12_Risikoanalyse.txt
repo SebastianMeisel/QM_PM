@@ -1,0 +1,78 @@
+Risikoanalyse
+
+Risiko
+
+Qualität
+
+Mögliches
+Ereignis
+
+Zeit Kosten
+Risiken erkennen
+
+Interne Risiken: Externe Risiken:
+
+Können vom Projektteam Können vom Projektteam
+beeinflusst werden: nicht beeinflusst werden:
+z. B. Planung, Ressourcen z. B. Umwelt, rechtliche
+(personell, materiell, ideell); Risiken,
+
+Risiken erkennen
+
+z.B.:
+
+bei Webprojekt
+
+. Risiken in einzelnen
+Arbeitspakete
+
+Arbeitspaketen
+Ausfall von Mitarbeitern,
+Projekt Interne Veränderungen Änderung des Projektziels
+
+Auftraggeberpleite,
+
+Umfeldveränderungen R
+Gesetzesänderungen
+
+fehlerhaft
+
+Zeitplanung
+
+Risikomatrix
+
+hoch hoch
+
+mittel mittel
+
+gering gering
+
+Eintrittswahrscheinlichkeit
+Eintrittswahrscheinlichkeit
+
+gering mittel hoch gering mittel hoch
+
+Auswirkungen Auswirkungen
+Ausblick: Risikmanagement
+
+Vorsorge / Evaluierung/
+
+Reduktion Bericht
+
+Gegensteuerung /
+Unterdrückung Bericht
+Korrektur / Evaluierung/
+
+Wiederherstellung Bericht
+
+Evaluierung/
+Risk Management) wird die Risikoanalyse als Managementaufgabe gesehen, in der die Risiken eines Projektes identifiziert und gleichzeitig
+
+Risikomanagements und Risikoanalyse zur Verfügung.
+
+http://projektmanagement-manufaktur.de/risikoanalyse-projektmanagement
+
+Arbeitspaket:
+
+
+gemäß der Vorlage.
