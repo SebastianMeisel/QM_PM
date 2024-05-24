@@ -1,0 +1,50 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: DORA Metriken
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+
+* Einführung
+Die DORA Metriken wurden von der DevOps Research and Assessment (DORA) Gruppe entwickelt, um die Leistungsfähigkeit von Softwareentwicklungsteams zu bewerten. Diese Metriken sind speziell darauf ausgelegt, die Geschwindigkeit und Stabilität der Softwarebereitstellung zu messen und zu verbessern.
+
+* Die vie0r DORA Metriken
+#+ATTR_REVEAL: :frag (appear)
+- Deployment Frequency ::
+   - Misst, wie häufig ein Team Code in die Produktion bringt. Häufigere Deployments sind ein Zeichen für eine hohe Effizienz und kurze Entwicklungszyklen.
+- Lead Time for Changes ::
+   - Misst die Zeit von der Codeveränderung bis zur Implementierung in der Produktion. Kürzere Lead Times deuten auf einen effizienten Entwicklungsprozess hin.
+- Change Failure Rate ::
+   - Misst den Anteil der Deployments, die zu einem Fehler führen. Eine niedrige Fehlerquote spricht für eine stabile und zuverlässige Entwicklungs- und Bereitstellungsumgebung.
+- Time to Restore Service ::
+   - Misst die Zeit, die benötigt wird, um einen Service nach einem Ausfall wiederherzustellen. Kürzere Wiederherstellungszeiten sind ein Indikator für eine gute Betriebsstabilität.
+
+* Vorteile der DORA Metriken gegenüber Velocity
+- Umfassendere Leistungsbewertung :: Während Velocity oft nur die Anzahl der abgeschlossenen Aufgaben oder Story Points misst, decken DORA Metriken verschiedene Aspekte der Softwarelieferung ab, einschließlich Geschwindigkeit und Stabilität.
+- Fokus auf Qualität und Zuverlässigkeit :: DORA Metriken betonen nicht nur die Liefergeschwindigkeit, sondern auch die Fehlerquote und die Zeit zur Wiederherstellung, was zu einer insgesamt höheren Softwarequalität führt.
+- Bessere Entscheidungsfindung :: Durch die Messung konkreter und relevanter Aspekte der Entwicklungsleistung können Teams fundiertere Entscheidungen treffen und gezielte Verbesserungen vornehmen.
+
+* Vergleichbare Metriken für Sysadmin-Teams
+Auch für Sysadmin-Teams gibt es Metriken, die ähnliche Aspekte wie die DORA Metriken abdecken:
+
+#+ATTR_REVEAL: :frag (appear)
+- Mean Time Between Failures (MTBF) :: Misst die durchschnittliche Zeit zwischen Systemausfällen. Ein längerer Zeitraum deutet auf eine höhere Systemzuverlässigkeit hin.
+- Mean Time to Repair (MTTR) :: Misst die durchschnittliche Zeit, die benötigt wird, um ein System nach einem Ausfall wiederherzustellen. Kürzere MTTRs sind ein Zeichen für effiziente Problemlösungsprozesse.
+- Change Success Rate :: Ähnlich wie die Change Failure Rate bei DORA, misst diese Metrik den Anteil erfolgreicher Änderungen in der Systemumgebung.
+- System Availability :: Misst die Betriebszeit eines Systems als Prozentsatz der gesamten Zeit. Eine hohe Verfügbarkeit zeigt eine zuverlässige Infrastruktur an.
+
