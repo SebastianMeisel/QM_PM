@@ -1,0 +1,53 @@
+dl {
+    with: 120%
+}
+
+dt, dd {
+    margin: 0.5em;
+}
+
+dt {
+    position: absolute;
+    left: -5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    size: 80px;
+    vertical-align: middle;
+    color: darkgray;
+}
+
+/* Farbpalette für 9 Listeneinträge */
+dt:nth-child(1) {
+  background-color: #8b0000; /* Dark Red */
+}
+dt:nth-child(2) {
+  background-color: #006400; /* Dark Green */
+}
+dt:nth-child(3) {
+  background-color: #00008b; /* Dark Blue */
+}
+dt:nth-child(4) {
+  background-color: #9400d3; /* Dark Violet */
+}
+dt:nth-child(5) {
+  background-color: #ff8c00; /* Dark Orange */
+}
+dt:nth-child(6) {
+  background-color: #20b2aa; /* Light Sea Green */
+}
+dt:nth-child(7) {
+  background-color: #ff1493; /* Deep Pink */
+}
+dt:nth-child(8) {
+  background-color: #1e90ff; /* Dodger Blue */
+}
+dt:nth-child(9) {
+  background-color: #8b4513; /* Saddle Brown */
+}
+
+dd {
+    font-size: 90%;
+}
