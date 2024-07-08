@@ -59,8 +59,8 @@ In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind
 
 - *Spezifisch*: Verbesserung der Kundenzufriedenheit durch Einführung eines neuen Support-Systems.
 - *Messbar*: Erhöhung der Kundenzufriedenheit um 15%, gemessen durch regelmäßige Umfragen.
-- *Erreichbar*: Implementierung des neuen Systems innerhalb von 6 Monaten.
-- *Relevant*: Verbesserung der Kundenbindung und Reduzierung der Abwanderungsrate.
+- *Akzeptiert*: Verbesserung der Kundenbindung und Reduzierung der Abwanderungsrate.
+- *Realistisch* Implementierung des neuen Systems innerhalb von 6 Monaten.
 - *Zeitgebunden*: Ziel ist es, die Kundenzufriedenheit um 15% innerhalb eines Jahres nach Implementierung des Systems zu erhöhen.
 
 *S.M.A.R.T-Ziel*: "Wir werden die Kundenzufriedenheit um 15% innerhalb eines Jahres nach der Einführung eines neuen Support-Systems, welches in den nächsten 6 Monaten implementiert wird, steigern."
@@ -69,8 +69,8 @@ In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind
 
 - *Spezifisch*: Entwicklung und Markteinführung einer neuen Produktfunktion.
 - *Messbar*: Neue Funktion soll in mindestens 25% der monatlichen Nutzersitzungen verwendet werden.
-- *Erreichbar*: Umsetzung innerhalb der nächsten 4 Monate durch das bestehende Entwicklungsteam.
-- *Relevant*: Erhöhung der Nutzerbindung und Wettbewerbsfähigkeit des Produkts.
+- *Akzeptiert*: Erhöhung der Nutzerbindung und Wettbewerbsfähigkeit des Produkts.
+- *Realisitisch*: Umsetzung innerhalb der nächsten 4 Monate durch das bestehende Entwicklungsteam.
 - *Zeitgebunden*: Ziel ist es, die neue Funktion innerhalb von 6 Monaten nach Markteinführung in 25% der monatlichen Nutzersitzungen zu sehen.
 
 *S.M.A.R.T-Ziel*: "Wir werden eine neue Produktfunktion entwickeln und innerhalb der nächsten 4 Monate einführen, mit dem Ziel, dass sie innerhalb von 6 Monaten nach Markteinführung in mindestens 25% der monatlichen Nutzersitzungen verwendet wird."
@@ -79,8 +79,8 @@ In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind
 
 - *Spezifisch*: Optimierung des Bestellprozesses im Unternehmen.
 - *Messbar*: Reduzierung der Bearbeitungszeit pro Bestellung um 20%.
-- *Erreichbar*: Optimierung durch Einführung neuer Softwaretools und Schulungen der Mitarbeiter innerhalb von 3 Monaten.
-- *Relevant*: Steigerung der Effizienz und Kundenzufriedenheit.
+- *Akzeptiert*: Steigerung der Effizienz und Kundenzufriedenheit.
+- *Realisitisch*: Optimierung durch Einführung neuer Softwaretools und Schulungen der Mitarbeiter innerhalb von 3 Monaten.
 - *Zeitgebunden*: Ziel ist es, die Bearbeitungszeit pro Bestellung innerhalb von 6 Monaten um 20% zu reduzieren.
 
 *S.M.A.R.T-Ziel*: "Wir werden den Bestellprozess durch die Einführung neuer Softwaretools und Schulungen der Mitarbeiter innerhalb von 3 Monaten optimieren, um die Bearbeitungszeit pro Bestellung innerhalb von 6 Monaten um 20% zu reduzieren."
@@ -89,8 +89,8 @@ In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind
 
 - *Spezifisch*: Erschließung eines neuen geografischen Marktes.
 - *Messbar*: Erreichen eines Marktanteils von 10% im neuen Markt innerhalb eines Jahres.
-- *Erreichbar*: Umsetzung durch Marktforschung, Anpassung der Marketingstrategie und Aufbau eines lokalen Vertriebsteams.
-- *Relevant*: Erhöhung des Unternehmenswachstums und der Marktpräsenz.
+- *Akzeptiert*: Erhöhung des Unternehmenswachstums und der Marktpräsenz.
+- *Realisitisch*: Umsetzung durch Marktforschung, Anpassung der Marketingstrategie und Aufbau eines lokalen Vertriebsteams.
 - *Zeitgebunden*: Ziel ist es, innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% zu erreichen.
 
 *S.M.A.R.T-Ziel*: "Wir werden innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% in einem neuen geografischen Markt durch Marktforschung, Anpassung der Marketingstrategie und Aufbau eines lokalen Vertriebsteams erreichen."
@@ -122,8 +122,8 @@ In Gruppenarbeit sollen Sie drei S.M.A.R.T-Ziele formulieren, die zur erfolgreic
    - Überprüfen und verfeinern Sie die ausgewählten Ziele anhand der S.M.A.R.T-Kriterien:
      - **Spezifisch**: Ist das Ziel klar und präzise formuliert?
      - **Messbar**: Kann der Fortschritt oder die Zielerreichung gemessen werden?
-     - **Erreichbar**: Ist das Ziel realistisch und erreichbar?
-     - **Relevant**: Ist das Ziel relevant und bedeutungsvoll für das Projekt?
+     - **Akzetiert**: Ist das Ziel relevant und bedeutungsvoll für das Projekt?
+     - **Realistisch**: Ist das Ziel realistisch und erreichbar?
      - **Zeitgebunden**: Gibt es eine klare Zeitvorgabe für die Zielerreichung?
 
 ** Formulierung der finalen Ziele
