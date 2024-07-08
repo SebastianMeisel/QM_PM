@@ -23,7 +23,7 @@
 * Einführung
 Die DORA Metriken wurden von der DevOps Research and Assessment (DORA) Gruppe entwickelt, um die Leistungsfähigkeit von Softwareentwicklungsteams zu bewerten. Diese Metriken sind speziell darauf ausgelegt, die Geschwindigkeit und Stabilität der Softwarebereitstellung zu messen und zu verbessern.
 
-* Die vie0r DORA Metriken
+* Die vier DORA Metriken
 #+ATTR_REVEAL: :frag (appear)
 - Deployment Frequency ::
    - Misst, wie häufig ein Team Code in die Produktion bringt. Häufigere Deployments sind ein Zeichen für eine hohe Effizienz und kurze Entwicklungszyklen.

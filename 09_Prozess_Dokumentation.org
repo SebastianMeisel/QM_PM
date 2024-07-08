@@ -72,7 +72,7 @@ end
 #+ATTR_LATEX: :width .9\linewidth
 #+ATTR_ORG: :width 700
 #+RESULTS:
-[[file:img/uml_class.png]]
+[[file:img/UML_Glühbirne.png]]
 
 
 
