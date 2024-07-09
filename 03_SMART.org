@@ -1,0 +1,147 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_EXTRA_CSS: ./smart.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: S.M.A.R.T-Zielfindung
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+* 
+
+Die ~S.M.A.R.T~-Methode stellt Kriterien zur Formulierung von zum Beispiel im Qualitätsmanagement auf:
+
+#+BEGIN_tolearn
+#+ATTR_REVEAL: :frag (appear)
+- S :: *pezifisch* - Ein Ziel sollte klar und präzise formuliert sein. Es sollte genau beschrieben werden, was erreicht werden soll.
+- M :: *essbar* - Ein Ziel muss messbar sein, um den Fortschritt und die Zielerreichung überprüfen zu können.
+- A :: *kzeptiert* (auch ambitioniert, attraktiv, aktiv, …) - Ein Ziel sollte für die Person, die es erreichen möchte, relevant und bedeutungsvoll sein. 
+- R :: *ealistisch* - Ein Ziel sollte realistisch und erreichbar sein, basierend auf den verfügbaren Ressourcen und Fähigkeiten. 
+- T :: *erminiert* - Ein Ziel sollte eine klare Zeitvorgabe haben, bis wann es erreicht werden soll. 
+#+END_tolearn
+
+** Beispiel für die S.M.A.R.T-Technik im Bereich Softwareentwicklung
+
+*** Kontext
+In einem Softwareentwicklungsprojekt möchte ein Team die Codequalität verbessern und sicherstellen, dass der Code den aktuellen Standards entspricht. Ein spezifisches Ziel könnte die Erhöhung der Testabdeckung durch Unit-Tests sein.
+
+*** S.M.A.R.T-Zielformulierung
+
+- S :: *pezifisch* - "Erhöhung der Unit-Test-Abdeckung für das Hauptmodul der Anwendung."
+- M :: *essbar*  - "Erhöhung der Testabdeckung für das Hauptmodul von 60% auf 80%."
+- A :: *kzeptiert* - "Eine höhere Testabdeckung führt zu weniger Bugs im Produktionscode und erhöht die Zuverlässigkeit der Anwendung."
+- R :: *ealistisch* - "Die Erhöhung der Testabdeckung um 20% innerhalb von drei Monaten ist realistisch, basierend auf der aktuellen Teamkapazität und den vorhandenen Ressourcen."
+- Z :: *eitgebunden* - "Die Testabdeckung soll innerhalb der nächsten drei Monate von 60% auf 80% erhöht werden."
+
+* Beispiele für S.M.A.R.T-Ziele in verschiedenen Bereichen
+
+In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind:
+
+ - Kundenanforderungen
+ - Produktanforderungen
+ - Prozesse und Verfahren
+ - Markt
+
+** Kundenanforderungen
+
+- *Spezifisch*: Verbesserung der Kundenzufriedenheit durch Einführung eines neuen Support-Systems.
+- *Messbar*: Erhöhung der Kundenzufriedenheit um 15%, gemessen durch regelmäßige Umfragen.
+- *Akzeptiert*: Verbesserung der Kundenbindung und Reduzierung der Abwanderungsrate.
+- *Realistisch* Implementierung des neuen Systems innerhalb von 6 Monaten.
+- *Zeitgebunden*: Ziel ist es, die Kundenzufriedenheit um 15% innerhalb eines Jahres nach Implementierung des Systems zu erhöhen.
+
+*S.M.A.R.T-Ziel*: "Wir werden die Kundenzufriedenheit um 15% innerhalb eines Jahres nach der Einführung eines neuen Support-Systems, welches in den nächsten 6 Monaten implementiert wird, steigern."
+
+** Produktanforderungen
+
+- *Spezifisch*: Entwicklung und Markteinführung einer neuen Produktfunktion.
+- *Messbar*: Neue Funktion soll in mindestens 25% der monatlichen Nutzersitzungen verwendet werden.
+- *Akzeptiert*: Erhöhung der Nutzerbindung und Wettbewerbsfähigkeit des Produkts.
+- *Realisitisch*: Umsetzung innerhalb der nächsten 4 Monate durch das bestehende Entwicklungsteam.
+- *Zeitgebunden*: Ziel ist es, die neue Funktion innerhalb von 6 Monaten nach Markteinführung in 25% der monatlichen Nutzersitzungen zu sehen.
+
+*S.M.A.R.T-Ziel*: "Wir werden eine neue Produktfunktion entwickeln und innerhalb der nächsten 4 Monate einführen, mit dem Ziel, dass sie innerhalb von 6 Monaten nach Markteinführung in mindestens 25% der monatlichen Nutzersitzungen verwendet wird."
+
+** Prozesse und Verfahren
+
+- *Spezifisch*: Optimierung des Bestellprozesses im Unternehmen.
+- *Messbar*: Reduzierung der Bearbeitungszeit pro Bestellung um 20%.
+- *Akzeptiert*: Steigerung der Effizienz und Kundenzufriedenheit.
+- *Realisitisch*: Optimierung durch Einführung neuer Softwaretools und Schulungen der Mitarbeiter innerhalb von 3 Monaten.
+- *Zeitgebunden*: Ziel ist es, die Bearbeitungszeit pro Bestellung innerhalb von 6 Monaten um 20% zu reduzieren.
+
+*S.M.A.R.T-Ziel*: "Wir werden den Bestellprozess durch die Einführung neuer Softwaretools und Schulungen der Mitarbeiter innerhalb von 3 Monaten optimieren, um die Bearbeitungszeit pro Bestellung innerhalb von 6 Monaten um 20% zu reduzieren."
+
+** Markt
+
+- *Spezifisch*: Erschließung eines neuen geografischen Marktes.
+- *Messbar*: Erreichen eines Marktanteils von 10% im neuen Markt innerhalb eines Jahres.
+- *Akzeptiert*: Erhöhung des Unternehmenswachstums und der Marktpräsenz.
+- *Realisitisch*: Umsetzung durch Marktforschung, Anpassung der Marketingstrategie und Aufbau eines lokalen Vertriebsteams.
+- *Zeitgebunden*: Ziel ist es, innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% zu erreichen.
+
+*S.M.A.R.T-Ziel*: "Wir werden innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% in einem neuen geografischen Markt durch Marktforschung, Anpassung der Marketingstrategie und Aufbau eines lokalen Vertriebsteams erreichen."
+
+* Aufgabe
+
+
+Ihr Unternehmen, "Tech Innovations GmbH", plant die Einführung eines neuen Softwareprodukts, das speziell für kleine und mittelständische Unternehmen entwickelt wurde. Ziel ist es, dieses Produkt erfolgreich am Markt zu etablieren und die Kundenzufriedenheit zu maximieren. Um dies zu erreichen, sollen verschiedene Aspekte wie Kundenfeedback, Produktqualität und Marketingstrategien berücksichtigt werden.
+
+** Aufgabe
+
+In Gruppenarbeit sollen Sie drei S.M.A.R.T-Ziele formulieren, die zur erfolgreichen Einführung und Etablierung des neuen Softwareprodukts beitragen. Die Ziele sollten sich auf folgende Bereiche beziehen:
+
+1. Kundenanforderungen
+2. Produktanforderungen
+3. Markt
+
+** Anleitung zur Herangehensweise
+
+** Brainstorming
+   - Diskutieren Sie in Ihrer Gruppe die wichtigsten Herausforderungen und Chancen in den drei genannten Bereichen.
+   - Notieren Sie sich alle Ideen und möglichen Ziele, die Ihnen einfallen.
+
+** Auswahl spezifischer Ziele
+   - Wählen Sie aus den Ideen jeweils ein spezifisches Ziel pro Bereich aus.
+   - Stellen Sie sicher, dass die Ziele klar und präzise formuliert sind.
+
+** S.M.A.R.T-Kriterien anwenden
+   - Überprüfen und verfeinern Sie die ausgewählten Ziele anhand der S.M.A.R.T-Kriterien:
+     - **Spezifisch**: Ist das Ziel klar und präzise formuliert?
+     - **Messbar**: Kann der Fortschritt oder die Zielerreichung gemessen werden?
+     - **Akzeptiert**: Ist das Ziel relevant und bedeutungsvoll für das Projekt?
+     - **Realistisch**: Ist das Ziel realistisch und erreichbar?
+     - **Zeitgebunden**: Gibt es eine klare Zeitvorgabe für die Zielerreichung?
+
+** Formulierung der finalen Ziele
+   - Formulieren Sie die finalen Ziele schriftlich und stellen Sie sicher, dass alle S.M.A.R.T-Kriterien erfüllt sind.
+
+** Präsentation
+   - Bereiten Sie eine kurze Präsentation vor, in der Sie Ihre Ziele vorstellen und begründen.
+   - Seien Sie bereit, Fragen zu den Zielen und deren S.M.A.R.T-Kriterien zu beantworten.
+
+** Beispiel
+
+Für eure Lösung könnt ihr euch an folgendem Beispiel orientieren: 
+
+** Kundenanforderungen
+   - Ziel: "Wir werden innerhalb der nächsten 6 Monate ein Feedbacksystem einführen, das die Kundenzufriedenheit um 20% erhöht, gemessen durch monatliche Kundenumfragen."
+
+** Produktanforderungen
+   - Ziel: "Wir werden innerhalb von 4 Monaten eine Funktion zur automatischen Datensicherung implementieren, die von mindestens 30% der Nutzer innerhalb von 3 Monaten nach Einführung verwendet wird."
+
+** Markt
+   - Ziel: "Wir werden innerhalb eines Jahres nach Produkteinführung einen Marktanteil von 10% bei kleinen und mittelständischen Unternehmen in Deutschland erreichen, unterstützt durch gezielte Marketingkampagnen und Vertriebspartnerschaften."
