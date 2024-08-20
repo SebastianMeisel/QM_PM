@@ -32,7 +32,7 @@ Das V-Modell unterteilt ein Projekt in mehrere Phasen, die jeweils klar definier
 - Die linke Seite des Vs: Spezifikations- und Entwurfsphase
 - Die rechte Seite des Vs: Verifikations- und Validierungsphase
 
-[[file:img/V-Modell.drawio]]
+[[file:img/V-Modell.png]]
 
 *** 2.1 Spezifikations- und Entwurfsphase (linke Seite des V)
 
