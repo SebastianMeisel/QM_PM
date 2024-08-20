@@ -1,0 +1,77 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: V-Modell
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+* Einführung 
+
+Das V-Modell ist ein etabliertes Vorgehensmodell im Projektmanagement, das insbesondere im Bereich der Softwareentwicklung Anwendung findet. Es basiert auf dem Wasserfallmodell und wird häufig in Projekten verwendet, die hohe Anforderungen an Qualität und Nachvollziehbarkeit stellen, wie etwa in der Medizintechnik, Luft- und Raumfahrt oder Automobilindustrie.
+
+Das V-Modell stellt die Entwicklungs- und Testphasen eines Projekts grafisch in einer V-Form dar. Dabei steht die linke Seite des V für die Planung und Spezifikation, die rechte Seite für die Tests und Verifikation.
+
+** Aufbau des V-Modells
+
+Das V-Modell unterteilt ein Projekt in mehrere Phasen, die jeweils klar definierte Ergebnisse und Ziele haben. Diese Phasen lassen sich in zwei Hauptgruppen einteilen: 
+- Die linke Seite des Vs: Spezifikations- und Entwurfsphase
+- Die rechte Seite des Vs: Verifikations- und Validierungsphase
+
+[[file:img/V-Modell.drawio]]
+
+*** 2.1 Spezifikations- und Entwurfsphase (linke Seite des V)
+
+- **Anforderungsanalyse**: In dieser Phase werden die Anforderungen an das System gesammelt, dokumentiert und analysiert. Die Ergebnisse fließen in das Lastenheft ein.
+  
+- **Systementwurf**: Auf Basis der Anforderungsanalyse wird das Gesamtsystem in logische Komponenten unterteilt. Dies umfasst die Spezifikation der Architektur sowie das Erstellen eines Pflichtenhefts.
+  
+- **Detailentwurf**: Hier erfolgt die detaillierte Ausarbeitung der einzelnen Systemkomponenten. Schnittstellen und Algorithmen werden spezifiziert und die technische Umsetzung geplant.
+
+*** 2.2 Verifikations- und Validierungsphase (rechte Seite des V)
+
+- **Komponententest**: Einzelne Module oder Komponenten werden getestet, um sicherzustellen, dass sie den Spezifikationen entsprechen. Dieser Test entspricht der Detailentwurfsphase.
+
+- **Integrationstest**: Die getesteten Komponenten werden integriert und als Gesamtsystem überprüft. Hier wird geprüft, ob die Komponenten im Zusammenspiel wie vorgesehen funktionieren. Dies korrespondiert mit der Systementwurfsphase.
+
+- **Systemtest**: Das Gesamtsystem wird in einer realistischen Umgebung getestet, um sicherzustellen, dass alle Anforderungen erfüllt sind. Dies entspricht der Anforderungsanalyse.
+
+- **Abnahmetest**: Schließlich wird das System vom Auftraggeber geprüft, um sicherzustellen, dass es den vertraglich vereinbarten Anforderungen entspricht.
+
+** 3. Vorteile des V-Modells
+
+Das V-Modell bietet verschiedene Vorteile, insbesondere in Projekten, die hohe Anforderungen an Dokumentation und Nachvollziehbarkeit stellen:
+
+- **Klare Struktur**: Durch die Einteilung in Phasen und die klare Zuordnung von Verifikationsaktivitäten zu den einzelnen Entwicklungsphasen bleibt das Projekt übersichtlich und gut dokumentiert.
+
+- **Qualitätssicherung**: Jede Entwicklungsphase wird durch entsprechende Testphasen abgesichert, was die Qualität des Endprodukts erhöht.
+
+- **Risikominimierung**: Durch die frühzeitige Spezifikation und Validierung von Anforderungen und Entwürfen können Fehler und Missverständnisse frühzeitig erkannt und behoben werden.
+
+** 4. Nachteile und Grenzen des V-Modells
+
+Trotz seiner Vorteile hat das V-Modell auch einige Nachteile:
+
+- **Wenig Flexibilität**: Das V-Modell ist stark linear und erlaubt nur wenig Flexibilität im Entwicklungsprozess. Änderungen im Nachhinein sind aufwändig und teuer.
+
+- **Hoher Dokumentationsaufwand**: Durch die umfangreiche Spezifikation und Dokumentation entstehen hohe administrative Aufwände.
+
+- **Nicht geeignet für agile Projekte**: Das V-Modell eignet sich weniger für Projekte, die eine agile Vorgehensweise oder häufige Anpassungen erfordern.
+
+** 5. Fazit
+
+Das V-Modell ist ein robustes und bewährtes Modell für Softwareentwicklungsprojekte, die hohe Anforderungen an Qualität und Dokumentation stellen. Es eignet sich besonders für Projekte in regulierten Branchen, bei denen eine detaillierte Spezifikation und Nachvollziehbarkeit von großer Bedeutung sind. Allerdings sollte die Entscheidung für das V-Modell gut überlegt sein, da es wenig Flexibilität bietet und mit einem hohen Dokumentationsaufwand verbunden ist.

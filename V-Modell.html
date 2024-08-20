@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<title>V-Modell</title>
+<meta name="author" content="Sebastian Meisel"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/league.css" id="theme"/>
+
+<link rel="stylesheet" href="./mystyle.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">V-Modell</h1><p class="subtitle">KOM-ITIL</p>
+<h2 class="author">Sebastian Meisel</h2>
+</section>
+
+<section>
+<section id="slide-org3e9ec5e">
+<h2 id="org3e9ec5e">Einführung</h2>
+<p>
+Das V-Modell ist ein etabliertes Vorgehensmodell im Projektmanagement, das insbesondere im Bereich der Softwareentwicklung Anwendung findet. Es basiert auf dem Wasserfallmodell und wird häufig in Projekten verwendet, die hohe Anforderungen an Qualität und Nachvollziehbarkeit stellen, wie etwa in der Medizintechnik, Luft- und Raumfahrt oder Automobilindustrie.
+</p>
+
+<p>
+Das V-Modell stellt die Entwicklungs- und Testphasen eines Projekts grafisch in einer V-Form dar. Dabei steht die linke Seite des V für die Planung und Spezifikation, die rechte Seite für die Tests und Verifikation.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org8f7bb0d">
+<h3 id="org8f7bb0d">Aufbau des V-Modells</h3>
+<p>
+Das V-Modell unterteilt ein Projekt in mehrere Phasen, die jeweils klar definierte Ergebnisse und Ziele haben. Diese Phasen lassen sich in zwei Hauptgruppen einteilen: 
+</p>
+<ul>
+<li>Die linke Seite des Vs: Spezifikations- und Entwurfsphase</li>
+<li>Die rechte Seite des Vs: Verifikations- und Validierungsphase</li>
+
+</ul>
+
+<p>
+<a href="img/V-Modell.drawio">img/V-Modell.drawio</a>
+</p>
+
+</section>
+<section id="slide-org578ce04">
+<h4 id="org578ce04">2.1 Spezifikations- und Entwurfsphase (linke Seite des V)</h4>
+<ul>
+<li><b><b>Anforderungsanalyse</b></b>: In dieser Phase werden die Anforderungen an das System gesammelt, dokumentiert und analysiert. Die Ergebnisse fließen in das Lastenheft ein.</li>
+
+<li><b><b>Systementwurf</b></b>: Auf Basis der Anforderungsanalyse wird das Gesamtsystem in logische Komponenten unterteilt. Dies umfasst die Spezifikation der Architektur sowie das Erstellen eines Pflichtenhefts.</li>
+
+<li><b><b>Detailentwurf</b></b>: Hier erfolgt die detaillierte Ausarbeitung der einzelnen Systemkomponenten. Schnittstellen und Algorithmen werden spezifiziert und die technische Umsetzung geplant.</li>
+
+</ul>
+
+</section>
+<section id="slide-org63b423e">
+<h4 id="org63b423e">2.2 Verifikations- und Validierungsphase (rechte Seite des V)</h4>
+<ul>
+<li><b><b>Komponententest</b></b>: Einzelne Module oder Komponenten werden getestet, um sicherzustellen, dass sie den Spezifikationen entsprechen. Dieser Test entspricht der Detailentwurfsphase.</li>
+
+<li><b><b>Integrationstest</b></b>: Die getesteten Komponenten werden integriert und als Gesamtsystem überprüft. Hier wird geprüft, ob die Komponenten im Zusammenspiel wie vorgesehen funktionieren. Dies korrespondiert mit der Systementwurfsphase.</li>
+
+<li><b><b>Systemtest</b></b>: Das Gesamtsystem wird in einer realistischen Umgebung getestet, um sicherzustellen, dass alle Anforderungen erfüllt sind. Dies entspricht der Anforderungsanalyse.</li>
+
+<li><b><b>Abnahmetest</b></b>: Schließlich wird das System vom Auftraggeber geprüft, um sicherzustellen, dass es den vertraglich vereinbarten Anforderungen entspricht.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgeedb835">
+<h3 id="orgeedb835">3. Vorteile des V-Modells</h3>
+<p>
+Das V-Modell bietet verschiedene Vorteile, insbesondere in Projekten, die hohe Anforderungen an Dokumentation und Nachvollziehbarkeit stellen:
+</p>
+
+<ul>
+<li><b><b>Klare Struktur</b></b>: Durch die Einteilung in Phasen und die klare Zuordnung von Verifikationsaktivitäten zu den einzelnen Entwicklungsphasen bleibt das Projekt übersichtlich und gut dokumentiert.</li>
+
+<li><b><b>Qualitätssicherung</b></b>: Jede Entwicklungsphase wird durch entsprechende Testphasen abgesichert, was die Qualität des Endprodukts erhöht.</li>
+
+<li><b><b>Risikominimierung</b></b>: Durch die frühzeitige Spezifikation und Validierung von Anforderungen und Entwürfen können Fehler und Missverständnisse frühzeitig erkannt und behoben werden.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org070c0e0">
+<h3 id="org070c0e0">4. Nachteile und Grenzen des V-Modells</h3>
+<p>
+Trotz seiner Vorteile hat das V-Modell auch einige Nachteile:
+</p>
+
+<ul>
+<li><b><b>Wenig Flexibilität</b></b>: Das V-Modell ist stark linear und erlaubt nur wenig Flexibilität im Entwicklungsprozess. Änderungen im Nachhinein sind aufwändig und teuer.</li>
+
+<li><b><b>Hoher Dokumentationsaufwand</b></b>: Durch die umfangreiche Spezifikation und Dokumentation entstehen hohe administrative Aufwände.</li>
+
+<li><b><b>Nicht geeignet für agile Projekte</b></b>: Das V-Modell eignet sich weniger für Projekte, die eine agile Vorgehensweise oder häufige Anpassungen erfordern.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org3b5deea">
+<h3 id="org3b5deea">5. Fazit</h3>
+<p>
+Das V-Modell ist ein robustes und bewährtes Modell für Softwareentwicklungsprojekte, die hohe Anforderungen an Qualität und Dokumentation stellen. Es eignet sich besonders für Projekte in regulierten Branchen, bei denen eine detaillierte Spezifikation und Nachvollziehbarkeit von großer Bedeutung sind. Allerdings sollte die Entscheidung für das V-Modell gut überlegt sein, da es wenig Flexibilität bietet und mit einem hohen Dokumentationsaufwand verbunden ist.
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown, RevealZoom, RevealNotes]
+});
+
+</script>
+</body>
+</html>
