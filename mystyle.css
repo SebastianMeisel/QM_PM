@@ -51,6 +51,49 @@ table {
   right: -50px;
 }
 
+
+.right {
+  float: right;
+  margin-left: 20px; /* Adjust the margin to create space between the image and the text */
+  width: 35%;
+  height: auto; /* Adjust the height automatically to maintain the aspect ratio */
+}
+
+.
+ul.pro, ul.con {
+  list-style-type: none; /* Entfernt die Standard-Aufzählungszeichen */
+  padding-left: 0; /* Entfernt den linken Einzug */
+  margin-left: 0; /* Stellt sicher, dass die Listen bündig am linken Rand sind */
+}
+
+.pro li::before {
+  content: "😊 "; /* Fröhliches Smiley */
+  margin-right: 10px; /* Abstand zwischen Smiley und Text */
+ }
+
+
+.con li::before {
+  content: "😢 "; /* Trauriges Smiley */
+  margin-right: 10px; /* Abstand zwischen Smiley und Text */
+}
+
+
+ul.pro {
+  margin-bottom: 10px; /* Abstand zwischen den beiden Listen */
+}
+
+ul.con {
+  margin-top: 0; /* Entfernt zusätzlichen Abstand oben */
+}
+
+.left {
+  position: absolute;
+  top: 50px;
+  left: -150px;
+  with: 60%;
+
+}
+
 .tolearn {
   border: 2px solid red;
   background-color: lightcoral; /* Light red background */
