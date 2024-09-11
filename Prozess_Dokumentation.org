@@ -423,10 +423,8 @@ BPMN ist eine standardisierte grafische Notation zur Darstellung von Geschäftsp
 
 Es bietet viele Symbole, was es komplex beim Erlernen macht, dafür lassen sich viele Prozesse so eindeutiger darstellen, als mit anderen Methode.
 
-#+BEGIN_NOTES
-[[http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf][BPMN2_0_Poster_DE.pdf]]
-[[https://seblog.cs.uni-kassel.de/wp-content/uploads/2021/01/BPMN-Leitfaden-1.pdf][BPMN-Leitfaden-1.pdf]]
-#+END_NOTES
+- [[https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c4602da8-5d9a-4596-a453-f97f57f81a19/BPMN-Poster_DE_MID-GmbH.pdf][BPMN2 Poster (PDF)]]
+- [[https://seblog.cs.uni-kassel.de/wp-content/uploads/2021/01/BPMN-Leitfaden-1.pdf][BPMN Leitfaden (PDF)]]
 
 #+REVEAL: split
 #+ATTR_HTML: :width 100%
