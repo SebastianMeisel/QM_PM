@@ -1,3 +1,4 @@
+
 :LaTeX_PROPERTIES:
 #+LANGUAGE: de
 #+OPTIONS: d:nil todo:nil pri:nil tags:nil
@@ -43,7 +44,7 @@ In einem Softwareentwicklungsprojekt möchte ein Team die Codequalität verbesse
 - S :: *pezifisch* - "Erhöhung der Unit-Test-Abdeckung für das Hauptmodul der Anwendung."
 - M :: *essbar*  - "Erhöhung der Testabdeckung für das Hauptmodul von 60% auf 80%."
 - A :: *kzeptiert* - "Eine höhere Testabdeckung führt zu weniger Bugs im Produktionscode und erhöht die Zuverlässigkeit der Anwendung."
-- R :: *elevant* - "Die Erhöhung der Testabdeckung um 20% innerhalb von drei Monaten ist realistisch, basierend auf der aktuellen Teamkapazität und den vorhandenen Ressourcen."
+- R :: *ealistisch* - "Die Erhöhung der Testabdeckung um 20% innerhalb von drei Monaten ist realistisch, basierend auf der aktuellen Teamkapazität und den vorhandenen Ressourcen."
 - Z :: *eitgebunden* - "Die Testabdeckung soll innerhalb der nächsten drei Monate von 60% auf 80% erhöht werden."
 
 * Beispiele für S.M.A.R.T-Ziele in verschiedenen Bereichen
@@ -122,7 +123,7 @@ In Gruppenarbeit sollen Sie drei S.M.A.R.T-Ziele formulieren, die zur erfolgreic
    - Überprüfen und verfeinern Sie die ausgewählten Ziele anhand der S.M.A.R.T-Kriterien:
      - **Spezifisch**: Ist das Ziel klar und präzise formuliert?
      - **Messbar**: Kann der Fortschritt oder die Zielerreichung gemessen werden?
-     - **Akzetiert**: Ist das Ziel relevant und bedeutungsvoll für das Projekt?
+     - **Akzeptiert**: Ist das Ziel relevant und bedeutungsvoll für das Projekt?
      - **Realistisch**: Ist das Ziel realistisch und erreichbar?
      - **Zeitgebunden**: Gibt es eine klare Zeitvorgabe für die Zielerreichung?
 
