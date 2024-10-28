@@ -46,6 +46,42 @@
 - Beispiel: Software für eine Bank
 #+END_NOTES
 
+** V-Modell XT (Vorgehensmodell für Entwicklungsprojekte)
+
+#+CAPTION: V-Modell XT
+#+NAME: fig:vmodell
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth
+#+ATTR_ORG: :width 700
+[[file:img/V-Modell.png]]
+
+*** Hauptmerkmale
+#+BEGIN_tolearn
+- Strukturiertes Vorgehensmodell für Systementwicklungsprojekte
+- Fokussiert auf Qualitätssicherung und Risiko-Management
+- Anforderungen und Testen eng miteinander verbunden (V-Form)
+#+END_tolearn
+*** Phasen des V-Modells
+- Entwicklungsphasen auf der linken Seite des „V“
+  - Anforderungsanalyse
+  - System- und Softwareentwurf
+- Testphasen auf der rechten Seite des „V“
+  - Integrationstests
+  - Systemtests
+
+*** Symbolik des V-Modells
+- Die V-Form repräsentiert die Verbindung von Entwicklung und Testen.
+- Der linke Arm des „V“ steht für die Planung und Entwicklung, der rechte Arm für das Testen und die Validierung.
+
+*** Zusätzliche Anmerkungen
+#+BEGIN_NOTES
+- Häufig in sicherheitskritischen und öffentlich geförderten Projekten eingesetzt
+- Starker Fokus auf Normenkonformität und Transparenz
+- Beispiel: Entwicklung sicherheitskritischer Systeme, z. B. in der Luft- und Raumfahrt
+- Vorteil: Frühzeitige Fehlererkennung durch strikte Testphasen
+#+END_NOTES
+
+
 ** Iteratives Modelle (z. B. Agile, Scrum)
 
 #+CAPTION: Iteratives Modell
