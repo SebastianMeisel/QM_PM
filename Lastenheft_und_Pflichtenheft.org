@@ -1,0 +1,54 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Lasten- und Pflichtenheft
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+* Lasten- und Pflichtenheft für IT-Admin-Projekte
+
+** 1. Lastenheft
+- **Ersteller:** Auftraggeber
+- **Zweck:** Beschreibung der Gesamtanforderungen an das Projekt (Was soll das System leisten?)
+- **Sprache:** Einfach, oft nicht-fachlich
+- **Rechtsverbindlichkeit:** Nicht rechtsverbindlich
+** Inhalt
+  - **Funktionale Anforderungen:**
+    - Beschreiben, welche Funktionen das System bieten muss (z. B. „Das System muss Benutzerdaten speichern können.“).
+  - **Nicht-funktionale Anforderungen:**
+    - Beschreiben Qualitätsanforderungen und Randbedingungen (z. B. „Das System muss innerhalb von 2 Sekunden reagieren.“).
+  - **Beispiele für Anforderungen:**
+    - Funktional: „Das System muss eine Benutzeroberfläche zur Verwaltung von Benutzerrollen bieten.“
+    - Nicht-funktional: „Das System soll eine Verfügbarkeit von 99,9 % erreichen.“
+
+** 2. Pflichtenheft
+- **Ersteller:** Auftragnehmer
+- **Zweck:** Detaillierte Beschreibung, wie die Anforderungen aus dem Lastenheft umgesetzt werden (Wie wird das System realisiert?)
+- **Sprache:** Fachlich und detailliert
+- **Rechtsverbindlichkeit:** Rechtsverbindlich
+*** Inhalt:
+  - **Funktionale Anforderungen:** 
+    - Detaillierte technische Spezifikationen, wie die Funktionen umgesetzt werden (z. B. „Das System verwendet eine MySQL-Datenbank und eine REST-API zur Verwaltung der Benutzerdaten.“).
+  - **Nicht-funktionale Anforderungen:**
+    - Detaillierte Qualitätsanforderungen (z. B. „Die Ladezeit der Benutzeroberfläche darf 1,5 Sekunden nicht überschreiten.“).
+#+REVEAL: split
+  - **Abgrenzung des Projektes:** 
+    - Was nicht Teil des Projektes ist (z. B. „Keine Integration mit externen CRM-Systemen“).
+  - **Beispiele für Anforderungen:**
+    - Funktional: „Das System nutzt OAuth2 für die Benutzer-Authentifizierung.“
+    - Nicht-funktional: „Die Datensicherung erfolgt täglich um 3 Uhr in der Cloud.“
+

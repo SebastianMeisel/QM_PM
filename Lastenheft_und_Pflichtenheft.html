@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<title>Lasten- und Pflichtenheft</title>
+<meta name="author" content="Sebastian Meisel"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/league.css" id="theme"/>
+
+<link rel="stylesheet" href="./mystyle.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Lasten- und Pflichtenheft</h1><p class="subtitle">KOM-ITIL</p>
+<h2 class="author">Sebastian Meisel</h2>
+</section>
+
+<section>
+<section id="slide-orgc26394a">
+<h2 id="orgc26394a">Lasten- und Pflichtenheft für IT-Admin-Projekte</h2>
+<div class="outline-text-2" id="text-orgc26394a">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org48df25c">
+<h3 id="org48df25c">1. Lastenheft</h3>
+<ul>
+<li><b><b>Ersteller:</b></b> Auftraggeber</li>
+<li><b><b>Zweck:</b></b> Beschreibung der Gesamtanforderungen an das Projekt (Was soll das System leisten?)</li>
+<li><b><b>Sprache:</b></b> Einfach, oft nicht-fachlich</li>
+<li><b><b>Rechtsverbindlichkeit:</b></b> Nicht rechtsverbindlich</li>
+
+</ul>
+</section>
+<section id="slide-org2bb77d9">
+<h4 id="org2bb77d9">Inhalt</h4>
+<ul>
+<li><b><b>Funktionale Anforderungen:</b></b>
+<ul>
+<li>Beschreiben, welche Funktionen das System bieten muss (z. B. „Das System muss Benutzerdaten speichern können.“).</li>
+
+</ul></li>
+<li><b><b>Nicht-funktionale Anforderungen:</b></b>
+<ul>
+<li>Beschreiben Qualitätsanforderungen und Randbedingungen (z. B. „Das System muss innerhalb von 2 Sekunden reagieren.“).</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org839959f">
+<h4 id="org839959f">Beispiele für Anforderungen:</h4>
+<ul>
+<li>Funktional: „Das System muss eine Benutzeroberfläche zur Verwaltung von Benutzerrollen bieten.“</li>
+<li>Nicht-funktional: „Das System soll eine Verfügbarkeit von 99,9 % erreichen.“</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgec93aaa">
+<h3 id="orgec93aaa">2. Pflichtenheft</h3>
+<ul>
+<li><b><b>Ersteller:</b></b> Auftragnehmer</li>
+<li><b><b>Zweck:</b></b> Detaillierte Beschreibung, wie die Anforderungen aus dem Lastenheft umgesetzt werden (Wie wird das System realisiert?)</li>
+<li><b><b>Sprache:</b></b> Fachlich und detailliert</li>
+<li><b><b>Rechtsverbindlichkeit:</b></b> Rechtsverbindlich</li>
+
+</ul>
+</section>
+<section id="slide-orgdd237f9">
+<h4 id="orgdd237f9">Inhalt:</h4>
+<ul>
+<li><b><b>Funktionale Anforderungen:</b></b> 
+<ul>
+<li>Detaillierte technische Spezifikationen, wie die Funktionen umgesetzt werden (z. B. „Das System verwendet eine MySQL-Datenbank und eine REST-API zur Verwaltung der Benutzerdaten.“).</li>
+
+</ul></li>
+<li><b><b>Nicht-funktionale Anforderungen:</b></b>
+<ul>
+<li>Detaillierte Qualitätsanforderungen (z. B. „Die Ladezeit der Benutzeroberfläche darf 1,5 Sekunden nicht überschreiten.“).</li>
+
+</ul></li>
+<li><b><b>Abgrenzung des Projektes:</b></b> 
+<ul>
+<li>Was nicht Teil des Projektes ist (z. B. „Keine Integration mit externen CRM-Systemen“).</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org604fa1e">
+<h4 id="org604fa1e">Beispiele für Anforderungen:</h4>
+<ul>
+<li>Funktional: „Das System nutzt OAuth2 für die Benutzer-Authentifizierung.“</li>
+<li>Nicht-funktional: „Die Datensicherung erfolgt täglich um 3 Uhr in der Cloud.“</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown, RevealZoom, RevealNotes]
+});
+
+</script>
+</body>
+</html>
