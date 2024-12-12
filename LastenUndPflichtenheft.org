@@ -1,0 +1,114 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+#+LATEX_HEADER: \usepackage{listings}
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Lasten- und Pflichtenheft
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+* Einführung
+In der IT-Branche ist eine klare und strukturierte Kommunikation zwischen Auftraggebern und Auftragnehmern essenziell, um Projekte erfolgreich umzusetzen. Hierbei spielen das Lastenheft und das Pflichtenheft eine zentrale Rolle. Diese Dokumente definieren Anforderungen und Aufgaben und dienen als Grundlage für die gesamte Projektarbeit.
+
+* Begriffsdefinitionen
+** Lastenheft
+#+BEGIN_tolearn
+Das Lastenheft beschreibt die Anforderungen des Auftraggebers an das System oder die Dienstleistung. Es stellt dar, *was* erreicht werden soll, ohne vorzugeben, *wie* es umgesetzt werden soll. Es stellt die Grundlage einer Ausschreibung dar.
+#+END_tolearn
+
+*** Inhalte des Lastenhefts
+- Zielsetzung des Projekts
+- Beschreibung der Ausgangssituation
+- Funktionale Anforderungen
+- Nicht-funktionale Anforderungen
+- Schnittstellen zu anderen Systemen
+- Rahmenbedingungen (z.B. Budget, Zeitplan)
+
+#+BEGIN_NOTES
+Funktionale und nicht-funktionale Anforderungen sind zwei grundlegende Kategorien, die bei der Spezifikation eines Systems oder einer Software verwendet werden. Sie definieren, was das System tun soll (funktional) und wie es diese Aufgaben ausführen soll (nicht-funktional).
+
+| Merkmal               | Funktionale Anforderungen                     | Nicht-funktionale Anforderungen               |
+|-----------------------|-----------------------------------------------|-----------------------------------------------|
+| Beschreibung          | Was das System leisten muss                  | Wie das System diese Leistungen erbringt     |
+| Beispiel aus der IT   | Benutzer kann ein Produkt suchen              | Suche muss Ergebnisse in weniger als 2 Sekunden liefern |
+| Prüfmethoden          | Funktionstests, Use-Case-Tests                | Performance-Tests, Sicherheitsaudits         |
+| Fokus                 | Fachliche und technische Funktionen          | Qualität, Effizienz, Sicherheit, Skalierbarkeit |
+
+Funktionale und nicht-funktionale Anforderungen ergänzen sich:
+
+    Ohne funktionale Anforderungen weiß man nicht, was das System tun soll.
+    Ohne nicht-funktionale Anforderungen bleibt unklar, wie gut das System dies leisten muss.
+
+Ein Beispiel zur Verdeutlichung:
+
+    Funktional: „Die Anwendung muss eine Benutzeranmeldung bereitstellen.“
+    Nicht-funktional: „Die Anmeldung muss innerhalb von 2 Sekunden abgeschlossen sein und Sicherheitsstandards wie 2FA (Zwei-Faktor-Authentifizierung) einhalten.“
+
+Beide zusammen sorgen für ein vollständig definiertes und qualitativ hochwertiges System.
+#+END_NOTES
+
+*** Beispiel: IT-Anwendungsentwicklung
+:PROPERTIES:
+:CATEGORY: Beispiel
+:END:
+Ein Unternehmen möchte eine neue Webanwendung entwickeln lassen. Im Lastenheft könnte stehen:
+- Die Anwendung soll eine Benutzerregistrierung und -anmeldung ermöglichen.
+- Es soll eine Produktsuche mit Filterfunktionen geben.
+- Die Anwendung muss in deutscher und englischer Sprache verfügbar sein.
+- Datenschutzanforderungen gemäß DSGVO sind einzuhalten.
+
+** Pflichtenheft
+#+BEGIN_tolearn
+Das Pflichtenheft wird vom Auftragnehmer erstellt und beschreibt detailliert, *wie* die Anforderungen des Lastenhefts umgesetzt werden. Es ist eine technische Konkretisierung und dient als Basis für die Umsetzung. Es stellt die rechtsverbindliche Grundlage des Vertrages dar.
+#+END_tolearn
+
+*** Inhalte des Pflichtenhefts
+- Konkrete technische Umsetzung der Anforderungen
+- Detaillierte Systemarchitektur
+- Entwicklungsumgebung und Werkzeuge
+- Teststrategie und Qualitätssicherungsmaßnahmen
+- Zeitplan für die einzelnen Projektphasen
+
+*** Beispiel: Systemadministration
+:PROPERTIES:
+:CATEGORY: Beispiel
+:END:
+Ein Unternehmen möchte eine neue Server-Infrastruktur implementieren. Im Pflichtenheft könnte stehen:
+- Der Server wird auf Basis von Ubuntu Linux 22.04 LTS installiert.
+- Die Benutzerverwaltung erfolgt über LDAP.
+- Backups werden mittels BorgBackup auf ein dediziertes NAS durchgeführt.
+- Ein Monitoring-System (z.B. Prometheus) wird zur Überwachung eingerichtet.
+- Firewall-Regeln werden über UFW konfiguriert.
+
+* Vergleich und Abgrenzung
+| Merkmal             | Lastenheft                                   | Pflichtenheft                                   |
+|---------------------|---------------------------------------------|-----------------------------------------------|
+| Verfasser          | Auftraggeber                                | Auftragnehmer                                |
+| Inhalt             | Anforderungen und Ziele                     | Technische Umsetzung                         |
+| Zeitpunkt          | Vor Projektstart                            | Nach Freigabe des Lastenhefts                |
+| Zweck              | Grundlage für Angebote und Vertragsgestaltung| Grundlage für die Umsetzung und Dokumentation|
+
+* Vorteile und Herausforderungen
+** Vorteile
+- Klare Definition von Anforderungen verhindert Missverständnisse.
+- Nachvollziehbarkeit der Projektphasen durch saubere Dokumentation.
+- Grundlage für Tests und Abnahmen.
+
+** Herausforderungen
+- Erheblicher Zeitaufwand bei der Erstellung.
+- Mögliche Unklarheiten bei der Interpretation von Anforderungen.
+- Gefahr der Überladung durch zu viele Details.
+
