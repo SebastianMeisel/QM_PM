@@ -1,0 +1,53 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+#+LATEX_HEADER: \usepackage{listings}
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: IHK-Prüfungsthemen
+#+SUBTITLE: KOM-ITIL
+#+AUTHOR: Sebastian Meisel
+
+* Einführung
+
+Prinzipiell können alle behandelten Themen in der Prüfung vorkommen, außer:
+
+- BPMN
+- Earned Value Management
+- Unterschied zwischen Agile und Lean.
+- Agile (und leane) Methoden außer Scrum.
+- ITIL
+
+** Häufige Themen
+
+Es gibt aber Themen, mit denen man eher rechnen muss als mit anderen. Besonders wichtig sind (in dieser Reihenfolge):
+
+1. Netzplantechnik
+2. Gantt
+3. Nutzwertanalyse
+4. SWOT
+5. SMART
+6. Scrum
+7. Ablauf von Wasserfallprojekten
+8. Unterschied zwischen qualitativen und quantitativen Qualitätskriterien.
+
+Außerdem sind die grafischen Methoden zur Prozessdokumentation sehr relevant, vor allem wegen der Überlappung mit der Programmdokumentation:
+
+1. UML
+   - Aktivitätsdiagramm
+   - Sequenzdiagramm
+   - Use-Case-Diagramm
+2. PAP
+3. EPK
