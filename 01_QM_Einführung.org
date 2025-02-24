@@ -38,7 +38,7 @@
 #+ATTR_REVEAL: :frag (appear)
    - *Grad*: Qualität ist nicht absolut → in einem bestimmten Maß
    - *Satz*: Es geht immer um mehrere Merkmale.
-   - *inhärente Merkmale*: fest zugehörige Merkmal → nicht zugeschrieben
+   - *inhärente Merkmale*: fest zugehörige Merkmale → nicht zugeschrieben (*nicht* Preis/Image)
    - *Objekt*: materiell (Ding / Person) oder immateriell (Idee)
    - *Anforderungen*: Es geht um /subjektive/ Anforderungen die je nach Kunde variieren.
 
