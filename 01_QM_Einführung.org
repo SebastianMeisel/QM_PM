@@ -219,12 +219,15 @@ Ziele:
 
   Abschließend kann gesagt werden, dass ein Verständnis von Qualitätsmanagement und dessen korrekter Anwendung für jeden IT-Profi, unabhängig von seiner Position, von unschätzbarem Wert ist.
 
-** Links und Weiterführende Informationen
-   - [[https://kirsch-managementsysteme.de/blog/2014/10/31/grundsaetze-des-qualitaetsmanagements-iso-9001-2015/][Grundsaetze des Qualitaetsmanagements ISO 9001-2015]]
+** Weiterführende Informationen
    - Vertiefen Sie Ihr Verständnis der 7 Grundsätze des Qualitätssicherung.
    - Informieren Sie sich über die 8 Grundsätze, die in einer früheren Fassung der ISO 9000er Normfamilie gefordert wurden.
    - Woran könnte sich Qualität im IT Bereich fest machen?
-     
+#+ATTR_HTML: :width 80%
+#+ATTR_LATEX: :width .65\linewidth :placement [!htpb]
+#+ATTR_ORG: :width 700
+[[file:img/Grundsätze8vs7.png]]
+
 # Local Variables:
 # jinx-languages: "de_DE"
 # End:
