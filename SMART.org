@@ -21,7 +21,7 @@
 #+SUBTITLE: KOM-ITIL
 #+AUTHOR: Sebastian Meisel
 
-* 
+* Einführung
 
 Die ~S.M.A.R.T~-Methode stellt Kriterien zur Formulierung von zum Beispiel im Qualitätsmanagement auf:
 
@@ -35,7 +35,6 @@ Die ~S.M.A.R.T~-Methode stellt Kriterien zur Formulierung von zum Beispiel im Qu
 #+END_tolearn
 
 ** Beispiel für die S.M.A.R.T-Technik im Bereich Softwareentwicklung
-
 *** Kontext
 In einem Softwareentwicklungsprojekt möchte ein Team die Codequalität verbessern und sicherstellen, dass der Code den aktuellen Standards entspricht. Ein spezifisches Ziel könnte die Erhöhung der Testabdeckung durch Unit-Tests sein.
 
@@ -45,7 +44,7 @@ In einem Softwareentwicklungsprojekt möchte ein Team die Codequalität verbesse
 - M :: *essbar*  - "Erhöhung der Testabdeckung für das Hauptmodul von 60% auf 80%."
 - A :: *kzeptiert* - "Eine höhere Testabdeckung führt zu weniger Bugs im Produktionscode und erhöht die Zuverlässigkeit der Anwendung."
 - R :: *ealistisch* - "Die Erhöhung der Testabdeckung um 20% innerhalb von drei Monaten ist realistisch, basierend auf der aktuellen Teamkapazität und den vorhandenen Ressourcen."
-- Z :: *eitgebunden* - "Die Testabdeckung soll innerhalb der nächsten drei Monate von 60% auf 80% erhöht werden."
+- T :: *erminiert* - "Die Testabdeckung soll innerhalb der nächsten drei Monate von 60% auf 80% erhöht werden."
 
 * Beispiele für S.M.A.R.T-Ziele in verschiedenen Bereichen
 
@@ -62,7 +61,7 @@ In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind
 - *Messbar*: Erhöhung der Kundenzufriedenheit um 15%, gemessen durch regelmäßige Umfragen.
 - *Akzeptiert*: Verbesserung der Kundenbindung und Reduzierung der Abwanderungsrate.
 - *Realistisch* Implementierung des neuen Systems innerhalb von 6 Monaten.
-- *Zeitgebunden*: Ziel ist es, die Kundenzufriedenheit um 15% innerhalb eines Jahres nach Implementierung des Systems zu erhöhen.
+- *Terminiert*: Ziel ist es, die Kundenzufriedenheit um 15% innerhalb eines Jahres nach Implementierung des Systems zu erhöhen.
 
 *S.M.A.R.T-Ziel*: "Wir werden die Kundenzufriedenheit um 15% innerhalb eines Jahres nach der Einführung eines neuen Support-Systems, welches in den nächsten 6 Monaten implementiert wird, steigern."
 
@@ -72,7 +71,7 @@ In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind
 - *Messbar*: Neue Funktion soll in mindestens 25% der monatlichen Nutzersitzungen verwendet werden.
 - *Akzeptiert*: Erhöhung der Nutzerbindung und Wettbewerbsfähigkeit des Produkts.
 - *Realisitisch*: Umsetzung innerhalb der nächsten 4 Monate durch das bestehende Entwicklungsteam.
-- *Zeitgebunden*: Ziel ist es, die neue Funktion innerhalb von 6 Monaten nach Markteinführung in 25% der monatlichen Nutzersitzungen zu sehen.
+- *Terminiert*: Ziel ist es, die neue Funktion innerhalb von 6 Monaten nach Markteinführung in 25% der monatlichen Nutzersitzungen zu sehen.
 
 *S.M.A.R.T-Ziel*: "Wir werden eine neue Produktfunktion entwickeln und innerhalb der nächsten 4 Monate einführen, mit dem Ziel, dass sie innerhalb von 6 Monaten nach Markteinführung in mindestens 25% der monatlichen Nutzersitzungen verwendet wird."
 
@@ -82,7 +81,7 @@ In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind
 - *Messbar*: Reduzierung der Bearbeitungszeit pro Bestellung um 20%.
 - *Akzeptiert*: Steigerung der Effizienz und Kundenzufriedenheit.
 - *Realisitisch*: Optimierung durch Einführung neuer Softwaretools und Schulungen der Mitarbeiter innerhalb von 3 Monaten.
-- *Zeitgebunden*: Ziel ist es, die Bearbeitungszeit pro Bestellung innerhalb von 6 Monaten um 20% zu reduzieren.
+- *Terminiert*: Ziel ist es, die Bearbeitungszeit pro Bestellung innerhalb von 6 Monaten um 20% zu reduzieren.
 
 *S.M.A.R.T-Ziel*: "Wir werden den Bestellprozess durch die Einführung neuer Softwaretools und Schulungen der Mitarbeiter innerhalb von 3 Monaten optimieren, um die Bearbeitungszeit pro Bestellung innerhalb von 6 Monaten um 20% zu reduzieren."
 
@@ -92,7 +91,7 @@ In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind
 - *Messbar*: Erreichen eines Marktanteils von 10% im neuen Markt innerhalb eines Jahres.
 - *Akzeptiert*: Erhöhung des Unternehmenswachstums und der Marktpräsenz.
 - *Realisitisch*: Umsetzung durch Marktforschung, Anpassung der Marketingstrategie und Aufbau eines lokalen Vertriebsteams.
-- *Zeitgebunden*: Ziel ist es, innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% zu erreichen.
+- Terminiert*: Ziel ist es, innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% zu erreichen.
 
 *S.M.A.R.T-Ziel*: "Wir werden innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% in einem neuen geografischen Markt durch Marktforschung, Anpassung der Marketingstrategie und Aufbau eines lokalen Vertriebsteams erreichen."
 
@@ -121,11 +120,11 @@ In Gruppenarbeit sollen Sie drei S.M.A.R.T-Ziele formulieren, die zur erfolgreic
 
 ** S.M.A.R.T-Kriterien anwenden
    - Überprüfen und verfeinern Sie die ausgewählten Ziele anhand der S.M.A.R.T-Kriterien:
-     - **Spezifisch**: Ist das Ziel klar und präzise formuliert?
-     - **Messbar**: Kann der Fortschritt oder die Zielerreichung gemessen werden?
-     - **Akzeptiert**: Ist das Ziel relevant und bedeutungsvoll für das Projekt?
-     - **Realistisch**: Ist das Ziel realistisch und erreichbar?
-     - **Zeitgebunden**: Gibt es eine klare Zeitvorgabe für die Zielerreichung?
+     - *Spezifisch*: Ist das Ziel klar und präzise formuliert?
+     - *Messbar*: Kann der Fortschritt oder die Zielerreichung gemessen werden?
+     - *Akzeptiert*: Ist das Ziel relevant und bedeutungsvoll für das Projekt?
+     - *Realistisch*: Ist das Ziel realistisch und erreichbar?
+     - *Terminiert*: Gibt es eine klare Zeitvorgabe für die Zielerreichung?
 
 ** Formulierung der finalen Ziele
    - Formulieren Sie die finalen Ziele schriftlich und stellen Sie sicher, dass alle S.M.A.R.T-Kriterien erfüllt sind.
