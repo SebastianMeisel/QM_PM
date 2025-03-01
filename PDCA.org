@@ -1,0 +1,144 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+#+LATEX_HEADER: \usepackage{listings}
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Verbesserung
+#+SUBTITLE: Qualitätsmanagement
+#+AUTHOR: KOM-ITIL
+
+* Die Theorie der vollständigen Handlung
+Bevor wir uns mit dem PDCA-Zyklus beschäftigen, lohnt sich ein kurzer Blick auf die "Theorie der vollständigen Handlung".
+#+BEGIN_NOTES
+Diese stammt aus der Pädagogik und beschreibt, wie man am besten lernt und arbeitet.
+#+END_NOTES
+Eine vollständige Handlung besteht aus folgenden Schritten:
+
+#+ATTR_REVEAL: :frag (appear)
+1) *Informieren* – Was ist die Aufgabe? Was sind die Anforderungen?
+2) *Planen* – Wie gehe ich vor? Welche Ressourcen brauche ich?
+3) *Entscheiden* – Welche Lösung wähle ich?
+4) *Ausführen* – Umsetzung der geplanten Handlung.
+5) *Kontrollieren* – Habe ich das Ziel erreicht?
+6) *Bewerten* – Was kann ich beim nächsten Mal besser machen?
+
+#+BEGIN_NOTES
+Warum ist das wichtig? Weil Lernen und Arbeiten dann besonders effektiv sind, wenn man den gesamten Zyklus durchläuft und nicht nur einzelne Schritte davon macht.
+#+END_NOTES
+
+
+* Der PDCA-Zyklus: 
+Jetzt kommen wir zum *PDCA-Zyklus*, auch bekannt als *Deming-Kreis* (nach William Edwards Deming) oder *Shewhart-Zyklus* (nach Walter Shewhart).
+
+ Der PDCA-Zyklus ist nicht einfach nur eine Wiederholung der vollständigen Handlung, sondern setzt auf einer höheren Ebene an: Er dient der systematischen Verbesserung von Prozessen und Produkten.
+
+#+BEGIN_NOTES
+Während die Theorie der vollständigen Handlung sich darauf konzentriert, dass man eine Aufgabe vollständig ausführt und daraus lernt, stellt der PDCA-Zyklus eine Methode dar, um kontinuierlich besser zu werden.
+#+END_NOTES
+
+* Die vier Phasen des PDCA-Zyklus
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width .65\linewidth :placement [!htpb]
+#+ATTR_ORG: :width 700
+[[file:img/PDCA.png]]
+#+REVEAL: split
+
+#+BEGIN_tolearn
+#+ATTR_REVEAL: :frag (appear)
+- P :: lan: Verbesserungen planen
+- D :: o: Verbesserungen umsetzen, testen und dokumentieren
+- C :: heck: Analyse der Wirksamkeit und möglicher Probleme
+- A :: ct: Überführung in Preoduktsbetrieb oder Anpassung
+#+END_tolearn
+
+** Plan (Planen)
+– Die Grundlage für Verbesserungen legen
+#+BEGIN_NOTES
+In dieser Phase wird der Grundstein für die Verbesserung gelegt. Hier geht es darum, das Problem genau zu analysieren und eine Strategie zu entwickeln.
+#+END_NOTES
+
+#+ATTR_REVEAL: :frag (appear)
+- Problem erkennen: :: Was läuft nicht optimal? Wo gibt es Verbesserungspotenzial?
+- Daten sammeln: :: Gibt es bereits Erfahrungen oder Messwerte, die helfen?
+- Ursachen analysieren: :: Was sind die wahren Gründe für das Problem?
+- Ziele setzen: :: Was soll konkret verbessert werden?
+- Maßnahmen planen: :: Welche Schritte führen zur Lösung?
+
+#+BEGIN_NOTES
+- Beispiel aus der IT: :: Ein Unternehmen hat viele Serverausfälle. In der Plan-Phase wird untersucht, woran es liegt – vielleicht sind es veraltete Komponenten, schlechte Wartung oder Softwareprobleme.
+#+END_NOTES
+
+** Do (Tun)
+– Die Umsetzung der Maßnahmen
+#+BEGIN_NOTES
+Nachdem der Plan steht, geht es in die praktische Umsetzung.
+#+END_NOTES
+#+ATTR_REVEAL: :frag (appear)
+- *Lösung testen:* In einem kleinen, kontrollierten Rahmen ausprobieren.
+- *Pilotprojekt durchführen:* Die Maßnahme an einem Beispielsystem testen.
+- *Daten sammeln:* Wie wirkt sich die Änderung aus?
+- *Dokumentation:* Was wurde genau gemacht?
+
+#+BEGIN_NOTES
+In der IT könnte das bedeuten, dass ein neuer Überwachungsdienst auf einem Testserver installiert wird, bevor er auf allen Systemen ausgerollt wird.
+#+END_NOTES
+
+** Check (Überprüfen)
+– Hat die Maßnahme funktioniert?
+
+#+BEGIN_NOTES
+- !! Wichtig !! :: Es geht hier nicht darum, das erfüllen einzelner Maßnahmen zu prüfen, wie auf einer Checkliste. Auch Testen und Fehlerkorrektur finden nicht hier, sondern in der Do-Phase statt.
+
+Stattdessen geht es um eine *umfassende Analyse* der Ergebnisse:
+#+END_NOTES
+#+ATTR_REVEAL: :frag (appear)
+- *Ergebnisse vergleichen:* Hat sich die Situation verbessert?
+- *Fehler analysieren:* Gibt es unerwartete Nebenwirkungen?
+- *Daten auswerten:* Stimmen die vorhergesagten Effekte mit der Realität überein?
+
+#+BEGIN_NOTES
+- Ein IT-Beispiel: Nachdem der neue Überwachungsdienst getestet wurde, wird geprüft, ob sich die Erreichbarkeit der Server verbessert hat oder ob es neue Probleme gibt.
+#+END_NOTES
+
+** Act (Handeln)
+– Erkenntnisse in den Regelbetrieb übernehmen
+#+BEGIN_NOTES
+Wenn sich die Maßnahme bewährt hat, wird sie auf breiter Basis eingeführt. Falls nicht, beginnt der Zyklus von vorne.
+#+END_NOTES
+#+ATTR_REVEAL: :frag (appear)
+- *Lösung standardisieren:* Erfolgreiche Änderungen in Prozesse überführen.
+- *Schulungen und Dokumentation:* Mitarbeiter einweisen, Dokumentationen aktualisieren.
+- *Erneute Planung:* Falls nötig, beginnt der Zyklus mit neuen Erkenntnissen von vorne.
+#+BEGIN_NOTES
+- Beispiel: Falls der neue Überwachungsdienst zuverlässig funktioniert, wird er auf alle Server ausgerollt. Falls nicht, wird über eine alternative Lösung nachgedacht.
+#+END_NOTES
+
+* KVP
+– Kontinuierlicher Verbesserungsprozess
+Der **KVP (kontinuierlicher Verbesserungsprozess)* basiert auf dem PDCA-Zyklus. Die Idee dahinter: Man hört nie auf, nach besseren Lösungen zu suchen. Fehler und Probleme sind keine Katastrophen, sondern Gelegenheiten, um zu lernen und Abläufe zu optimieren.
+
+#+REVEAL: split
+In der IT heißt das zum Beispiel:
+#+ATTR_REVEAL: :frag (appear)
+- *Softwareentwicklung:* Code regelmäßig überprüfen und verbessern.
+- *Systemadministration:* Automatisierung von wiederkehrenden Aufgaben.
+- *IT-Sicherheit:* Sicherheitslücken analysieren und schließen.
+
+#+BEGIN_NOTES
+Der PDCA-Zyklus sorgt dafür, dass Verbesserungen kein Zufall sind, sondern systematisch angegangen werden.
+#+END_NOTES
+
