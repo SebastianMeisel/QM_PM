@@ -21,10 +21,9 @@
 #+AUTHOR: KOM-ITIL
 
 * Die Theorie der vollständigen Handlung
-Bevor wir uns mit dem PDCA-Zyklus beschäftigen, lohnt sich ein kurzer Blick auf die "Theorie der vollständigen Handlung".
-#+BEGIN_NOTES
-Diese stammt aus der Pädagogik und beschreibt, wie man am besten lernt und arbeitet.
-#+END_NOTES
+
+Die "Theorie der vollständigen Handlung" stammt aus der *Pädagogik* und beschreibt, wie man am besten lernt und arbeitet.
+
 Eine vollständige Handlung besteht aus folgenden Schritten:
 
 #+ATTR_REVEAL: :frag (appear)
@@ -42,6 +41,10 @@ Warum ist das wichtig? Weil Lernen und Arbeiten dann besonders effektiv sind, we
 
 * Der PDCA-Zyklus: 
 Jetzt kommen wir zum *PDCA-Zyklus*, auch bekannt als *Deming-Kreis* (nach William Edwards Deming) oder *Shewhart-Zyklus* (nach Walter Shewhart).
+
+#+BEGIN_NOTES
+Beides waren Statistiker. Der PDCA-Zyklus basiert daher stark auf dem Sammeln und Auswerten und Leistungsdaten.
+#+END_NOTES
 
  Der PDCA-Zyklus ist nicht einfach nur eine Wiederholung der vollständigen Handlung, sondern setzt auf einer höheren Ebene an: Er dient der systematischen Verbesserung von Prozessen und Produkten.
 
@@ -62,13 +65,13 @@ Während die Theorie der vollständigen Handlung sich darauf konzentriert, dass 
 - P :: lan: Verbesserungen planen
 - D :: o: Verbesserungen umsetzen, testen und dokumentieren
 - C :: heck: Analyse der Wirksamkeit und möglicher Probleme
-- A :: ct: Überführung in Preoduktsbetrieb oder Anpassung
+- A :: ct: Überführung in Produktionsbetrieb oder Anpassung
 #+END_tolearn
 
 ** Plan (Planen)
 – Die Grundlage für Verbesserungen legen
 #+BEGIN_NOTES
-In dieser Phase wird der Grundstein für die Verbesserung gelegt. Hier geht es darum, das Problem genau zu analysieren und eine Strategie zu entwickeln.
+In dieser Phase wird der Grundstein für die Verbesserung gelegt. Hier geht es darum, das Problem umfassend zu analysieren und eine Strategie zu entwickeln.
 #+END_NOTES
 
 #+ATTR_REVEAL: :frag (appear)
@@ -79,7 +82,7 @@ In dieser Phase wird der Grundstein für die Verbesserung gelegt. Hier geht es d
 - Maßnahmen planen: :: Welche Schritte führen zur Lösung?
 
 #+BEGIN_NOTES
-- Beispiel aus der IT: :: Ein Unternehmen hat viele Serverausfälle. In der Plan-Phase wird untersucht, woran es liegt – vielleicht sind es veraltete Komponenten, schlechte Wartung oder Softwareprobleme.
+- Beispiel aus der IT: :: Ein Unternehmen hat viele Serverausfälle. In der Plan-Phase wird untersucht, woran es liegt – vielleicht sind es veraltete Komponenten, schlechte Wartung oder Softwareprobleme. Entsprechende Maßnahmen werden geplant.
 #+END_NOTES
 
 ** Do (Tun)
@@ -91,7 +94,7 @@ Nachdem der Plan steht, geht es in die praktische Umsetzung.
 - *Lösung testen:* In einem kleinen, kontrollierten Rahmen ausprobieren.
 - *Pilotprojekt durchführen:* Die Maßnahme an einem Beispielsystem testen.
 - *Daten sammeln:* Wie wirkt sich die Änderung aus?
-- *Dokumentation:* Was wurde genau gemacht?
+- *Dokumentation:* Was wurde genau gemacht? Wo gab es Probleme?
 
 #+BEGIN_NOTES
 In der IT könnte das bedeuten, dass ein neuer Überwachungsdienst auf einem Testserver installiert wird, bevor er auf allen Systemen ausgerollt wird.
@@ -111,13 +114,13 @@ Stattdessen geht es um eine *umfassende Analyse* der Ergebnisse:
 - *Daten auswerten:* Stimmen die vorhergesagten Effekte mit der Realität überein?
 
 #+BEGIN_NOTES
-- Ein IT-Beispiel: Nachdem der neue Überwachungsdienst getestet wurde, wird geprüft, ob sich die Erreichbarkeit der Server verbessert hat oder ob es neue Probleme gibt.
+- Ein IT-Beispiel: Nachdem der neue Überwachungsdienst getestet wurde, wird geprüft, ob sich die Erreichbarkeit der Server verbessert hat oder ob es neue Probleme gibt. Dies geschieht durch die statistische Auswertung der Daten, die in der Do-Phase gesammelt wurden.
 #+END_NOTES
 
 ** Act (Handeln)
 – Erkenntnisse in den Regelbetrieb übernehmen
 #+BEGIN_NOTES
-Wenn sich die Maßnahme bewährt hat, wird sie auf breiter Basis eingeführt. Falls nicht, beginnt der Zyklus von vorne.
+Wenn sich die Maßnahme bewährt hat, wird sie auf breiter Basis eingeführt. Falls nicht, werden notwendig Anpassungen dokumentiert und der Zyklus beginnt von vorne.
 #+END_NOTES
 #+ATTR_REVEAL: :frag (appear)
 - *Lösung standardisieren:* Erfolgreiche Änderungen in Prozesse überführen.
@@ -129,7 +132,7 @@ Wenn sich die Maßnahme bewährt hat, wird sie auf breiter Basis eingeführt. Fa
 
 * KVP
 – Kontinuierlicher Verbesserungsprozess
-Der **KVP (kontinuierlicher Verbesserungsprozess)* basiert auf dem PDCA-Zyklus. Die Idee dahinter: Man hört nie auf, nach besseren Lösungen zu suchen. Fehler und Probleme sind keine Katastrophen, sondern Gelegenheiten, um zu lernen und Abläufe zu optimieren.
+Der *KVP (kontinuierlicher Verbesserungsprozess)* basiert auf dem PDCA-Zyklus. Die Idee dahinter: Man hört nie auf, *systematisch* nach besseren Lösungen zu suchen. Fehler und Probleme sind keine Katastrophen, sondern Gelegenheiten, um zu lernen und Abläufe zu optimieren.
 
 #+REVEAL: split
 In der IT heißt das zum Beispiel:
@@ -141,4 +144,3 @@ In der IT heißt das zum Beispiel:
 #+BEGIN_NOTES
 Der PDCA-Zyklus sorgt dafür, dass Verbesserungen kein Zufall sind, sondern systematisch angegangen werden.
 #+END_NOTES
-
