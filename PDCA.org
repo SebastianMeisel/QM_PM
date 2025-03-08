@@ -40,10 +40,30 @@ Warum ist das wichtig? Weil Lernen und Arbeiten dann besonders effektiv sind, we
 #+END_NOTES
 
 
-* Der PDCA-Zyklus: 
+* Der PDCA-Zyklus
 Jetzt kommen wir zum *PDCA-Zyklus*, auch bekannt als *Deming-Kreis* (nach William Edwards Deming) oder *Shewhart-Zyklus* (nach Walter Shewhart).
 
+<<<<<<< HEAD
  Der PDCA-Zyklus ist nicht einfach nur eine Wiederholung der vollständigen Handlung, sondern setzt auf einer höheren Ebene an: Er dient der systematischen Verbesserung von Prozessen und Produkten.
+=======
+#+BEGIN_NOTES
+Beides waren Statistiker. Der PDCA-Zyklus basiert daher stark auf dem Sammeln und Auswerten von Leistungsdaten.
+#+END_NOTES
+
+Der PDCA-Zyklus ist nicht einfach nur eine Wiederholung der vollständigen Handlung, sondern setzt auf einer höheren Ebene an: Er dient der systematischen Verbesserung von Prozessen und Produkten.
+
+#+REVEAL: split
+
+*Unterschiede zur vollständigen Handlung:*
+
+#+ATTR_REVEAL: :frag (appear)
+- Die vollständige Handlung fokussiert auf das *Erledigen einzelner Aufgaben*.
+- Der PDCA-Zyklus fokussiert auf die *Verbesserung von Prozessen*.
+- Die vollständige Handlung hat einen definierten *Anfang und Ende*.
+- Der PDCA-Zyklus ist ein *kontinuierlicher Kreislauf*.
+- Die vollständige Handlung ist *aufgabenorientiert*.
+- Der PDCA-Zyklus ist *ergebnis- und datenorientiert*.
+>>>>>>> 55f4541 (PDCA überarbeitet)
 
 #+BEGIN_NOTES
 Während die Theorie der vollständigen Handlung sich darauf konzentriert, dass man eine Aufgabe vollständig ausführt und daraus lernt, stellt der PDCA-Zyklus eine Methode dar, um kontinuierlich besser zu werden.
@@ -72,14 +92,29 @@ In dieser Phase wird der Grundstein für die Verbesserung gelegt. Hier geht es d
 #+END_NOTES
 
 #+ATTR_REVEAL: :frag (appear)
-- Problem erkennen: :: Was läuft nicht optimal? Wo gibt es Verbesserungspotenzial?
-- Daten sammeln: :: Gibt es bereits Erfahrungen oder Messwerte, die helfen?
-- Ursachen analysieren: :: Was sind die wahren Gründe für das Problem?
-- Ziele setzen: :: Was soll konkret verbessert werden?
-- Maßnahmen planen: :: Welche Schritte führen zur Lösung?
+- *Problem erkennen:* Was läuft nicht optimal? Wo gibt es Verbesserungspotenzial?
+- *Daten sammeln:* Gibt es bereits Erfahrungen oder Messwerte, die helfen?
+- *Ursachen analysieren:* Was sind die wahren Gründe für das Problem?
+- *Ziele setzen:* Was soll konkret verbessert werden?
+- *Maßnahmen planen:* Welche Schritte führen zur Lösung?
+
+#+REVEAL: split
+
+*Methoden und Werkzeuge für die Plan-Phase:*
+
+#+ATTR_REVEAL: :frag (appear)
+- *Ishikawa-Diagramm:* Zur strukturierten Ursachenanalyse
+- *5-Why-Methode:* Zum Ergründen der Grundursachen
+- *SMART-Ziele:* Spezifisch, Messbar, Attraktiv, Realistisch, Terminiert
+- *Kennzahlen definieren:* Was wird gemessen, um Erfolg zu bestimmen?
 
 #+BEGIN_NOTES
+<<<<<<< HEAD
 - Beispiel aus der IT: :: Ein Unternehmen hat viele Serverausfälle. In der Plan-Phase wird untersucht, woran es liegt – vielleicht sind es veraltete Komponenten, schlechte Wartung oder Softwareprobleme.
+=======
+- Beispiel aus der IT: Ein Unternehmen hat viele Serverausfälle. In der Plan-Phase wird untersucht, woran es liegt – vielleicht sind es veraltete Komponenten, schlechte Wartung oder Softwareprobleme. Entsprechende Maßnahmen werden geplant.
+- Weitere IT-Beispiele: Optimierung von Entwicklungsprozessen, Reduzierung von Supportanfragen, Verbesserung der Kundenzufriedenheit mit IT-Services.
+>>>>>>> 55f4541 (PDCA überarbeitet)
 #+END_NOTES
 
 ** Do (Tun)
@@ -93,25 +128,51 @@ Nachdem der Plan steht, geht es in die praktische Umsetzung.
 - *Daten sammeln:* Wie wirkt sich die Änderung aus?
 - *Dokumentation:* Was wurde genau gemacht?
 
+#+REVEAL: split
+
+*Wichtige Aspekte der Dokumentation:*
+
+#+ATTR_REVEAL: :frag (appear)
+- *Prozessbeschreibungen:* Wie wurden die Maßnahmen umgesetzt?
+- *Änderungshistorie:* Was wurde wann geändert?
+- *Fehlerprotokolle:* Welche Probleme traten auf und wie wurden sie gelöst?
+- *Testprotokolle:* Welche Tests wurden durchgeführt und mit welchem Ergebnis?
+
 #+BEGIN_NOTES
 In der IT könnte das bedeuten, dass ein neuer Überwachungsdienst auf einem Testserver installiert wird, bevor er auf allen Systemen ausgerollt wird.
+Weitere Beispiele: Einführung neuer Entwicklungsmethoden in einem Pilotteam, Tests von neuen Sicherheitsmaßnahmen in einer kontrollierten Umgebung.
 #+END_NOTES
 
 ** Check (Überprüfen)
 – Hat die Maßnahme funktioniert?
 
-#+BEGIN_NOTES
-- !! Wichtig !! :: Es geht hier nicht darum, das erfüllen einzelner Maßnahmen zu prüfen, wie auf einer Checkliste. Auch Testen und Fehlerkorrektur finden nicht hier, sondern in der Do-Phase statt.
+#+ATTR_REVEAL: :frag (appear)
+- *!! Wichtig !!* Es geht hier *nicht* darum, das Erfüllen einzelner Maßnahmen zu prüfen, wie auf einer Checkliste. Auch Testen und Fehlerkorrektur finden nicht hier, sondern in der Do-Phase statt.
 
-Stattdessen geht es um eine *umfassende Analyse* der Ergebnisse:
-#+END_NOTES
+- Stattdessen geht es um eine *umfassende Analyse* der Ergebnisse:
+
 #+ATTR_REVEAL: :frag (appear)
 - *Ergebnisse vergleichen:* Hat sich die Situation verbessert?
 - *Fehler analysieren:* Gibt es unerwartete Nebenwirkungen?
 - *Daten auswerten:* Stimmen die vorhergesagten Effekte mit der Realität überein?
 
+#+REVEAL: split
+
+*Methoden für die Check-Phase:*
+
+#+ATTR_REVEAL: :frag (appear)
+- *Statistische Auswertungen:* Trends, Abweichungen, Korrelationen
+- *Vorher-Nachher-Vergleich:* Quantitative Bewertung der Verbesserung
+- *KPI-Messung:* Haben sich die definierten Leistungskennzahlen verbessert?
+- *Ursachenanalyse bei Abweichungen:* Warum wurden die Ziele erreicht oder nicht erreicht?
+
 #+BEGIN_NOTES
+<<<<<<< HEAD
 - Ein IT-Beispiel: Nachdem der neue Überwachungsdienst getestet wurde, wird geprüft, ob sich die Erreichbarkeit der Server verbessert hat oder ob es neue Probleme gibt.
+=======
+- Ein IT-Beispiel: Nachdem der neue Überwachungsdienst getestet wurde, wird geprüft, ob sich die Erreichbarkeit der Server verbessert hat oder ob es neue Probleme gibt. Dies geschieht durch die statistische Auswertung der Daten, die in der Do-Phase gesammelt wurden.
+- Weitere Beispiele: Analyse, ob neue Entwicklungsmethoden tatsächlich die Fehlerrate reduziert haben, Messung der Reaktionszeit nach Optimierung der Supportprozesse.
+>>>>>>> 55f4541 (PDCA überarbeitet)
 #+END_NOTES
 
 ** Act (Handeln)
@@ -123,8 +184,20 @@ Wenn sich die Maßnahme bewährt hat, wird sie auf breiter Basis eingeführt. Fa
 - *Lösung standardisieren:* Erfolgreiche Änderungen in Prozesse überführen.
 - *Schulungen und Dokumentation:* Mitarbeiter einweisen, Dokumentationen aktualisieren.
 - *Erneute Planung:* Falls nötig, beginnt der Zyklus mit neuen Erkenntnissen von vorne.
+
+#+REVEAL: split
+
+*Wichtige Aspekte für erfolgreiche Standardisierung:*
+
+#+ATTR_REVEAL: :frag (appear)
+- *Prozessdokumentation:* Klare Beschreibung des neuen Standards
+- *Mitarbeiterbeteiligung:* Einbeziehen aller Betroffenen
+- *Change Management:* Umgang mit Widerständen und Bedenken
+- *Nachhaltigkeit sichern:* Regelmäßige Überprüfung der Einhaltung
+
 #+BEGIN_NOTES
 - Beispiel: Falls der neue Überwachungsdienst zuverlässig funktioniert, wird er auf alle Server ausgerollt. Falls nicht, wird über eine alternative Lösung nachgedacht.
+- Weitere Beispiele: Einführung neuer Coding-Standards im gesamten Entwicklungsteam, Implementierung optimierter Supportprozesse für die gesamte IT-Abteilung.
 #+END_NOTES
 
 * KVP
@@ -132,13 +205,48 @@ Wenn sich die Maßnahme bewährt hat, wird sie auf breiter Basis eingeführt. Fa
 Der **KVP (kontinuierlicher Verbesserungsprozess)* basiert auf dem PDCA-Zyklus. Die Idee dahinter: Man hört nie auf, nach besseren Lösungen zu suchen. Fehler und Probleme sind keine Katastrophen, sondern Gelegenheiten, um zu lernen und Abläufe zu optimieren.
 
 #+REVEAL: split
-In der IT heißt das zum Beispiel:
+
+*Die Integration von PDCA im KVP:*
+
 #+ATTR_REVEAL: :frag (appear)
-- *Softwareentwicklung:* Code regelmäßig überprüfen und verbessern.
-- *Systemadministration:* Automatisierung von wiederkehrenden Aufgaben.
-- *IT-Sicherheit:* Sicherheitslücken analysieren und schließen.
+- *PDCA als Methodik:* Der PDCA-Zyklus bildet das methodische Fundament für KVP.
+- *Zusätzliche KVP-Elemente:* 
+  - Mitarbeiterbeteiligung auf allen Ebenen
+  - Kleine, kontinuierliche Verbesserungen statt großer Umwälzungen
+  - Fokus auf Prozessoptimierung und Fehlervermeidung
+  - Kulturwandel hin zu einer "Lernenden Organisation"
+
+#+REVEAL: split
+
+*KVP in der IT-Praxis:*
+
+#+ATTR_REVEAL: :frag (appear)
+- *Softwareentwicklung:* 
+  - Code-Reviews und Refactoring als Standard
+  - Kontinuierliche Integration und Tests
+  - Retrospektiven in agilen Teams
+
+- *Systemadministration:* 
+  - Automatisierung von wiederkehrenden Aufgaben
+  - Proaktives Monitoring statt reaktives Handeln
+  - Standardisierte Betriebsprozesse
+
+- *IT-Sicherheit:* 
+  - Regelmäßige Sicherheitsaudits
+  - Vorausschauendes Patch-Management
+  - Analyse von Sicherheitsvorfällen und Präventionsmaßnahmen
+
+#+REVEAL: split
+
+*Verbindung zu anderen Qualitätsmanagement-Ansätzen:*
+
+#+ATTR_REVEAL: :frag (appear)
+- *ISO 9001:* PDCA ist ein zentrales Element des Prozessansatzes
+- *Six Sigma:* DMAIC-Zyklus (Define, Measure, Analyze, Improve, Control) als Erweiterung von PDCA
+- *Lean Management:* Kaizen (kontinuierliche Verbesserung) als japanische Variante des KVP
+- *ITIL:* Service Improvement als eigenständiger Bereich des IT-Service-Managements
 
 #+BEGIN_NOTES
-Der PDCA-Zyklus sorgt dafür, dass Verbesserungen kein Zufall sind, sondern systematisch angegangen werden.
+Der PDCA-Zyklus sorgt dafür, dass Verbesserungen kein Zufall sind, sondern systematisch angegangen werden. Er ist die Grundlage für eine kontinuierliche Verbesserungskultur in Organisationen.
 #+END_NOTES
 
