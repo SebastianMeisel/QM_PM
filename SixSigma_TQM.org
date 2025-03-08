@@ -1,0 +1,161 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+#+LATEX_HEADER: \usepackage{listings}
+:END:
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Six Sigma und TQM
+#+SUBTITLE: Qualitätsmanagement
+#+AUTHOR: KOM-ITIL
+
+
+* Was ist Six Sigma?
+Six Sigma ist eine datengestützte Methodik zur Verbesserung von Geschäftsprozessen durch Minimierung von Fehlern und Variabilität. Ursprünglich in der Fertigung entwickelt, wurde es inzwischen in verschiedenen Branchen, einschließlich der IT, eingeführt, um Effizienz zu steigern, Fehler zu reduzieren und die Servicequalität zu verbessern.
+
+* Ursprung der Bezeichnung
+
+Der Name *Six Sigma* stammt aus der Statistik und bezieht sich auf die Standardabweichung (σ, gesprochen "Sigma") in einem Prozess. Eine hohe Sigma-Stufe bedeutet, dass ein Prozess sehr stabil ist und nur wenige Fehler aufweist. Das Ziel von Six Sigma ist es, Prozesse so zu verbessern, dass sie innerhalb der definierten Toleranzgrenzen liegen und weniger als 3,4 Fehler pro eine Million Möglichkeiten auftreten.
+
+* Was ist eine Standardabweichung und eine Toleranzgrenze?
+- *Standardabweichung (σ)* beschreibt, wie stark einzelne Werte von einem Durchschnittswert abweichen. Eine geringe Standardabweichung bedeutet, dass die Werte nahe am Durchschnitt liegen, eine hohe Standardabweichung bedeutet eine große Streuung.
+
+#+begin_export latex
+\begin{tikzpicture}[scale=1.2]
+% Zeichne die Normalverteilungskurve
+\draw[thick, domain=-3.5:3.5, smooth, samples=100] plot (
+{\x}, {2.5 * exp(-0.5 * \x * \x)}
+);
+
+% Achsen
+\draw[->] (-6,0) -- (6,0) node[right] {$x$};
+\draw[->] (0,0) -- (0,2.7) node[above] {$f(x)$};
+    
+% Mittelwert
+\draw[dashed] (0,0) -- (0,2.5);
+\node[below] at (0,-0.1) {$\mu$};
+
+% Standardabweichung +1sigma und -1sigma
+\draw[dashed] (1,0) -- (1,2.5*exp(-0.5));
+\draw[dashed] (-1,0) -- (-1,2.5*exp(-0.5));
+\node[below] at (1,-0.1) {$\mu + \sigma$};
+\node[below] at (-1,-0.1) {$\mu - \sigma$};
+    
+% Standardabweichung +2sigma und -2sigma
+\draw[dashed] (2,0) -- (2,2.5*exp(-2));
+\draw[dashed] (-2,0) -- (-2,2.5*exp(-2));
+\node[below] at (2.5,-0.1) {$\mu + 2\sigma$};
+\node[below] at (-2.5,-0.1) {$\mu - 2\sigma$};
+    
+% Standardabweichung +3sigma und -3sigma
+\draw[dashed] (6,0) -- (6,2.5*exp(-4.5));
+\draw[dashed] (-6,0) -- (-6,2.5*exp(-4.5));
+\node[below] at (6,-0.6) {$\mu + 6\sigma$};
+\node[below] at (-6,-0.6) {$\mu - 6\sigma$};
+    
+% Toleranzgrenzen (6 Sigma)
+\draw[red, thick] (-6,0) -- (-6,1);
+\draw[red, thick] (6,0) -- (6,1);
+\node[red, below] at (-4.5,-1.1) {Toleranzgrenze};
+\node[red, below] at (4.5,-1.1) {Toleranzgrenze};
+    
+\end{tikzpicture}\\~\hfill%%
+\begin{tikzpicture}[scale=1.2]
+    % Zeichne die Normalverteilungskurve
+    \draw[thick, domain=-3.5:3.5, smooth, samples=100] plot (
+        {\x}, {2.5 * exp(-0.5 * \x * \x)}
+    );
+
+% Achsen
+\draw[->] (-6,0) -- (6,0) node[right] {$x$};
+\draw[->] (0,0) -- (0,2.7) node[above] {$f(x)$};
+    
+% Mittelwert
+\draw[dashed] (0,0) -- (0,2.5);
+\node[below] at (0,-0.1) {$\mu$};
+
+    % Standardabweichung +1sigma und -1sigma
+    \draw[dashed] (1,0) -- (1,2.5*exp(-0.5));
+    \draw[dashed] (-1,0) -- (-1,2.5*exp(-0.5));
+    \node[below] at (1,-0.1) {$\mu + \sigma$};
+    \node[below] at (-1,-0.1) {$\mu - \sigma$};
+    
+    % Standardabweichung +2sigma und -2sigma
+    \draw[dashed] (2,0) -- (2,2.5*exp(-2));
+    \draw[dashed] (-2,0) -- (-2,2.5*exp(-2));
+    \node[below] at (2,-0.1) {$\mu + 2\sigma$};
+    \node[below] at (-2,-0.1) {$\mu - 2\sigma$};
+    
+    % Standardabweichung +6sigma und -6sigma
+    \draw[dashed] (6,0) -- (6,2.5*exp(-4.5));
+    \draw[dashed] (-6,0) -- (-6,2.5*exp(-4.5));
+    \node[below] at (6,-0.1) {$\mu + 6\sigma$};
+    \node[below] at (-6,-0.1) {$\mu - 6\sigma$};
+    
+    % Toleranzgrenzen (2 Sigma)
+    \draw[red, thick] (-2,0) -- (-2,1);
+    \draw[red, thick] (2,0) -- (2,1);
+    \node[red, below] at (-1.5,-1.1) {Toleranzgrenze};
+    \node[red, below] at (1.5,-1.1) {Toleranzgrenze};
+    
+    % Ausschussbereich schraffiert füllen
+    \fill[red!40, opacity=0.5] (-3.5,0) -- plot[domain=-3.5:-2, smooth, samples=50] (
+        {\x}, {2.5 * exp(-0.5 * \x * \x)}) -- (-2,0) -- cycle;
+    
+    \fill[red!40, opacity=0.5] (3.5,0) -- plot[domain=3.5:2, smooth, samples=50] (
+        {\x}, {2.5 * exp(-0.5 * \x * \x)}) -- (2,0) -- cycle;
+    
+    % Label für Ausschuss
+    \node[red] at (-2.75, 0.5) {Ausschuss};
+    \node[red] at (2.75, 0.5) {Ausschuss};
+    
+\end{tikzpicture}\hfill~\\
+#+end_export
+
+
+#+REVEAL: split
+- *Toleranzgrenze* bezeichnet den Bereich, in dem ein Wert noch als akzeptabel gilt. Alles außerhalb dieser Grenze gilt als Fehler.
+
+*Beispiel:* Stell dir vor, du arbeitest in einer IT-Abteilung, die eine maximale Antwortzeit von 2 Sekunden für eine Webseite garantieren möchte. Die durchschnittliche Ladezeit liegt bei 1,5 Sekunden, aber es gibt Abweichungen. Wenn die meisten Ladezeiten zwischen 1,4 und 1,6 Sekunden liegen, ist die Standardabweichung gering und der Prozess stabil. Falls jedoch einige Seiten 3 oder 4 Sekunden zum Laden brauchen, ist die Standardabweichung hoch und Optimierungen sind notwendig, um innerhalb der Toleranzgrenzen zu bleiben.
+
+* Warum ist Six Sigma für IT-Fachkräfte relevant?
+1. *Prozessverbesserung* – IT-Fachkräfte können Six-Sigma-Prinzipien anwenden, um Arbeitsabläufe zu optimieren, Systemausfallzeiten zu reduzieren und Reaktionszeiten zu verbessern.
+2. *Qualitätsmanagement* – Hilft dabei, Fehler in der Softwareentwicklung, Systemadministration und IT-Service-Management zu identifizieren und zu beseitigen.
+3. *Datengetriebene Entscheidungsfindung* – Fördert einen systematischen Ansatz zur Problemlösung durch statistische Analyse und Datensammlung.
+4. *Kostensenkung* – Spart Ressourcen, indem Verschwendung minimiert und die Leistung optimiert wird.
+5. *Karriereentwicklung* – Kenntnisse in Six Sigma verbessern die Berufsaussichten und erhöhen den Wert in IT-Rollen.
+
+* Zentrale Konzepte von Six Sigma
+- *DMAIC-Zyklus*: Ein strukturierter Ansatz zur Prozessverbesserung.
+  - *Define (Definieren)*: Problem und Ziele identifizieren.
+  - *Measure (Messen)*: Relevante Daten sammeln, um die aktuelle Leistung zu verstehen.
+  - *Analyze (Analysieren)*: Daten untersuchen, um die Ursachen von Fehlern zu finden.
+  - *Improve (Verbessern)*: Lösungen implementieren, um die Ursachen zu beseitigen.
+  - *Control (Steuern)*: Verbesserungen durch Überwachung und Standardisierung aufrechterhalten.
+- *Rollen in Six Sigma*:
+  - *Champion*: Sponsor und Unterstützer von Six-Sigma-Projekten.
+  - *Master Black Belt*: Expertenlevel-Mentor für Six-Sigma-Fachkräfte.
+  - *Black Belt*: Leitet Verbesserungsprojekte und führt Datenanalysen durch.
+  - *Green Belt*: Unterstützt Six-Sigma-Projekte und wendet Methoden in seiner Arbeit an.
+  - *Yellow Belt*: Verfügt über grundlegendes Verständnis und nimmt an Projekten teil.
+
+* Anwendung von Six Sigma in der IT
+1. *Softwareentwicklung* – Fehlerreduzierung und Verbesserung der Codequalität.
+2. *IT-Support und Helpdesk* – Verkürzung der Reaktionszeiten und Steigerung der Benutzerzufriedenheit.
+3. *Cybersecurity* – Verbesserung der Bedrohungserkennungsprozesse.
+4. *Infrastrukturmanagement* – Minimierung von Ausfallzeiten und Optimierung der Ressourcennutzung.
+5. *Cloud Computing* – Effizientere Bereitstellung und Reduzierung betrieblicher Risiken.
+
+* Fazit
+Six Sigma bietet IT-Fachkräften ein leistungsstarkes Werkzeug zur Optimierung von Prozessen, Reduzierung von Ineffizienzen und Verbesserung der Servicequalität. Durch das Verständnis und die Anwendung von Six-Sigma-Prinzipien können Umschüler in der IT zum Unternehmenserfolg beitragen und ihre Karriere effektiv voranbringen.
