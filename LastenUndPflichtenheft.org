@@ -40,12 +40,18 @@ Das Lastenheft beschreibt die Anforderungen des Auftraggebers an das System oder
 #+BEGIN_NOTES
 Funktionale und nicht-funktionale Anforderungen sind zwei grundlegende Kategorien, die bei der Spezifikation eines Systems oder einer Software verwendet werden. Sie definieren, was das System tun soll (funktional) und wie es diese Aufgaben ausführen soll (nicht-funktional).
 
-| Merkmal               | Funktionale Anforderungen                     | Nicht-funktionale Anforderungen               |
-|-----------------------|-----------------------------------------------|-----------------------------------------------|
-| Beschreibung          | Was das System leisten muss                  | Wie das System diese Leistungen erbringt     |
-| Beispiel aus der IT   | Benutzer kann ein Produkt suchen              | Suche muss Ergebnisse in weniger als 2 Sekunden liefern |
-| Prüfmethoden          | Funktionstests, Use-Case-Tests                | Performance-Tests, Sicherheitsaudits         |
-| Fokus                 | Fachliche und technische Funktionen          | Qualität, Effizienz, Sicherheit, Skalierbarkeit |
+| Merkmal             | Funktionale Anforderungen           | Nicht-funktionale Anforderungen           |
+|---------------------+-------------------------------------+-------------------------------------------|
+| Beschreibung        | Was das System leisten muss         | Wie das System diese Leistungen erbringt. |
+|---------------------+-------------------------------------+-------------------------------------------|
+| Beispiel aus der IT | Benutzer kann ein Produkt suchen    | Suche muss Ergebnisse in weniger als      |
+|                     |                                     | 2 Sekunden liefern                        |
+|---------------------+-------------------------------------+-------------------------------------------|
+| Prüfmethoden        | Funktionstests, Use-Case-Tests      | Performance-Tests, Sicherheitsaudits      |
+|---------------------+-------------------------------------+-------------------------------------------|
+| Fokus               | Fachliche und technische Funktionen | Qualität, Effizienz, Sicherheit,          |
+|                     |                                     | Skalierbarkeit                            |
+
 
 Funktionale und nicht-funktionale Anforderungen ergänzen sich:
 
@@ -94,12 +100,17 @@ Ein Unternehmen möchte eine neue Server-Infrastruktur implementieren. Im Pflich
 - Firewall-Regeln werden über UFW konfiguriert.
 
 * Vergleich und Abgrenzung
-| Merkmal             | Lastenheft                                   | Pflichtenheft                                   |
-|---------------------|---------------------------------------------|-----------------------------------------------|
-| Verfasser          | Auftraggeber                                | Auftragnehmer                                |
-| Inhalt             | Anforderungen und Ziele                     | Technische Umsetzung                         |
-| Zeitpunkt          | Vor Projektstart                            | Nach Freigabe des Lastenhefts                |
-| Zweck              | Grundlage für Angebote und Vertragsgestaltung| Grundlage für die Umsetzung und Dokumentation|
+| Merkmal   | Lastenheft                                    | Pflichtenheft                 |
+|-----------+-----------------------------------------------+-------------------------------|
+| Verfasser | Auftraggeber                                  | Auftragnehmer                 |
+|-----------+-----------------------------------------------+-------------------------------|
+| Inhalt    | Anforderungen und Ziele                       | Technische Umsetzung          |
+|-----------+-----------------------------------------------+-------------------------------|
+| Zeitpunkt | Vor Projektstart                              | Nach Freigabe des Lastenhefts |
+|-----------+-----------------------------------------------+-------------------------------|
+| Zweck     | Grundlage für Angebote und Vertragsgestaltung | Grundlage für die Umsetzung   |
+|           |                                               | und Dokumentation             |
+
 
 * Vorteile und Herausforderungen
 ** Vorteile
