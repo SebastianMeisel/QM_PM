@@ -43,9 +43,6 @@ Warum ist das wichtig? Weil Lernen und Arbeiten dann besonders effektiv sind, we
 * Der PDCA-Zyklus
 Jetzt kommen wir zum *PDCA-Zyklus*, auch bekannt als *Deming-Kreis* (nach William Edwards Deming) oder *Shewhart-Zyklus* (nach Walter Shewhart).
 
-<<<<<<< HEAD
- Der PDCA-Zyklus ist nicht einfach nur eine Wiederholung der vollständigen Handlung, sondern setzt auf einer höheren Ebene an: Er dient der systematischen Verbesserung von Prozessen und Produkten.
-=======
 #+BEGIN_NOTES
 Beides waren Statistiker. Der PDCA-Zyklus basiert daher stark auf dem Sammeln und Auswerten von Leistungsdaten.
 #+END_NOTES
@@ -63,7 +60,6 @@ Der PDCA-Zyklus ist nicht einfach nur eine Wiederholung der vollständigen Handl
 - Der PDCA-Zyklus ist ein *kontinuierlicher Kreislauf*.
 - Die vollständige Handlung ist *aufgabenorientiert*.
 - Der PDCA-Zyklus ist *ergebnis- und datenorientiert*.
->>>>>>> 55f4541 (PDCA überarbeitet)
 
 #+BEGIN_NOTES
 Während die Theorie der vollständigen Handlung sich darauf konzentriert, dass man eine Aufgabe vollständig ausführt und daraus lernt, stellt der PDCA-Zyklus eine Methode dar, um kontinuierlich besser zu werden.
@@ -109,12 +105,8 @@ In dieser Phase wird der Grundstein für die Verbesserung gelegt. Hier geht es d
 - *Kennzahlen definieren:* Was wird gemessen, um Erfolg zu bestimmen?
 
 #+BEGIN_NOTES
-<<<<<<< HEAD
-- Beispiel aus der IT: :: Ein Unternehmen hat viele Serverausfälle. In der Plan-Phase wird untersucht, woran es liegt – vielleicht sind es veraltete Komponenten, schlechte Wartung oder Softwareprobleme.
-=======
 - Beispiel aus der IT: Ein Unternehmen hat viele Serverausfälle. In der Plan-Phase wird untersucht, woran es liegt – vielleicht sind es veraltete Komponenten, schlechte Wartung oder Softwareprobleme. Entsprechende Maßnahmen werden geplant.
 - Weitere IT-Beispiele: Optimierung von Entwicklungsprozessen, Reduzierung von Supportanfragen, Verbesserung der Kundenzufriedenheit mit IT-Services.
->>>>>>> 55f4541 (PDCA überarbeitet)
 #+END_NOTES
 
 ** Do (Tun)
@@ -167,12 +159,8 @@ Weitere Beispiele: Einführung neuer Entwicklungsmethoden in einem Pilotteam, Te
 - *Ursachenanalyse bei Abweichungen:* Warum wurden die Ziele erreicht oder nicht erreicht?
 
 #+BEGIN_NOTES
-<<<<<<< HEAD
-- Ein IT-Beispiel: Nachdem der neue Überwachungsdienst getestet wurde, wird geprüft, ob sich die Erreichbarkeit der Server verbessert hat oder ob es neue Probleme gibt.
-=======
 - Ein IT-Beispiel: Nachdem der neue Überwachungsdienst getestet wurde, wird geprüft, ob sich die Erreichbarkeit der Server verbessert hat oder ob es neue Probleme gibt. Dies geschieht durch die statistische Auswertung der Daten, die in der Do-Phase gesammelt wurden.
 - Weitere Beispiele: Analyse, ob neue Entwicklungsmethoden tatsächlich die Fehlerrate reduziert haben, Messung der Reaktionszeit nach Optimierung der Supportprozesse.
->>>>>>> 55f4541 (PDCA überarbeitet)
 #+END_NOTES
 
 ** Act (Handeln)
