@@ -39,7 +39,7 @@ Die ~S.M.A.R.T~-Methode stellt Kriterien zur Formulierung von zum Beispiel im Qu
 In einem Softwareentwicklungsprojekt möchte ein Team die Codequalität verbessern und sicherstellen, dass der Code den aktuellen Standards entspricht. Ein spezifisches Ziel könnte die Erhöhung der Testabdeckung durch Unit-Tests sein.
 
 *** S.M.A.R.T-Zielformulierung
-
+#+ATTR_REVEAL: :frag (appear)
 - S :: *pezifisch* - "Erhöhung der Unit-Test-Abdeckung für das Hauptmodul der Anwendung."
 - M :: *essbar*  - "Erhöhung der Testabdeckung für das Hauptmodul von 60% auf 80%."
 - A :: *kzeptiert* - "Eine höhere Testabdeckung führt zu weniger Bugs im Produktionscode und erhöht die Zuverlässigkeit der Anwendung."
@@ -135,7 +135,7 @@ In Gruppenarbeit sollen Sie drei S.M.A.R.T-Ziele formulieren, die zur erfolgreic
 
 ** Beispiel
 
-Für eure Lösung könnt ihr euch an folgendem Beispiel orientieren: 
+Für eure Lösung könnt ihr euch an folgendem Beispiel orientieren:
 
 ** Kundenanforderungen
    - Ziel: "Wir werden innerhalb der nächsten 6 Monate ein Feedbacksystem einführen, das die Kundenzufriedenheit um 20% erhöht, gemessen durch monatliche Kundenumfragen."
