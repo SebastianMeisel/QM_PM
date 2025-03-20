@@ -91,7 +91,7 @@ In Unternehmen werden Ziele in vielen Bereichen formuliert. Die wichtigsten sind
 - *Messbar*: Erreichen eines Marktanteils von 10% im neuen Markt innerhalb eines Jahres.
 - *Akzeptiert*: Erhöhung des Unternehmenswachstums und der Marktpräsenz.
 - *Realisitisch*: Umsetzung durch Marktforschung, Anpassung der Marketingstrategie und Aufbau eines lokalen Vertriebsteams.
-- Terminiert*: Ziel ist es, innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% zu erreichen.
+- *Terminiert*: Ziel ist es, innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% zu erreichen.
 
 *S.M.A.R.T-Ziel*: "Wir werden innerhalb eines Jahres nach Markteintritt einen Marktanteil von 10% in einem neuen geografischen Markt durch Marktforschung, Anpassung der Marketingstrategie und Aufbau eines lokalen Vertriebsteams erreichen."
 
