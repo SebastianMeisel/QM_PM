@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<title>Key Performance Indicators Einführung in KPIs in der IT-Branche</title>
+<meta name="author" content="KOM-ITIL "/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/league.css" id="theme"/>
+
+<link rel="stylesheet" href="./mystyle.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Key Performance Indicators Einführung in KPIs in der IT-Branche</h1><p class="subtitle">Qualitätsmagement</p>
+<h2 class="author">KOM-ITIL </h2>
+</section>
+<section>
+<section id="slide-org4c992b3">
+<h2 id="org4c992b3">Was sind KPIs?</h2>
+<p>
+KPIs (Key Performance Indicators) sind Kennzahlen, mit denen die Leistung von Prozessen, Teams oder Systemen in der IT-Branche bewertet wird. Sie dienen der objektiven Messung von Effizienz, Qualität und Zielerreichung.
+</p>
+
+<p>
+Typische Einsatzgebiete:
+</p>
+<ul>
+<li>Systemverfügbarkeit und Performance</li>
+<li>Incident- und Problemmanagement</li>
+<li>Servicequalität und Nutzerzufriedenheit</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgca54936">
+<h2 id="orgca54936">Herausforderungen bei der Auswahl von KPIs</h2>
+<p>
+Die Wahl der „richtigen“ KPIs ist anspruchsvoll. Gut gemeinte Kennzahlen können unbeabsichtigte Nebenwirkungen haben, wenn sie nicht sinnvoll eingebettet oder zu eindimensional betrachtet werden.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org979021b">
+<h3 id="org979021b">Gefahren:</h3>
+<ul>
+<li><b>Falsche Anreize:</b> Ein KPI kann zu einem Selbstzweck werden – „what gets measured gets managed“ – auch wenn das dem eigentlichen Ziel zuwiderläuft.</li>
+<li><b>Silo-Denken:</b> Einzelne Teams optimieren „ihre“ Zahl, statt gemeinsam an der Ursache eines Problems zu arbeiten.</li>
+<li><b>Vermeidungsverhalten:</b> Wenn Kennzahlen negativ sanktioniert werden, neigen Teams dazu, Probleme zu verschleiern oder anders zu klassifizieren.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgba69475">
+<h2 id="orgba69475">Beispiel: MTTR und MTTI</h2>
+<div class="outline-text-2" id="text-orgba69475">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org9c8fbd6">
+<h3 id="org9c8fbd6">MTTR – Mean Time To Repair</h3>
+<p>
+MTTR misst die durchschnittliche Zeit, bis ein Vorfall behoben ist. Ein niedriger MTTR wird häufig als Qualitätsmerkmal für ein schnelles Incident Management betrachtet.
+</p>
+
+<p>
+Problematisch wird es, wenn:
+</p>
+<ul>
+<li>Vorfälle oberflächlich „geschlossen“ werden, um den MTTR zu drücken.</li>
+<li>Root-Cause-Analysen ausgelassen oder verschoben werden.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgf52042c">
+<h3 id="orgf52042c">MTTI – Mean Time To Innocence</h3>
+<p>
+MTTI ist ein ironisch gemeinter KPI, der beschreibt, wie schnell ein Team nach Auftreten eines Problems nachweisen kann, <b>dass es nicht verantwortlich ist.</b>
+</p>
+
+<p>
+Ein MTTI von wenigen Minuten bedeutet oft:
+</p>
+<ul>
+<li>Die Logs wurden schnell geprüft.</li>
+<li>Ein Screenshot oder ein Ticketverlauf belegt: „Das ist ein Problem vom Netzwerk.“</li>
+<li>Die Verantwortung wird weitergereicht, oft ohne echte Ursachenforschung.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org144c801">
+<h3 id="org144c801">Negative Folgen:</h3>
+<ul>
+<li>Keine ganzheitliche Fehleranalyse.</li>
+<li>Verlust von Vertrauen zwischen Teams.</li>
+<li>Verzögerte Lösung komplexer Probleme durch „Schuldverschiebung“.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org6a2aa1c">
+<h3 id="org6a2aa1c">Positive Folgen</h3>
+<ul>
+<li>Die Probleme können an der eigentlichen Fehlerquelle bearbeitet werden.</li>
+<li>Es werden nicht unnötig Ressourcen gebunden.</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown, RevealZoom, RevealNotes]
+});
+
+</script>
+</body>
+</html>
