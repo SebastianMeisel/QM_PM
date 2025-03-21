@@ -1,0 +1,67 @@
+:LaTeX_PROPERTIES:
+#+LANGUAGE: de
+#+OPTIONS: d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: H:4
+#+LaTeX_CLASS: orgstandard
+#+LaTeX_CMD: xelatex
+#+LATEX_HEADER: \usepackage{listings}
+:END:
+
+
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_HLEVEL: 2
+#+OPTIONS: timestamp:nil toc:nil num:nil
+:END:
+
+#+TITLE: Key Performance Indicators
+#+SUBTITLE: Qualitätsmagement
+#+AUTHOR: KOM-ITIL
+
+#+TITLE: Einführung in KPIs in der IT-Branche
+#+AUTHOR: 
+#+DATE: 
+
+* Was sind KPIs?
+KPIs (Key Performance Indicators) sind Kennzahlen, mit denen die Leistung von Prozessen, Teams oder Systemen in der IT-Branche bewertet wird. Sie dienen der objektiven Messung von Effizienz, Qualität und Zielerreichung.
+
+Typische Einsatzgebiete:
+- Systemverfügbarkeit und Performance
+- Incident- und Problemmanagement
+- Servicequalität und Nutzerzufriedenheit
+
+* Herausforderungen bei der Auswahl von KPIs
+Die Wahl der „richtigen“ KPIs ist anspruchsvoll. Gut gemeinte Kennzahlen können unbeabsichtigte Nebenwirkungen haben, wenn sie nicht sinnvoll eingebettet oder zu eindimensional betrachtet werden.
+
+** Gefahren:
+- *Falsche Anreize:* Ein KPI kann zu einem Selbstzweck werden – „what gets measured gets managed“ – auch wenn das dem eigentlichen Ziel zuwiderläuft.
+- *Silo-Denken:* Einzelne Teams optimieren „ihre“ Zahl, statt gemeinsam an der Ursache eines Problems zu arbeiten.
+- *Vermeidungsverhalten:* Wenn Kennzahlen negativ sanktioniert werden, neigen Teams dazu, Probleme zu verschleiern oder anders zu klassifizieren.
+
+* Beispiel: MTTR und MTTI
+** MTTR – Mean Time To Repair
+MTTR misst die durchschnittliche Zeit, bis ein Vorfall behoben ist. Ein niedriger MTTR wird häufig als Qualitätsmerkmal für ein schnelles Incident Management betrachtet.
+
+Problematisch wird es, wenn:
+- Vorfälle oberflächlich „geschlossen“ werden, um den MTTR zu drücken.
+- Root-Cause-Analysen ausgelassen oder verschoben werden.
+
+** MTTI – Mean Time To Innocence
+MTTI ist ein ironisch gemeinter KPI, der beschreibt, wie schnell ein Team nach Auftreten eines Problems nachweisen kann, *dass es nicht verantwortlich ist.*
+
+Ein MTTI von wenigen Minuten bedeutet oft:
+- Die Logs wurden schnell geprüft.
+- Ein Screenshot oder ein Ticketverlauf belegt: „Das ist ein Problem vom Netzwerk.“
+- Die Verantwortung wird weitergereicht, oft ohne echte Ursachenforschung.
+
+** Negative Folgen:
+- Keine ganzheitliche Fehleranalyse.
+- Verlust von Vertrauen zwischen Teams.
+- Verzögerte Lösung komplexer Probleme durch „Schuldverschiebung“.
+
+** Positive Folgen
+- Die Probleme können an der eigentlichen Fehlerquelle bearbeitet werden.
+- Es werden nicht unnötig Ressourcen gebunden.
